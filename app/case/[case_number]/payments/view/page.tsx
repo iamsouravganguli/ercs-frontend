@@ -586,23 +586,23 @@ export default function PaymentViewPage() {
 
   return (
     <div className="flex h-screen flex-col bg-background overflow-hidden">
-      {/* Standard Popup Header matching Lands & Parties View */}
+
       <div className="sticky top-0 z-20 flex items-center justify-between h-14 px-6 border-b bg-white dark:bg-neutral-950 shrink-0">
         <h1 className="text-lg font-semibold tracking-tight">
           {t("payments.view.header_title")}
         </h1>
       </div>
 
-      {/* Main Content Area */}
+
       <div className="flex-1 overflow-y-auto p-6 space-y-6 no-scrollbar">
         <div className="max-w-2xl mx-auto space-y-6">
-          {/* Authentic Receipt Bill Card */}
+
           <div
             id="receipt-bill-card"
             className="bg-card border border-border/60 rounded-2xl p-6 sm:p-8 shadow-xs space-y-6 relative"
           >
             <div className="space-y-6">
-              {/* Bill Header */}
+
               <div className="flex items-center justify-between border-b border-border/60 pb-4">
                 <div>
                   <h2 className="text-base font-semibold tracking-tight text-foreground">
@@ -627,7 +627,7 @@ export default function PaymentViewPage() {
                 </div>
               </div>
 
-              {/* Bill Metadata Grid */}
+
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
                 <div className="space-y-0.5">
                   <span className="text-[10px] uppercase font-medium text-muted-foreground">
@@ -720,7 +720,7 @@ export default function PaymentViewPage() {
                 </div>
               </div>
 
-              {/* Particulars Table */}
+
               <div className="border border-border/60 rounded-xl overflow-hidden mt-6">
                 <table className="w-full text-xs text-left border-collapse">
                   <thead>
@@ -762,7 +762,7 @@ export default function PaymentViewPage() {
               </div>
             </div>
 
-            {/* Computer Generated System Receipt Footer (No Signature Required) */}
+
             <div className="pt-8 mt-auto border-t border-border/40 text-center space-y-1">
               <p className="text-xs font-medium text-muted-foreground">
                 {t("payments.view.computer_generated_note")}
@@ -777,7 +777,7 @@ export default function PaymentViewPage() {
             </div>
           </div>
 
-          {/* Action Button Below Receipt Card */}
+
           <div className="flex justify-center pt-2 pb-6">
             {isPaid ? (
               <Button

@@ -903,7 +903,7 @@ export default function CourtUserPage() {
   return (
     <div className="w-full h-full flex flex-col bg-background overflow-hidden">
       <div className="sticky top-0 z-20 bg-[#dbeafe] dark:bg-slate-900 border-b border-blue-200 dark:border-blue-900 px-4 w-full flex flex-col md:flex-row md:items-center justify-between gap-2.5 md:gap-3 py-3 md:py-0 h-auto md:h-14">
-        {/* Row 1: Sidebar icon, Title, and Mobile Action Shortcuts */}
+
         <div className="flex items-center justify-between w-full md:w-auto shrink-0">
           <div className="flex items-center gap-2.5">
             <div className="flex items-center shrink-0 md:hidden">
@@ -914,7 +914,7 @@ export default function CourtUserPage() {
             </span>
           </div>
 
-          {/* Mobile Action Shortcuts (Right aligned next to title) */}
+
           <div className="flex items-center gap-2 md:hidden">
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
@@ -970,7 +970,7 @@ export default function CourtUserPage() {
           </div>
         </div>
 
-        {/* Row 2: Search input, Filter, and Desktop Actions */}
+
         <div className="flex items-center gap-2 w-full md:w-auto">
           <div className="flex-1 md:flex-initial">
             <SearchInput
@@ -1003,7 +1003,7 @@ export default function CourtUserPage() {
             )}
           </Button>
 
-          {/* Desktop-only Download and Add controls */}
+
           <div className="hidden md:flex items-center gap-2 shrink-0">
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
