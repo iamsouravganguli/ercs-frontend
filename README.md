@@ -1,21 +1,38 @@
-# rccms-client
+# ercs-frontend — Uttarakhand E-Revenue Recovery (Web)
 
-Revenue Court Case Management System — client. A single plain Next.js 16.1.6 app (App Router) at the repo root. No Turborepo, no monorepo, no `pnpm --filter` — plain `pnpm` commands from root. Import alias `@/*` maps to the repo root.
+Web client for **Uttarakhand E-Revenue Recovery (ERCS)** — the official portal
+for Revenue Recovery, Case Monitoring, and administrative services under the
+Revenue Department, Government of Uttarakhand. Talks to the
+[ercs-backend](https://github.com/iamsouravganguli/ercs-backend)
+Django API over axios (cookie-auth with 401 retry).
 
-Case filing/e-filing, hearings, orders with DSC signing, notices, payments, grievances, knowledge base, plus a public website (`template.tsx`) — all in English + Hindi (formal सरकारी) via centralized JSON locales. Talks to the `rccms-api` Django backend over axios (`apiClient`, cookie-auth with 401 retry).
+Part of the [bor](https://github.com/iamsouravganguli/bor) super-repo
+(Docker composition and deploy pipeline live there, not here). Codebase
+inherits the structure of
+[erccm-frontend](https://github.com/iamsouravganguli/erccm-frontend);
+business flows here are recovery-oriented (recovery cases, monitoring,
+administrative services), not filing-oriented.
+
+A single plain Next.js app (App Router) at the repo root. No Turborepo,
+no monorepo, no `pnpm --filter` — plain `pnpm` commands from root. Import
+alias `@/*` maps to the repo root.
+
+Recovery case tracking, monitoring dashboards, administrative services,
+notices, payments, grievances, knowledge base, plus a public website —
+all in English + Hindi (formal सरकारी) via centralized JSON locales.
 
 ## Stack
 
-- Next.js 16.1.6 (App Router), React 19, TypeScript (strict, `noEmit`)
+- Next.js (App Router), React, TypeScript (strict, `noEmit`)
 - Tailwind CSS v4 (`@tailwindcss/postcss`), shadcn/ui + Base UI + Radix, `tw-animate-css`
 - `@tanstack/react-query`, `axios`, `react-hook-form` + `zod`, Dexie (offline), `jotai`, `use-query-params`
 - `react-quill-new` (rich text + voice dictation), `react-hot-toast`
-- Node `>=24`, `pnpm@10.15.0` only — never `npm`/`yarn`/`bun`
+- Node `>=24`, `pnpm` only — never `npm`/`yarn`/`bun`
 
 ## Commands
 
 ```sh
-pnpm install      # install deps (ask before installing — installs are restricted)
+pnpm install      # install deps
 pnpm dev          # next dev — http://localhost:3000
 pnpm build        # next build
 pnpm start        # next start (prod)
@@ -24,11 +41,9 @@ pnpm check-types  # tsc --noEmit
 pnpm format       # prettier --write "**/*.{ts,tsx,md}"
 ```
 
-Note: `next.config.ts` sets `typescript.ignoreBuildErrors:true`, so `pnpm build` can pass with type errors — always trust `pnpm check-types` instead.
-
 ## Env
 
-No `.env.example` in repo — create `.env.local` at root (gitignored). Keys used in code:
+Create `.env.local` at root (gitignored). Keys used in code:
 
 ```sh
 NEXT_PUBLIC_API_URL=        # e.g. http://localhost:8000
@@ -42,19 +57,17 @@ Verify with `cat .env.local`.
 
 ```
 app/                 → App Router routes (identity, case, manage, administrator,
-                       action, dsc-test, search, knowledge-base, ...);
+                       action, search, knowledge-base, ...);
                        layout.tsx (fonts, AppProviders), template.tsx (site chrome)
 src/lib/             → shared logic: services, query (react-query), api-client
-                       (axios), dsc-sdk / dsc.service / dsc-signer, db (Dexie),
-                       court-master, validations, cn
+                       (axios), validations, cn
 src/components/ui/   → shadcn/ui components incl. data-grid, richtext-field,
                        hindi-keyboard
 src/i18n/            → LanguageProvider, TranslationProvider, useTranslation
-src/locales/         → en/hi JSON (common, auth, case, admin, public) + index.ts
+src/locales/         → en/hi JSON + index.ts
 src/providers/       → AppProviders (index.tsx) + individual providers
-src/hooks/ src/styles/ → shared hooks, globals.css (Tailwind tokens)
-common/              → shared UI bits        workflows/ → e-file, file-upload, support
+common/              → shared UI bits        workflows/ → recovery flows, support
 utils/ hooks/        → helpers               public/ → static assets
 ```
 
-Key rules: no hardcoded user-visible strings (all via `useTranslation()` + `src/locales/*.json`, formal Hindi); DSC device/cert IDs are 1-based (`src/lib/dsc-sdk.ts`).
+Key rules: no hardcoded user-visible strings (all via `useTranslation()` + `src/locales/*.json`, formal Hindi).
