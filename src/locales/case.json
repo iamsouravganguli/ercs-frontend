@@ -1,0 +1,2960 @@
+{
+ "case": {
+  "sidebar": {
+   "timeline_tooltip": {
+    "en": "Case Progress",
+    "hi": "केस प्रोग्रेस"
+   },
+   "timeline": {
+    "en": "Case Progress",
+    "hi": "केस प्रोग्रेस"
+   },
+   "fees_tooltip": {
+    "en": "Payments",
+    "hi": "भुगतान"
+   },
+   "fees": {
+    "en": "Fees",
+    "hi": "शुल्क"
+   },
+   "status_tooltip": {
+    "en": "Update Status",
+    "hi": "अपडेट स्थिति"
+   },
+   "status": {
+    "en": "Status",
+    "hi": "स्थिति"
+   },
+   "case_number": {
+    "en": "Case Number",
+    "hi": "वाद संख्या"
+   },
+   "case_stage": {
+    "en": "Case Stage",
+    "hi": "वाद का चरण"
+   },
+   "case_status": {
+    "en": "Case Status",
+    "hi": "वाद की स्थिति"
+   },
+   "last_update": {
+    "en": "Last Update",
+    "hi": "अंतिम अपडेट"
+   },
+   "case_details": {
+    "en": "Case Details",
+    "hi": "वाद विवरण"
+   },
+   "case_info": {
+    "en": "Case Details",
+    "hi": "वाद विवरण"
+   }
+  },
+  "groups": {
+   "initiation": {
+    "en": "Case Initiation",
+    "hi": "वाद प्रारंभ"
+   },
+   "assets": {
+    "en": "Assets",
+    "hi": "संपत्ति"
+   },
+   "finalization": {
+    "en": "Finalization",
+    "hi": "अंतिम रूप देना"
+   },
+   "notice": {
+    "en": "Notice & Summon",
+    "hi": "नोटिस और समन"
+   },
+   "hearing": {
+    "en": "Hearings",
+    "hi": "सुनवाई"
+   },
+   "order": {
+    "en": "Orders",
+    "hi": "आदेश"
+   },
+   "post_order": {
+    "en": "Post Order",
+    "hi": "आदेश के बाद"
+   },
+   "pre_order": {
+    "en": "Pre Order",
+    "hi": "आदेश पूर्व"
+   },
+   "payments": {
+    "en": "Fee & Payments",
+    "hi": "शुल्क एवं भुगतान"
+   }
+  },
+  "details": {
+   "badge_jurisdiction": {
+    "en": "Official Jurisdiction",
+    "hi": "शासकीय क्षेत्राधिकार"
+   },
+   "badge_admin_area": {
+    "en": "Revenue Grid",
+    "hi": "प्रशासनिक क्षेत्र"
+   },
+   "badge_court_legal_details": {
+    "en": "Secured Judicial Record",
+    "hi": "सुरक्षित न्यायिक अभिलेख"
+   },
+   "title": {
+    "en": "Case Details",
+    "hi": "वाद विवरण"
+   },
+   "submitted_pill": {
+    "en": "Submitted",
+    "hi": "प्रस्तुत किया गया"
+   },
+   "jurisdiction": {
+    "en": "Jurisdiction",
+    "hi": "क्षेत्राधिकार"
+   },
+   "court_level": {
+    "en": "Court Level",
+    "hi": "न्यायालय स्तर"
+   },
+   "select_court_level": {
+    "en": "Select court level",
+    "hi": "न्यायालय स्तर चुनें"
+   },
+   "case_nature": {
+    "en": "Case Nature",
+    "hi": "वाद की प्रकृति"
+   },
+   "select_case_nature": {
+    "en": "Select case nature",
+    "hi": "वाद की प्रकृति चुनें"
+   },
+   "appeal_type": {
+    "en": "Appeal Type",
+    "hi": "अपील का प्रकार"
+   },
+   "select_appeal_type": {
+    "en": "Select appeal type",
+    "hi": "अपील का प्रकार चुनें"
+   },
+   "admin_area": {
+    "en": "Administrative Area",
+    "hi": "प्रशासनिक क्षेत्र"
+   },
+   "state": {
+    "en": "State",
+    "hi": "राज्य"
+   },
+   "select_state": {
+    "en": "Select state",
+    "hi": "राज्य चुनें"
+   },
+   "mandal": {
+    "en": "Mandal",
+    "hi": "मंडल"
+   },
+   "select_mandal": {
+    "en": "Select mandal",
+    "hi": "मंडल चुनें"
+   },
+   "district": {
+    "en": "District",
+    "hi": "जिला"
+   },
+   "select_district": {
+    "en": "Select district",
+    "hi": "जिला चुनें"
+   },
+   "tehsil": {
+    "en": "Tehsil",
+    "hi": "तहसील"
+   },
+   "select_tehsil": {
+    "en": "Select tehsil",
+    "hi": "तहसील चुनें"
+   },
+   "court_legal_details": {
+    "en": "Court & Legal Details",
+    "hi": "न्यायालय एवं कानूनी विवरण"
+   },
+   "court": {
+    "en": "Court",
+    "hi": "न्यायालय"
+   },
+   "select_court": {
+    "en": "Select court",
+    "hi": "न्यायालय चुनें"
+   },
+   "act": {
+    "en": "Act",
+    "hi": "अधिनियम"
+   },
+   "select_act": {
+    "en": "Select act",
+    "hi": "अधिनियम चुनें"
+   },
+   "section": {
+    "en": "Section",
+    "hi": "धारा"
+   },
+   "select_section": {
+    "en": "Select section",
+    "hi": "धारा चुनें"
+   },
+   "overview": {
+    "en": "Overview",
+    "hi": "अवलोकन"
+   },
+   "case_overview": {
+    "en": "Case Overview",
+    "hi": "वाद अवलोकन"
+   },
+   "case_number": {
+    "en": "Case Number",
+    "hi": "वाद संख्या"
+   },
+   "offline_case_number": {
+    "en": "Offline Case Number",
+    "hi": "ऑफलाइन वाद संख्या"
+   },
+   "no_data": {
+    "en": "No case details found.",
+    "hi": "कोई वाद विवरण नहीं मिला।"
+   },
+   "jump_to": {
+    "en": "Jump to",
+    "hi": "सीधे जाएँ"
+   },
+   "case_description": {
+    "en": "Case Description",
+    "hi": "वाद का विवरण"
+   },
+   "description_placeholder": {
+    "en": "Enter a detailed description of the case (max 1000 words)...",
+    "hi": "केस का विस्तृत विवरण दर्ज करें (अधिकतम 1000 शब्द)..."
+   },
+   "submitted_readonly": {
+    "en": "Case submitted — all fields are read-only",
+    "hi": "केस प्रस्तुत कर दिया गया है — सभी फ़ील्ड केवल पढ़ने के लिए हैं"
+   },
+   "edit_btn": {
+    "en": "Edit",
+    "hi": "संपादित करें"
+   },
+   "save_btn": {
+    "en": "Save",
+    "hi": "सहेजें"
+   },
+   "saving_btn": {
+    "en": "Saving...",
+    "hi": "सहेजा जा रहा है..."
+   },
+   "next_btn": {
+    "en": "Next",
+    "hi": "आगे"
+   },
+   "exit_btn": {
+    "en": "Exit",
+    "hi": "बाहर निकलें"
+   },
+   "exit_title": {
+    "en": "Exit?",
+    "hi": "बाहर निकलें?"
+   },
+   "exit_description": {
+    "en": "Are you sure you want to exit? Any unsaved changes may be lost.",
+    "hi": "क्या आप वाकई बाहर निकलना चाहते हैं? कोई भी सहेजा न गया बदलाव खो सकता है।"
+   },
+   "exit_cancel": {
+    "en": "No, Stay",
+    "hi": "नहीं, रुकें"
+   },
+   "exit_confirm": {
+    "en": "Yes, Exit",
+    "hi": "हाँ, बाहर निकलें"
+   }
+  },
+  "parties": {
+   "title": {
+    "en": "Party Details",
+    "hi": "पक्षकार विवरण"
+   },
+   "total_parties": {
+    "en": "Total Parties",
+    "hi": "कुल पक्षकार"
+   },
+   "claimants": {
+    "en": "Claimants",
+    "hi": "दावेदार"
+   },
+   "opponents": {
+    "en": "Opponents",
+    "hi": "प्रतिपक्ष"
+   },
+   "registered_parties": {
+    "en": "Registered Parties",
+    "hi": "पंजीकृत पक्षकार"
+   },
+   "add_btn": {
+    "en": "Add",
+    "hi": "जोड़ें"
+   },
+   "no_parties": {
+    "en": "No parties added yet",
+    "hi": "अभी तक कोई पक्षकार नहीं जोड़ा गया"
+   },
+   "unnamed_party": {
+    "en": "Unnamed Party",
+    "hi": "अनाम पक्षकार"
+   },
+   "individual_org": {
+    "en": "Individual/Organization",
+    "hi": "व्यक्ति/संगठन"
+   },
+   "verify_btn": {
+    "en": "Verify",
+    "hi": "सत्यापित करें"
+   },
+   "next_btn": {
+    "en": "Next",
+    "hi": "आगे"
+   },
+   "action_required_title": {
+    "en": "OTP Verification Pending",
+    "hi": "ओटीपी सत्यापन लंबित"
+   },
+   "action_required_desc": {
+    "en": "Claimant verification is pending. Opponents do not require OTP verification.",
+    "hi": "वादी हेतु ओटीपी सत्यापन लंबित है। प्रतिवादी हेतु सत्यापन आवश्यक नहीं है।"
+   },
+   "validation_required_title": {
+    "en": "Parties Required",
+    "hi": "पक्षकार आवश्यक"
+   },
+   "validation_required_desc": {
+    "en": "At least one claimant and one opponent are required. Next will be enabled after both are added and the claimant is verified.",
+    "hi": "कम से कम एक वादी और एक प्रतिवादी अनिवार्य है। दोनों जुड़ने एवं वादी सत्यापित होने पर ‘आगे’ सक्षम होगा।"
+   },
+   "validation_claimant_done": {
+    "en": "Claimant added",
+    "hi": "वादी जोड़ा गया"
+   },
+   "validation_claimant_missing": {
+    "en": "Claimant missing",
+    "hi": "वादी अपूर्ण"
+   },
+   "validation_opponent_done": {
+    "en": "Opponent added",
+    "hi": "प्रतिवादी जोड़ा गया"
+   },
+   "validation_opponent_missing": {
+    "en": "Opponent missing",
+    "hi": "प्रतिवादी अपूर्ण"
+   },
+   "otp_title": {
+    "en": "Verify Party Identity",
+    "hi": "पक्षकार की पहचान सत्यापित करें"
+   },
+   "otp_desc": {
+    "en": "Enter the 6-digit OTP code sent to verify",
+    "hi": "सत्यापन के लिए भेजा गया 6-अंकीय OTP कोड दर्ज करें"
+   },
+   "sent_to_phone": {
+    "en": "Sent to Phone",
+    "hi": "फ़ोन पर भेजा गया"
+   },
+   "sent_to_email": {
+    "en": "Sent to Email",
+    "hi": "ईमेल पर भेजा गया"
+   },
+   "verifying_identity": {
+    "en": "Verifying Identity...",
+    "hi": "पहचान सत्यापित हो रही है..."
+   },
+   "confirm_verification": {
+    "en": "Confirm Verification",
+    "hi": "सत्यापन की पुष्टि करें"
+   },
+   "resending_code": {
+    "en": "Resending Code...",
+    "hi": "कोड पुनः भेजा जा रहा है..."
+   },
+   "resend_otp": {
+    "en": "Resend OTP Code",
+    "hi": "OTP कोड पुनः भेजें"
+   },
+   "form": {
+    "view_title": {
+     "en": "View Party",
+     "hi": "पक्षकार देखें"
+    },
+    "edit_title": {
+     "en": "Edit Party",
+     "hi": "पक्षकार संपादित करें"
+    },
+    "add_title": {
+     "en": "Add Party",
+     "hi": "पक्षकार जोड़ें"
+    },
+    "view_subtitle": {
+     "en": "Party profile details.",
+     "hi": "पक्षकार प्रोफ़ाइल विवरण।"
+    },
+    "edit_subtitle": {
+     "en": "Enter party details.",
+     "hi": "पक्षकार का विवरण दर्ज करें।"
+    },
+    "classification": {
+     "en": "Classification",
+     "hi": "वर्गीकरण"
+    },
+    "party_type": {
+     "en": "Party Type",
+     "hi": "पक्षकार प्रकार"
+    },
+    "party_type_placeholder": {
+     "en": "Select type",
+     "hi": "प्रकार चुनें"
+    },
+    "party_nature": {
+     "en": "Party Nature",
+     "hi": "पक्षकार की प्रकृति"
+    },
+    "party_nature_placeholder": {
+     "en": "Select nature",
+     "hi": "प्रकृति चुनें"
+    },
+    "personal_details": {
+     "en": "Personal Details",
+     "hi": "व्यक्तिगत विवरण"
+    },
+    "gender": {
+     "en": "Gender",
+     "hi": "लिंग"
+    },
+    "gender_placeholder": {
+     "en": "Select gender",
+     "hi": "लिंग चुनें"
+    },
+    "full_name": {
+     "en": "Full Name",
+     "hi": "पूरा नाम"
+    },
+    "full_name_placeholder": {
+     "en": "Legal full name",
+     "hi": "कानूनी पूरा नाम"
+    },
+    "relation_type": {
+     "en": "Relation Type",
+     "hi": "संबंध प्रकार"
+    },
+    "relation_type_placeholder": {
+     "en": "Select relation",
+     "hi": "संबंध चुनें"
+    },
+    "relation_name": {
+     "en": "Relation Name",
+     "hi": "संबंधी का नाम"
+    },
+    "relation_name_placeholder": {
+     "en": "Father/Husband name",
+     "hi": "पिता/पति का नाम"
+    },
+    "email": {
+     "en": "Email Address",
+     "hi": "ईमेल पता"
+    },
+    "email_placeholder": {
+     "en": "example@email.com",
+     "hi": "example@email.com"
+    },
+    "phone": {
+     "en": "Phone Number",
+     "hi": "फ़ोन नंबर"
+    },
+    "phone_placeholder": {
+     "en": "10-digit mobile",
+     "hi": "10-अंकीय मोबाइल"
+    },
+    "life_status": {
+     "en": "Life Status",
+     "hi": "जीवन स्थिति"
+    },
+    "life_status_placeholder": {
+     "en": "Select status",
+     "hi": "स्थिति चुनें"
+    },
+    "identity_address": {
+     "en": "Identity & Address",
+     "hi": "पहचान एवं पता"
+    },
+    "document_address": {
+     "en": "Document & Address",
+     "hi": "दस्तावेज़ एवं पता"
+    },
+    "identity_type": {
+     "en": "Identity Type",
+     "hi": "पहचान प्रकार"
+    },
+    "identity_type_placeholder": {
+     "en": "Select ID type",
+     "hi": "पहचान प्रकार चुनें"
+    },
+    "document_type": {
+     "en": "Document Type",
+     "hi": "दस्तावेज़ प्रकार"
+    },
+    "document_type_placeholder": {
+     "en": "Select Document type",
+     "hi": "दस्तावेज़ प्रकार चुनें"
+    },
+    "identity_number": {
+     "en": "Identity Number",
+     "hi": "पहचान संख्या"
+    },
+    "identity_number_placeholder": {
+     "en": "ID Number",
+     "hi": "पहचान संख्या"
+    },
+    "document_number": {
+     "en": "Document Number",
+     "hi": "दस्तावेज़ संख्या"
+    },
+    "document_number_placeholder": {
+     "en": "Document Number",
+     "hi": "दस्तावेज़ संख्या"
+    },
+    "pincode": {
+     "en": "Pincode",
+     "hi": "पिनकोड"
+    },
+    "pincode_placeholder": {
+     "en": "6-digit pincode",
+     "hi": "6-अंकीय पिनकोड"
+    },
+    "full_address": {
+     "en": "Full Address",
+     "hi": "पूरा पता"
+    },
+    "full_address_placeholder": {
+     "en": "Residential/Office address",
+     "hi": "आवासीय/कार्यालय का पता"
+    },
+    "status_panel_title": {
+     "en": "Party Status Control Panel",
+     "hi": "पक्षकार स्थिति नियंत्रण पैनल"
+    },
+    "current_status": {
+     "en": "Current",
+     "hi": "वर्तमान"
+    },
+    "select_status": {
+     "en": "Select Update Status",
+     "hi": "अपडेट स्थिति चुनें"
+    },
+    "select_status_placeholder": {
+     "en": "Choose new status",
+     "hi": "नई स्थिति चुनें"
+    },
+    "updating_status": {
+     "en": "Updating Status...",
+     "hi": "स्थिति अपडेट हो रही है..."
+    },
+    "update_status": {
+     "en": "Update Status",
+     "hi": "स्थिति अपडेट करें"
+    },
+    "status_panel_party_label": {
+     "en": "Select Party",
+     "hi": "पक्षकार चुनें"
+    },
+    "status_panel_party_placeholder": {
+     "en": "Choose party",
+     "hi": "पक्षकार चुनें"
+    },
+    "status_panel_status_label": {
+     "en": "Status",
+     "hi": "स्थिति"
+    },
+    "status_panel_status_placeholder": {
+     "en": "Choose status",
+     "hi": "स्थिति चुनें"
+    },
+    "status_panel_update_btn": {
+     "en": "Update Status",
+     "hi": "स्थिति अपडेट करें"
+    },
+    "close_btn": {
+     "en": "Close",
+     "hi": "बंद करें"
+    },
+    "cancel_btn": {
+     "en": "Cancel",
+     "hi": "रद्द करें"
+    },
+    "save_btn": {
+     "en": "Save",
+     "hi": "सहेजें"
+    },
+    "group_claimant": {
+     "en": "Claimant",
+     "hi": "वादी"
+    },
+    "group_opponent": {
+     "en": "Opponent",
+     "hi": "प्रतिवादी"
+    },
+    "group_govt": {
+     "en": "Govt",
+     "hi": "सरकारी"
+    },
+    "group_advocate": {
+     "en": "Advocate",
+     "hi": "अधिवक्ता"
+    },
+    "group_claimant_full": {
+     "en": "Claimant",
+     "hi": "वादी पक्ष"
+    },
+    "group_opponent_full": {
+     "en": "Opponent",
+     "hi": "प्रतिवादी पक्ष"
+    },
+    "step_of": {
+     "en": "Step {current} of {total}",
+     "hi": "चरण {current} / {total}"
+    },
+    "validation": {
+     "party_type_required": {
+      "en": "Please select party type",
+      "hi": "कृपया पक्षकार प्रकार चुनें"
+     },
+     "party_nature_required": {
+      "en": "Please select party nature",
+      "hi": "कृपया पक्षकार प्रकृति चुनें"
+     },
+     "full_name_required": {
+      "en": "Please enter full name",
+      "hi": "कृपया पूरा नाम दर्ज करें"
+     },
+     "gender_required": {
+      "en": "Please select gender",
+      "hi": "कृपया लिंग चुनें"
+     },
+     "life_status_required": {
+      "en": "Please select life status",
+      "hi": "कृपया जीवन स्थिति चुनें"
+     },
+     "relation_type_required": {
+      "en": "Please select relation type",
+      "hi": "कृपया संबंध प्रकार चुनें"
+     },
+     "relation_name_required": {
+      "en": "Please enter relation name",
+      "hi": "कृपया संबंधी का नाम दर्ज करें"
+     },
+     "phone_required_claimant": {
+      "en": "Phone number is required for claimant",
+      "hi": "वादी हेतु फ़ोन नंबर अनिवार्य है"
+     }
+    }
+   }
+  },
+  "lands": {
+   "title": {
+    "en": "Land Details",
+    "hi": "भूमि विवरण"
+   },
+   "total_parcels": {
+    "en": "Total Parcels",
+    "hi": "कुल भूखंड"
+   },
+   "total_area": {
+    "en": "Total Area",
+    "hi": "कुल क्षेत्रफल"
+   },
+   "disputed_area": {
+    "en": "Related Area",
+    "hi": "संबंधित क्षेत्रफल"
+   },
+   "khata_count": {
+    "en": "Khata Count",
+    "hi": "खाता संख्या"
+   },
+   "land_parcels": {
+    "en": "Land Parcels",
+    "hi": "भूमि भूखंड"
+   },
+   "add_btn": {
+    "en": "Add",
+    "hi": "जोड़ें"
+   },
+   "no_parcels": {
+    "en": "No land parcels added yet",
+    "hi": "अभी तक कोई भूमि भूखंड नहीं जोड़ा गया है"
+   },
+   "unknown_village": {
+    "en": "Unknown Village",
+    "hi": "अज्ञात गांव"
+   },
+   "khata_label": {
+    "en": "Khata",
+    "hi": "खाता"
+   },
+   "khasra_label": {
+    "en": "Khasra",
+    "hi": "खसरा"
+   },
+   "unknown_type": {
+    "en": "Unknown",
+    "hi": "अज्ञात"
+   },
+   "next_btn": {
+    "en": "Next",
+    "hi": "आगे"
+   },
+   "hec": {
+    "en": "Hec.",
+    "hi": "हेक्टेयर"
+   },
+   "view_details": {
+    "en": "View Details",
+    "hi": "विवरण देखें"
+   },
+   "edit_details": {
+    "en": "Edit Details",
+    "hi": "विवरण संपादित करें"
+   },
+   "delete": {
+    "en": "Delete",
+    "hi": "हटाएं"
+   },
+   "deleted_toast": {
+    "en": "Land record deleted",
+    "hi": "भूमि रिकॉर्ड हटाया गया"
+   },
+   "deleted_local_toast": {
+    "en": "Land record deleted locally",
+    "hi": "भूमि रिकॉर्ड स्थानीय रूप से हटाया गया"
+   },
+   "delete_failed_toast": {
+    "en": "Failed to delete land record",
+    "hi": "भूमि रिकॉर्ड हटाने में विफल"
+   },
+   "saved_toast": {
+    "en": "Progress saved successfully",
+    "hi": "प्रगति सफलतापूर्वक सहेजी गई"
+   }
+  },
+  "land_form": {
+   "edit_title": {
+    "en": "Edit Land Record",
+    "hi": "भूमि रिकॉर्ड संपादित करें"
+   },
+   "add_title": {
+    "en": "Add Land Record",
+    "hi": "भूमि रिकॉर्ड जोड़ें"
+   },
+   "subtitle": {
+    "en": "Record detailed land parcel specifications and metrics",
+    "hi": "विस्तृत भूमि भूखंड विनिर्देशों और मीट्रिक को रिकॉर्ड करें"
+   },
+   "sections": {
+    "admin_area": {
+     "en": "Administrative Area",
+     "hi": "प्रशासनिक क्षेत्र"
+    },
+    "sub_admin_area": {
+     "en": "Sub-Administrative Area / Circle",
+     "hi": "उप-प्रशासनिक क्षेत्र / सर्किल"
+    },
+    "circle_revenue": {
+     "en": "Circle & Revenue Jurisdiction",
+     "hi": "सर्किल और राजस्व क्षेत्राधिकार"
+    },
+    "plot_selection": {
+     "en": "Plot Selection",
+     "hi": "भूखंड (प्लॉट) चयन"
+    },
+    "ebhulekh_details": {
+     "en": "Land Details (from e-Bhulekh)",
+     "hi": "भूमि विवरण (ई-भूलेख से)"
+    },
+    "remarks_title": {
+     "en": "Additional Remarks",
+     "hi": "अअतिरिक्त टिप्पणियां"
+    },
+    "land_status_title": {
+     "en": "Land Status",
+     "hi": "भूमि स्थिति"
+    },
+    "land_record_documents": {
+     "en": "Land Record Documents",
+     "hi": "भूमि अभिलेख दस्तावेज़"
+    }
+   },
+   "fields": {
+    "state": {
+     "label": {
+      "en": "State",
+      "hi": "राज्य"
+     },
+     "placeholder": {
+      "en": "Select state",
+      "hi": "राज्य चुनें"
+     }
+    },
+    "mandal": {
+     "label": {
+      "en": "Mandal",
+      "hi": "मंडल"
+     },
+     "placeholder": {
+      "en": "Select mandal",
+      "hi": "मंडल चुनें"
+     }
+    },
+    "district": {
+     "label": {
+      "en": "District",
+      "hi": "जिला"
+     },
+     "placeholder": {
+      "en": "Select district",
+      "hi": "जिला चुनें"
+     }
+    },
+    "tehsil": {
+     "label": {
+      "en": "Tehsil",
+      "hi": "तहसील"
+     },
+     "placeholder": {
+      "en": "Select tehsil",
+      "hi": "तहसील चुनें"
+     }
+    },
+    "pargana": {
+     "label": {
+      "en": "Pargana",
+      "hi": "परगना"
+     },
+     "placeholder": {
+      "en": "Select pargana",
+      "hi": "परगना चुनें"
+     }
+    },
+    "village": {
+     "label": {
+      "en": "Village",
+      "hi": "ग्राम"
+     },
+     "placeholder": {
+      "en": "Select village",
+      "hi": "ग्राम चुनें"
+     },
+     "name_label": {
+      "en": "Village Name",
+      "hi": "ग्राम का नाम"
+     },
+     "placeholder_enter": {
+      "en": "Enter village name",
+      "hi": "ग्राम का नाम दर्ज करें"
+     }
+    },
+    "ri": {
+     "label": {
+      "en": "Revenue Inspector (RI)",
+      "hi": "राजस्व निरीक्षक (RI)"
+     },
+     "placeholder": {
+      "en": "Select Revenue Inspector",
+      "hi": "राजस्व निरीक्षक चुनें"
+     }
+    },
+    "rsi": {
+     "label": {
+      "en": "Revenue Sub-Inspector (RSI)",
+      "hi": "राजस्व उप-निरीक्षक (RSI)"
+     },
+     "placeholder": {
+      "en": "Select Revenue Sub-Inspector",
+      "hi": "राजस्व उप-निरीक्षक चुनें"
+     }
+    },
+    "khata": {
+     "label": {
+      "en": "Khata Number",
+      "hi": "खाता संख्या"
+     },
+     "placeholder": {
+      "en": "Select khata number",
+      "hi": "खाता संख्या चुनें"
+     },
+     "enter_placeholder": {
+      "en": "Enter khata number",
+      "hi": "खाता संख्या दर्ज करें"
+     }
+    },
+    "plot": {
+     "label": {
+      "en": "Plot",
+      "hi": "खसरा / भूखंड"
+     },
+     "placeholder": {
+      "en": "Select khasra plots",
+      "hi": "खसरा भूखंड चुनें"
+     }
+    },
+    "disputed_area": {
+     "label": {
+      "en": "Related Area (Hec.)",
+      "hi": "संबंधित क्षेत्रफल (हेक्टेयर)"
+     },
+     "placeholder": {
+      "en": "Enter related area in hectares",
+      "hi": "हेक्टेयर में संबंधित क्षेत्रफल दर्ज करें"
+     }
+    },
+    "remarks": {
+     "label": {
+      "en": "Remarks",
+      "hi": "टिप्पणी"
+     },
+     "placeholder": {
+      "en": "Specify any additional comments or details",
+      "hi": "कोई अतिरिक्त टिप्पणी या विवरण दर्ज करें"
+     }
+    },
+    "khasra_no": {
+     "label": {
+      "en": "Khasra / Plot Number",
+      "hi": "खसरा / गाटा संख्या"
+     },
+     "placeholder": {
+      "en": "e.g. 123, 456",
+      "hi": "जैसे: 123, 456"
+     }
+    },
+    "status": {
+     "label": {
+      "en": "Status",
+      "hi": "स्थिति"
+     },
+     "placeholder": {
+      "en": "Select status",
+      "hi": "स्थिति चुनें"
+     }
+    },
+    "total_land_area": {
+     "label": {
+      "en": "Total Land Area (Hectare)",
+      "hi": "कुल भूमि क्षेत्र (हेक्टेयर)"
+     },
+     "placeholder": {
+      "en": "e.g. 0.5000",
+      "hi": "जैसे: 0.5000"
+     }
+    },
+    "land_type": {
+     "label": {
+      "en": "Land Type",
+      "hi": "भूमि का प्रकार"
+     },
+     "placeholder": {
+      "en": "e.g. Agricultural Land",
+      "hi": "जैसे: कृषि भूमि"
+     }
+    },
+    "owner_name": {
+     "label": {
+      "en": "Name",
+      "hi": "नाम"
+     },
+     "placeholder": {
+      "en": "Owner name",
+      "hi": "स्वामी का नाम"
+     }
+    },
+    "owner_father": {
+     "label": {
+      "en": "Father/Husband",
+      "hi": "पिता/पति का नाम"
+     },
+     "placeholder": {
+      "en": "Father/Husband name",
+      "hi": "पिता/पति का नाम"
+     }
+    },
+    "owner_address": {
+     "label": {
+      "en": "Address",
+      "hi": "पता"
+     },
+     "placeholder": {
+      "en": "Address",
+      "hi": "पता"
+     }
+    }
+   },
+   "labels": {
+    "advanced_search": {
+     "en": "Advanced Search (e-Bhulekh) ↗",
+     "hi": "उन्नत खोज (ई-भूलेख) ↗"
+    },
+    "advanced_search_tooltip": {
+     "en": "Open e-Bhulekh portal for advanced search",
+     "hi": "उन्नत खोज के लिए ई-भूलेख पोर्टल खोलें"
+    },
+    "land_type_desc": {
+     "en": "Land Type Description:",
+     "hi": "भूमि प्रकार विवरण:"
+    },
+    "actual_owners": {
+     "en": "Actual Owners:",
+     "hi": "वास्तविक भूस्वामी:"
+    },
+    "orders": {
+     "en": "Orders:",
+     "hi": "आदेश:"
+    },
+    "manual_entry": {
+     "en": "Manual Entry",
+     "hi": "मैन्युअल एंट्री"
+    },
+    "total_selected_area": {
+     "en": "Total Selected Area",
+     "hi": "कुल चयनित क्षेत्रफल"
+    },
+    "total_selected_area_note": {
+     "en": "Note: Area shown in Hectare (Hec.)",
+     "hi": "नोट: क्षेत्रफल हेक्टेयर (Hec.) में दर्शाया गया है"
+    },
+    "ebhulekh_note": {
+     "en": "For advanced search, visit e-Bhulekh to view land records.",
+     "hi": "उन्नत खोज के लिए ई-भूलेख पर जाकर भूमि अभिलेख देखें।"
+    },
+    "ebhulekh_btn": {
+     "en": "Go",
+     "hi": "जाएँ"
+    },
+    "manual_entry_notice": {
+     "en": "Use manual entry when eBhulekh data is unavailable. Please upload supporting land record documents.",
+     "hi": "eBhulekh में डेटा उपलब्ध नहीं होने पर मैन्युअल एंट्री का उपयोग करें। कृपया भूमि अभिलेख दस्तावेज़ अपलोड करें।"
+    },
+    "actual_owners_title": {
+     "en": "Actual Owners",
+     "hi": "वास्तविक स्वामी"
+    },
+    "no_owners_added": {
+     "en": "No owners added. Click \"Add Owner\" above to get started.",
+     "hi": "कोई स्वामी नहीं जोड़ा गया। ऊपर \"स्वामी जोड़ें\" पर क्लिक करें।"
+    },
+    "upload_documents_instruction": {
+     "en": "Upload khatoni, map, or other land-related documents (PDF, JPG, PNG)",
+     "hi": "खतौनी, नक्शा, या अन्य भूमि संबंधित दस्तावेज़ अपलोड करें (PDF, JPG, PNG)"
+    }
+   },
+   "buttons": {
+    "save": {
+     "en": "Save",
+     "hi": "सहेजें"
+    },
+    "cancel": {
+     "en": "Cancel",
+     "hi": "रद्द करें"
+    },
+    "close": {
+     "en": "Close",
+     "hi": "बंद करें"
+    },
+    "add_owner": {
+     "en": "Add Owner",
+     "hi": "स्वामी जोड़ें"
+    },
+    "choose_documents": {
+     "en": "Choose Documents",
+     "hi": "दस्तावेज़ चुनें"
+    },
+    "uploading": {
+     "en": "Uploading...",
+     "hi": "अपलोड हो रहा है..."
+    }
+   },
+   "toasts": {
+    "updated": {
+     "en": "Land record updated successfully",
+     "hi": "भूमि रिकॉर्ड सफलतापूर्वक अपडेट किया गया"
+    },
+    "added": {
+     "en": "Land record added successfully",
+     "hi": "भूमि रिकॉर्ड सफलतापूर्वक जोड़ा गया"
+    },
+    "document_deleted": {
+     "en": "Document deleted",
+     "hi": "दस्तावेज़ हटाया गया"
+    },
+    "document_delete_failed": {
+     "en": "Failed to delete document",
+     "hi": "दस्तावेज़ हटाने में विफल"
+    }
+   }
+  },
+  "documents": {
+   "title": {
+    "en": "Documents",
+    "hi": "दस्तावेज़"
+   },
+   "total_documents": {
+    "en": "Total Documents",
+    "hi": "कुल दस्तावेज़"
+   },
+   "total_size": {
+    "en": "Total Size",
+    "hi": "कुल आकार"
+   },
+   "document_types": {
+    "en": "Document Types",
+    "hi": "दस्तावेज़ प्रकार"
+   },
+   "uploaded_files": {
+    "en": "Uploaded Documents",
+    "hi": "अपलोडेड डॉक्यूमेंट्स"
+   },
+   "upload_btn": {
+    "en": "Upload",
+    "hi": "अपलोड"
+   },
+   "no_documents": {
+    "en": "No documents have been uploaded yet.",
+    "hi": "अभी तक कोई दस्तावेज़ अपलोड नहीं किया गया है।"
+   },
+   "loading_repo": {
+    "en": "Loading repository...",
+    "hi": "रिपोजिटरी लोड हो रही है..."
+   },
+   "unknown_type": {
+    "en": "Unknown",
+    "hi": "अज्ञात"
+   },
+   "view_document": {
+    "en": "View Document",
+    "hi": "दस्तावेज़ देखें"
+   },
+   "delete_document": {
+    "en": "Delete Document",
+    "hi": "दस्तावेज़ हटाएं"
+   },
+   "confirm_delete": {
+    "en": "Are you sure you want to delete this document?",
+    "hi": "क्या आप वाकई इस दस्तावेज़ को हटाना चाहते हैं?"
+   },
+   "deleted_toast": {
+    "en": "Document deleted successfully",
+    "hi": "दस्तावेज़ सफलतापूर्वक हटा दिया गया"
+   },
+   "delete_failed_toast": {
+    "en": "Failed to delete document",
+    "hi": "दस्तावेज़ हटाने में विफल"
+   },
+   "upload_choice_title": {
+    "en": "Choose upload method",
+    "hi": "अपलोड विधि चुनें"
+   },
+   "manual_upload": {
+    "en": "Manual Upload",
+    "hi": "मैन्युअल अपलोड"
+   },
+   "qr_generate": {
+    "en": "Generate QR",
+    "hi": "क्यूआर जनरेट करें"
+   },
+   "qr_generating": {
+    "en": "Generating QR...",
+    "hi": "क्यूआर बन रहा है..."
+   },
+   "qr_scan_hint": {
+    "en": "Scan with phone to upload. QR expires in 5 minutes — please upload within time, otherwise QR will expire.",
+    "hi": "फ़ोन से स्कैन करके अपलोड करें। क्यूआर 5 मिनट में समाप्त होगा — कृपया समय के भीतर अपलोड करें, अन्यथा क्यूआर समाप्त हो जाएगा।"
+   },
+   "qr_timer": {
+    "en": "QR expires in",
+    "hi": "क्यूआर समाप्त होने में"
+   },
+   "qr_timer_note": {
+    "en": "Please upload your file within 5 minutes. After expiry, generate a new QR.",
+    "hi": "कृपया 5 मिनट के भीतर फ़ाइल अपलोड करें। समय समाप्त होने पर नया क्यूआर जनरेट करें।"
+   },
+   "qr_failed": {
+    "en": "Failed to generate QR",
+    "hi": "क्यूआर बनाने में विफल"
+   },
+   "status_updated_toast": {
+    "en": "Document status updated successfully",
+    "hi": "दस्तावेज़ की स्थिति सफलतापूर्वक अपडेट की गई"
+   },
+   "status_update_failed_toast": {
+    "en": "Failed to update document status",
+    "hi": "दस्तावेज़ की स्थिति अपडेट करने में विफल"
+   },
+   "next_btn": {
+    "en": "Next",
+    "hi": "आगे"
+   },
+   "table": {
+    "file_name": {
+     "en": "File Name",
+     "hi": "फ़ाइल का नाम"
+    },
+    "type": {
+     "en": "Document Type",
+     "hi": "दस्तावेज़ का प्रकार"
+    },
+    "size": {
+     "en": "Size",
+     "hi": "आकार"
+    },
+    "status": {
+     "en": "Status",
+     "hi": "स्थिति"
+    },
+    "actions": {
+     "en": "Actions",
+     "hi": "कार्रवाई"
+    }
+   }
+  },
+  "document_form": {
+   "title": {
+    "en": "Upload Document",
+    "hi": "दस्तावेज़ अपलोड करें"
+   },
+   "sections": {
+    "selection": {
+     "en": "Document Selection",
+     "hi": "दस्तावेज़ चयन"
+    }
+   },
+   "fields": {
+    "category": {
+     "label": {
+      "en": "Document Category",
+      "hi": "दस्तावेज़ श्रेणी"
+     },
+     "placeholder": {
+      "en": "e.g. Evidence, Petition, etc.",
+      "hi": "जैसे: साक्ष्य, याचिका, आदि"
+     }
+    },
+    "remarks": {
+     "label": {
+      "en": "Remarks",
+      "hi": "टिप्पणी"
+     },
+     "placeholder": {
+      "en": "Optional remarks about this document",
+      "hi": "इस दस्तावेज़ के बारे में वैकल्पिक टिप्पणी"
+     }
+    },
+    "selected_file": {
+     "en": "Selected File",
+     "hi": "चयनित फ़ाइल"
+    }
+   },
+   "labels": {
+    "click_to_select": {
+     "en": "Click to select a PDF file",
+     "hi": "पीडीएफ फाइल चुनने के लिए क्लिक करें"
+    },
+    "max_size": {
+     "en": "Maximum size: 10MB",
+     "hi": "अधिकतम आकार: 10MB"
+    },
+    "remove_file": {
+     "en": "Remove file",
+     "hi": "फ़ाइल हटाएं"
+    }
+   },
+   "buttons": {
+    "cancel": {
+     "en": "Cancel",
+     "hi": "रद्द करें"
+    },
+    "upload": {
+     "en": "Upload",
+     "hi": "अपलोड करें"
+    },
+    "uploading": {
+     "en": "Uploading...",
+     "hi": "अपलोड हो रहा है..."
+    }
+   },
+   "steps": {
+    "file": {
+     "en": "Select File",
+     "hi": "फ़ाइल चुनें"
+    },
+    "details": {
+     "en": "Category & Remarks",
+     "hi": "श्रेणी एवं टिप्पणी"
+    }
+   },
+   "toasts": {
+    "success": {
+     "en": "Document uploaded successfully",
+     "hi": "दस्तावेज़ सफलतापूर्वक अपलोड किया गया"
+    },
+    "invalid_type": {
+     "en": "Only PDFs are allowed.",
+     "hi": "केवल पीडीएफ फाइलों की अनुमति है।"
+    },
+    "file_too_large": {
+     "en": "Maximum size is 10MB.",
+     "hi": "अधिकतम आकार 10MB है।"
+    },
+    "failed": {
+     "en": "Failed to upload document",
+     "hi": "दस्तावेज़ अपलोड करने में विफल"
+    },
+    "select_file_first": {
+     "en": "Please select a PDF file first",
+     "hi": "कृपया पहले PDF फ़ाइल चुनें"
+    }
+   },
+   "validation": {
+    "category_required": {
+     "en": "Please select a document category",
+     "hi": "कृपया दस्तावेज़ श्रेणी चुनें"
+    }
+   }
+  },
+  "payments": {
+   "title": {
+    "en": "Transactions",
+    "hi": "लेनदेन"
+   },
+   "subtitle": {
+    "en": "Case financial ledger statement of credits, debits, and net balance",
+    "hi": "वाद का वित्तीय बही विवरण: क्रेडिट, डेबिट और बकाया शेष राशि"
+   },
+   "total_debit": {
+    "en": "Total Debits (Fee Charges)",
+    "hi": "कुल डेबिट (शुल्क)"
+   },
+   "total_credit": {
+    "en": "Total Credits (Payments)",
+    "hi": "कुल क्रेडिट (भुगतान)"
+   },
+   "net_balance": {
+    "en": "Net Balance Due",
+    "hi": "लंबित बकाया शेष"
+   },
+   "ledger_title": {
+    "en": "Case Financial Ledger Statement",
+    "hi": "वाद वित्तीय लेजर विवरण"
+   },
+   "add_debit": {
+    "en": "Add Debit Demand",
+    "hi": "डेबिट (शुल्क मांग) जोड़ें"
+   },
+   "record_credit": {
+    "en": "Record Credit Payment",
+    "hi": "क्रेडिट (भुगतान) दर्ज करें"
+   },
+   "credit": {
+    "en": "Credit",
+    "hi": "क्रेडिट"
+   },
+   "debit": {
+    "en": "Debit",
+    "hi": "डेबिट"
+   },
+   "pay_now": {
+    "en": "Pay Now",
+    "hi": "अभी भुगतान करें"
+   },
+   "upload_challan": {
+    "en": "Upload Challan",
+    "hi": "चालान अपलोड करें"
+   },
+   "paid_successfully": {
+    "en": "Cleared",
+    "hi": "चुक्ता हुआ"
+   },
+   "debit_modal_title": {
+    "en": "Add Debit Entry (Demand Fee)",
+    "hi": "डेबिट प्रविष्टि जोड़ें (शुल्क मांग)"
+   },
+   "debit_modal_desc": {
+    "en": "Add a fee charge demand to the case ledger for the citizen/advocate.",
+    "hi": "नागरिक/अधिवक्ता के लिए वाद लेजर में शुल्क प्रभार मांग जोड़ें।"
+   },
+   "credit_modal_title": {
+    "en": "Record Credit Entry (Payment Received)",
+    "hi": "क्रेडिट प्रविष्टि दर्ज करें (प्राप्त भुगतान)"
+   },
+   "credit_modal_desc": {
+    "en": "Record cash, court fee stamp, or physical treasury challan payment received at court.",
+    "hi": "न्यायालय में प्राप्त नकद, कोर्ट फीस स्टाम्प या ट्रेजरी चालान का क्रेडिट भुगतान दर्ज करें।"
+   },
+   "challan_modal_title": {
+    "en": "Upload Treasury Challan",
+    "hi": "ट्रेजरी चालान अपलोड करें"
+   },
+   "challan_modal_desc": {
+    "en": "Upload physical treasury challan details for debit clearance.",
+    "hi": "डेबिट चुकता करने के लिए भौतिक ट्रेजरी चालान विवरण अपलोड करें।"
+   },
+   "case_transactions_title": {
+    "en": "Transactions",
+    "hi": "लेनदेन"
+   },
+   "initial_filing_fee": {
+    "en": "Initial Filing Court Fee",
+    "hi": "प्रारंभिक वाद दाखिला शुल्क"
+   },
+   "initial_filing_fee_desc": {
+    "en": "Uttarakhand Revenue Court Filing Fee",
+    "hi": "उत्तराखंड राजस्व न्यायालय फाइलिंग शुल्क"
+   },
+   "successful": {
+    "en": "Successful",
+    "hi": "सफल"
+   },
+   "pending": {
+    "en": "Pending",
+    "hi": "लंबित"
+   },
+   "failed": {
+    "en": "Failed",
+    "hi": "विफल"
+   },
+   "cancelled": {
+    "en": "Cancelled",
+    "hi": "निरस्त"
+   },
+   "view": {
+    "header_title": {
+     "en": "Payment Details",
+     "hi": "भुगतान विवरण"
+    },
+    "receipt_title": {
+     "en": "PAYMENT RECEIPT",
+     "hi": "भुगतान रसीद"
+    },
+    "case_number_label": {
+     "en": "Case No:",
+     "hi": "वाद संख्या:"
+    },
+    "record_datetime": {
+     "en": "Date & Time",
+     "hi": "प्रविष्टि तिथि एवं समय"
+    },
+    "payment_mode": {
+     "en": "Payment Mode",
+     "hi": "भुगतान का प्रकार / माध्यम"
+    },
+    "paid_by": {
+     "en": "Paid By",
+     "hi": "भुगतान करने वाला"
+    },
+    "challan_number": {
+     "en": "Challan No.",
+     "hi": "चालान संख्या"
+    },
+    "bank_name": {
+     "en": "Treasury / Bank",
+     "hi": "बैंक / ट्रेजरी"
+    },
+    "transaction_id": {
+     "en": "Transaction ID",
+     "hi": "लेनदेन आईडी (Transaction ID)"
+    },
+    "order_id": {
+     "en": "Order ID",
+     "hi": "ऑर्डर आईडी"
+    },
+    "particulars_header": {
+     "en": "Particulars / Purpose",
+     "hi": "शुल्क विवरण (Particulars)"
+    },
+    "amount_header": {
+     "en": "Amount",
+     "hi": "राशि (Amount)"
+    },
+    "total_paid": {
+     "en": "TOTAL AMOUNT PAID",
+     "hi": "कुल भुगतान राशि"
+    },
+    "computer_generated_note": {
+     "en": "This is a computer-generated system receipt. No signature is required.",
+     "hi": "यह कंप्यूटर द्वारा जनरेट की गई प्रणाली रसीद है। किसी हस्ताक्षर की आवश्यकता नहीं है।"
+    },
+    "generated_on": {
+     "en": "Generated On:",
+     "hi": "जारी तिथि:"
+    },
+    "save_receipt": {
+     "en": "Save Receipt",
+     "hi": "रसीद सहेजें"
+    },
+    "receipt_saved": {
+     "en": "Receipt image (PNG) saved!",
+     "hi": "रसीद इमेज (PNG) सहेजी गई!"
+    },
+    "save_failed": {
+     "en": "Failed to save image",
+     "hi": "इमेज सहेजने में विफल"
+    },
+    "offline_treasury": {
+     "en": "Offline Treasury Challan",
+     "hi": "ऑफलाइन ट्रेजरी चालान"
+    },
+    "cash_court_stamp": {
+     "en": "Cash / Court Stamp",
+     "hi": "नकद / कोर्ट फीस स्टाम्प"
+    },
+    "online_gateway": {
+     "en": "Online Gateway",
+     "hi": "ऑनलाइन गेटवे"
+    },
+    "pending_mode": {
+     "en": "Online / Challan",
+     "hi": "ऑनलाइन / चालान"
+    },
+    "not_available": {
+     "en": "Not Available",
+     "hi": "उपलब्ध नहीं"
+    },
+    "loading_details": {
+     "en": "Loading payment details...",
+     "hi": "विवरण लोड हो रहा है..."
+    },
+    "not_found": {
+     "en": "Payment Detail Not Found",
+     "hi": "भुगतान विवरण नहीं मिला"
+    }
+   },
+   "online_gateway": {
+    "en": "Online Gateway",
+    "hi": "ऑनलाइन गेटवे"
+   },
+   "credit_mode": {
+    "en": "Credit Mode *",
+    "hi": "भुगतान का प्रकार *"
+   },
+   "cash_stamp": {
+    "en": "Cash / Court Fee Stamp",
+    "hi": "नकद / कोर्ट फीस स्टाम्प"
+   },
+   "physical_challan": {
+    "en": "Physical Treasury Challan",
+    "hi": "भौतिक ट्रेजरी चालान"
+   },
+   "particulars_purpose": {
+    "en": "Particulars / Purpose *",
+    "hi": "विवरण / मद *"
+   },
+   "particulars_placeholder": {
+    "en": "e.g. Certified Copy Fee, Cash Stamp Receipt",
+    "hi": "जैसे: नकद स्टाम्प शुल्क जमा, चालान रसीद"
+   },
+   "credit_amount": {
+    "en": "Credit Amount (₹) *",
+    "hi": "क्रेडिट राशि (₹) *"
+   },
+   "treasury_challan_no": {
+    "en": "Treasury Challan No. *",
+    "hi": "ट्रेजरी चालान संख्या *"
+   },
+   "treasury_bank_name": {
+    "en": "Treasury / Bank Name",
+    "hi": "ट्रेजरी / बैंक का नाम"
+   },
+   "receipt_ref_remarks": {
+    "en": "Receipt Ref / Remarks",
+    "hi": "रसीद संदर्भ / टिप्पणी"
+   },
+   "receipt_placeholder": {
+    "en": "Receipt number or notes",
+    "hi": "रसीद संख्या या विवरण"
+   },
+   "cancel": {
+    "en": "Cancel",
+    "hi": "रद्द करें"
+   },
+   "record_credit_action": {
+    "en": "Record Credit",
+    "hi": "क्रेडिट दर्ज करें"
+   },
+   "upload_verify": {
+    "en": "Upload & Verify",
+    "hi": "अपलोड एवं सत्यापित करें"
+   },
+   "fee_category": {
+    "en": "Fee Particulars / Category *",
+    "hi": "शुल्क विवरण / प्रकार *"
+   },
+   "fee_category_placeholder": {
+    "en": "e.g. Stamp Duty, Notice Service Fee, Process Fee",
+    "hi": "जैसे: स्टाम्प ड्यूटी, तामीली शुल्क, एड-वैलोरम"
+   },
+   "debit_amount": {
+    "en": "Debit Amount (₹) *",
+    "hi": "डेबिट राशि (₹) *"
+   },
+   "remarks_description": {
+    "en": "Remarks / Description",
+    "hi": "टिप्पणी / विवरण"
+   },
+   "debit_notes_placeholder": {
+    "en": "Court order reference or reason for fee demand",
+    "hi": "शुल्क मांग का कारण या आदेश संदर्भ"
+   },
+   "add_debit_entry": {
+    "en": "Add Debit Entry",
+    "hi": "डेबिट मांग जोड़ें"
+   },
+   "treasury_challan_no_label": {
+    "en": "Treasury Challan Number *",
+    "hi": "ट्रेजरी चालान संख्या *"
+   },
+   "treasury_challan_date": {
+    "en": "Treasury Challan Date *",
+    "hi": "ट्रेजरी चालान तिथि *"
+   },
+   "treasury_bank_name_label": {
+    "en": "Treasury Bank Name *",
+    "hi": "ट्रेजरी बैंक का नाम *"
+   },
+   "create_success": {
+    "en": "Payment entry created",
+    "hi": "भुगतान प्रविष्टि बन गई"
+   },
+   "update_success": {
+    "en": "Payment updated",
+    "hi": "भुगतान अपडेट हो गया"
+   }
+  },
+  "review": {
+   "title": {
+    "en": "Review & Submit",
+    "hi": "समीक्षा और सबमिट करें"
+   },
+   "title_submitted": {
+    "en": "Review",
+    "hi": "समीक्षा"
+   },
+   "checklist_title": {
+    "en": "Submission Checklist",
+    "hi": "सबमिशन चेकलिस्ट"
+   },
+   "loading": {
+    "en": "Loading checklist details...",
+    "hi": "चेकलिस्ट विवरण लोड हो रहा है..."
+   },
+   "required": {
+    "en": "Required",
+    "hi": "आवश्यक"
+   },
+   "status_ready": {
+    "en": "Ready",
+    "hi": "तैयार"
+   },
+   "status_completed": {
+    "en": "Completed",
+    "hi": "पूर्ण"
+   },
+   "status_incomplete": {
+    "en": "Incomplete",
+    "hi": "अपूर्ण"
+   },
+   "pay_btn": {
+    "en": "Pay",
+    "hi": "भुगतान करें"
+   },
+   "submit_btn": {
+    "en": "Submit",
+    "hi": "सबमिट करें"
+   },
+   "submitting": {
+    "en": "Submitting...",
+    "hi": "सबमिट हो रहा है..."
+   },
+   "submit_error": {
+    "en": "Please complete all sections of the checklist first.",
+    "hi": "कृपया पहले चेकलिस्ट के सभी अनुभाग पूरे करें।"
+   },
+   "submit_success": {
+    "en": "Case submitted successfully!",
+    "hi": "केस सफलतापूर्वक सबमिट हो गया!"
+   },
+   "submit_failed": {
+    "en": "Failed to submit case. Please try again.",
+    "hi": "केस सबमिट करने में विफल। कृपया पुनः प्रयास करें।"
+   },
+   "case_label": {
+    "en": "Case details filled",
+    "hi": "वाद विवरण भरा गया"
+   },
+   "case_requirement": {
+    "en": "Case jurisdiction and administrative details must be completed.",
+    "hi": "वाद क्षेत्राधिकार और प्रशासनिक विवरण पूरा होना चाहिए।"
+   },
+   "case_summary_prefix": {
+    "en": "Jurisdiction selected: ",
+    "hi": "चयनित क्षेत्राधिकार: "
+   },
+   "case_summary_missing": {
+    "en": "Case details are missing.",
+    "hi": "वाद विवरण अनुपस्थित हैं।"
+   },
+   "parties_label": {
+    "en": "Registered Parties (Minimum 2 required)",
+    "hi": "पंजीकृत पक्षकार (न्यूनतम 2 आवश्यक)"
+   },
+   "parties_requirement": {
+    "en": "At least two parties must be registered in the case.",
+    "hi": "वाद में कम से कम दो पक्षकार पंजीकृत होने चाहिए।"
+   },
+   "parties_registered": {
+    "en": "parties registered",
+    "hi": "पक्षकार पंजीकृत"
+   },
+   "lands_label": {
+    "en": "Land Parcels (Minimum 1 required)",
+    "hi": "भूमि खंड (न्यूनतम 1 आवश्यक)"
+   },
+   "lands_requirement": {
+    "en": "At least one land parcel details must be registered.",
+    "hi": "कम से कम एक भूमि खंड का विवरण पंजीकृत होना चाहिए।"
+   },
+   "lands_registered": {
+    "en": "land parcels registered",
+    "hi": "भूमि खंड पंजीकृत"
+   },
+   "documents_label": {
+    "en": "Uploaded Documents (Minimum 1 required)",
+    "hi": "अपलोड किए गए दस्तावेज़ (न्यूनतम 1 आवश्यक)"
+   },
+   "documents_requirement": {
+    "en": "At least one document must be uploaded.",
+    "hi": "कम से कम एक दस्तावेज़ अपलोड किया जाना चाहिए।"
+   },
+   "documents_uploaded": {
+    "en": "documents uploaded",
+    "hi": "दस्तावेज़ अपलोड किए गए"
+   },
+   "stamp_fee_label": {
+    "en": "Stamp Fee",
+    "hi": "स्टाम्प शुल्क"
+   },
+   "stamp_fee_requirement": {
+    "en": "Initial court stamp fee must be paid before case submission.",
+    "hi": "केस जमा करने से पहले कोर्ट स्टाम्प शुल्क का भुगतान किया जाना चाहिए।"
+   },
+   "stamp_fee_paid": {
+    "en": "Stamp fee has been verified as PAID.",
+    "hi": "स्टाम्प शुल्क का भुगतान सत्यापित हो चुका है।"
+   },
+   "stamp_fee_court_skip": {
+    "en": "Filing fee check ignored for court official role.",
+    "hi": "अदालत अधिकारी की भूमिका के लिए शुल्क चेक को नजरअंदाज किया गया।"
+   },
+   "stamp_fee_pending": {
+    "en": "Stamp fee payment is pending.",
+    "hi": "स्टाम्प शुल्क भुगतान लंबित है."
+   },
+   "payments_label": {
+    "en": "Payments",
+    "hi": "भुगतान"
+   },
+   "payments_table_title": {
+    "en": "Payments",
+    "hi": "भुगतान"
+   },
+   "payments_add_btn": {
+    "en": "Add",
+    "hi": "जोड़ें"
+   },
+   "payments_empty": {
+    "en": "No payments yet. Add an offline entry and upload proof.",
+    "hi": "अभी कोई भुगतान नहीं। ऑफ़लाइन एंट्री जोड़ें और प्रमाण अपलोड करें।"
+   },
+   "payments_loading": {
+    "en": "Loading payments...",
+    "hi": "भुगतान लोड हो रहे हैं..."
+   },
+   "payments_view": {
+    "en": "View Payment",
+    "hi": "भुगतान देखें"
+   },
+   "payments_edit": {
+    "en": "Edit Payment",
+    "hi": "भुगतान संपादित करें"
+   },
+   "payments_add": {
+    "en": "Add Payment",
+    "hi": "भुगतान जोड़ें"
+   },
+   "payments_deleted": {
+    "en": "Payment deleted",
+    "hi": "भुगतान हटा दिया गया"
+   },
+   "payments_upload": {
+    "en": "Upload",
+    "hi": "अपलोड"
+   },
+   "payments_proof_title": {
+    "en": "Upload Proof Document",
+    "hi": "प्रमाण दस्तावेज़ अपलोड करें"
+   },
+   "payments_proof_desc": {
+    "en": "Upload PDF proof (max 10MB). On success the entry will be marked PAID.",
+    "hi": "PDF प्रमाण अपलोड करें (अधिकतम 10MB)। सफल होने पर प्रविष्टि PAID हो जाएगी।"
+   },
+   "payments_proof_done": {
+    "en": "Proof uploaded and payment marked PAID",
+    "hi": "प्रमाण अपलोड हुआ और भुगतान PAID हो गया"
+   },
+   "payments_proof_hint": {
+    "en": "Every offline entry needs a proof document upload before it can be marked PAID. Upload then it auto-verifies.",
+    "hi": "हर ऑफ़लाइन एंट्री को PAID होने के लिए प्रमाण दस्तावेज़ की आवश्यकता है। अपलोड होते ही स्वचालित सत्यापन होगा।"
+   },
+   "requirement_met": {
+    "en": "(Requirement met)",
+    "hi": "(आवश्यकता पूरी हुई)"
+   },
+   "requires_min_2": {
+    "en": "(Requires at least 2)",
+    "hi": "(कम से कम 2 की आवश्यकता है)"
+   },
+   "requires_min_1": {
+    "en": "(Requires at least 1)",
+    "hi": "(कम से कम 1 की आवश्यकता है)"
+   },
+   "view_btn": {
+    "en": "View",
+    "hi": "देखें"
+   },
+   "fill_btn": {
+    "en": "Fill",
+    "hi": "भरें"
+   },
+   "receipt_title": {
+    "en": "Payment Receipt",
+    "hi": "भुगतान रसीद"
+   },
+   "receipt_board_name": {
+    "en": "Board of Revenue Uttarakhand",
+    "hi": "राजस्व परिषद उत्तराखण्ड"
+   },
+   "receipt_system_name": {
+    "en": "Uttarakhand e-Revenue Courts",
+    "hi": "उत्तराखण्ड ई-राजस्व न्यायालय"
+   },
+   "receipt_success": {
+    "en": "Transaction Successful",
+    "hi": "लेनदेन सफल"
+   },
+   "receipt_stamp_fee": {
+    "en": "Stamp Fee",
+    "hi": "स्टाम्प शुल्क"
+   },
+   "receipt_case_number": {
+    "en": "Case Number",
+    "hi": "वाद संख्या"
+   },
+   "receipt_date": {
+    "en": "Transaction Date",
+    "hi": "लेनदेन की तिथि"
+   },
+   "receipt_order_id": {
+    "en": "Payment Order ID",
+    "hi": "भुगतान ऑर्डर आईडी"
+   },
+   "receipt_transaction_id": {
+    "en": "Payment Transaction ID",
+    "hi": "भुगतान लेनदेन आईडी"
+   },
+   "receipt_paid_by": {
+    "en": "Paid By",
+    "hi": "भुगतानकर्ता"
+   },
+   "review_only": {
+    "en": "Review",
+    "hi": "समीक्षा"
+   },
+   "payments_step1": {
+    "en": "Type & Mode",
+    "hi": "प्रकार और माध्यम"
+   },
+   "payments_step2": {
+    "en": "Amount & Reference",
+    "hi": "राशि और संदर्भ"
+   },
+   "payments_step3": {
+    "en": "Review",
+    "hi": "समीक्षा"
+   },
+   "payments_type": {
+    "en": "Payment Type",
+    "hi": "भुगतान का प्रकार"
+   },
+   "payments_mode": {
+    "en": "Payment Mode",
+    "hi": "भुगतान माध्यम"
+   },
+   "payments_amount": {
+    "en": "Amount",
+    "hi": "राशि"
+   },
+   "payments_txn": {
+    "en": "Transaction / Challan No",
+    "hi": "लेनदेन / चालान संख्या"
+   },
+   "payments_txn_placeholder": {
+    "en": "e.g. TXN123 / CH-99201",
+    "hi": "जैसे TXN123 / CH-99201"
+   },
+   "payments_remarks": {
+    "en": "Description / Remarks",
+    "hi": "विवरण / टिप्पणी"
+   },
+   "payments_remarks_placeholder": {
+    "en": "Description, remarks or reference notes",
+    "hi": "विवरण, टिप्पणी या संदर्भ नोट"
+   },
+   "payments_review_title": {
+    "en": "Review Details",
+    "hi": "विवरण की समीक्षा"
+   },
+   "payments_review_note": {
+    "en": "Note: After saving, you must upload the payment proof document. This is mandatory — payment will be marked PAID only after proof upload.",
+    "hi": "नोट: सेव करने के बाद आपको भुगतान प्रमाण दस्तावेज़ अपलोड करना अनिवार्य है — प्रमाण अपलोड के बाद ही भुगतान PAID होगा।"
+   },
+   "payments_form_title": {
+    "en": "Add Payment",
+    "hi": "भुगतान जोड़ें"
+   },
+   "payments_docs_title": {
+    "en": "Proof Documents",
+    "hi": "प्रमाण दस्तावेज़"
+   },
+   "payments_docs_empty": {
+    "en": "No proof document yet.",
+    "hi": "अभी तक कोई प्रमाण दस्तावेज़ नहीं।"
+   },
+   "payments_overview_title": {
+    "en": "Payment Overview",
+    "hi": "भुगतान सारांश"
+   },
+   "payments_proof_title_simple": {
+    "en": "Proof Document",
+    "hi": "प्रमाण दस्तावेज़"
+   },
+   "payments_view_amount_status": {
+    "en": "Amount & Status",
+    "hi": "राशि और स्थिति"
+   },
+   "payments_view_remarks": {
+    "en": "Remarks",
+    "hi": "टिप्पणी"
+   },
+   "payments_status": {
+    "en": "Status",
+    "hi": "स्थिति"
+   },
+   "payments_not_found": {
+    "en": "Payment not found",
+    "hi": "भुगतान नहीं मिला"
+   },
+   "payments_delete_doc_title": {
+    "en": "Delete Document?",
+    "hi": "दस्तावेज़ हटाएँ?"
+   },
+   "payments_delete_doc_desc": {
+    "en": "This proof document will be permanently deleted. This action cannot be undone.",
+    "hi": "यह प्रमाण दस्तावेज़ स्थायी रूप से हटा दिया जाएगा। यह क्रिया वापस नहीं ली जा सकती।"
+   },
+   "payments_type_placeholder": {
+    "en": "Select payment type",
+    "hi": "भुगतान प्रकार चुनें"
+   },
+   "payments_mode_placeholder": {
+    "en": "Select mode",
+    "hi": "माध्यम चुनें"
+   }
+  },
+  "efile": {
+   "title": {
+    "en": "e-File a New Case",
+    "hi": "नया वाद ई-फाइल करें"
+   },
+   "subtitle": {
+    "en": "Complete the required details step by step. Save your progress and submit when ready.",
+    "hi": "आवश्यक विवरण चरणबद्ध रूप से भरें। प्रगति सहेजें और सुविधानुसार वाद प्रस्तुत करें।"
+   },
+   "how_title": {
+    "en": "How e-Filing works",
+    "hi": "ई-फाइलिंग कैसे कार्य करती है"
+   },
+   "how_subtitle": {
+    "en": "6 steps — current highlighted",
+    "hi": "6 चरण — वर्तमान हाइलाइट"
+   },
+   "steps": {
+    "initiate": {
+     "title": {
+      "en": "Initiate",
+      "hi": "प्रारंभ"
+     },
+     "desc": {
+      "en": "Generate draft case number",
+      "hi": "मसौदा वाद संख्या उत्पन्न करें"
+     }
+    },
+    "case_details": {
+     "title": {
+      "en": "Case Details",
+      "hi": "वाद विवरण"
+     },
+     "desc": {
+      "en": "Jurisdiction, court & act",
+      "hi": "क्षेत्राधिकार, न्यायालय एवं अधिनियम"
+     }
+    },
+    "parties": {
+     "title": {
+      "en": "Parties",
+      "hi": "पक्षकार"
+     },
+     "desc": {
+      "en": "Plaintiff & defendant details",
+      "hi": "वादी एवं प्रतिवादी विवरण"
+     }
+    },
+    "land": {
+     "title": {
+      "en": "Land Details",
+      "hi": "भूमि विवरण"
+     },
+     "desc": {
+      "en": "Khata, plot & area",
+      "hi": "खाता, भूखंड एवं क्षेत्रफल"
+     }
+    },
+    "documents": {
+     "title": {
+      "en": "Documents",
+      "hi": "दस्तावेज़"
+     },
+     "desc": {
+      "en": "Upload supporting docs",
+      "hi": "सहायक दस्तावेज़ अपलोड करें"
+     }
+    },
+    "review": {
+     "title": {
+      "en": "Review & Submit",
+      "hi": "समीक्षा एवं प्रस्तुत"
+     },
+     "desc": {
+      "en": "Pay Stamp Fee & Submit",
+      "hi": "स्टाम्प शुल्क भुगतान एवं प्रस्तुत"
+     }
+    }
+   },
+   "legend_note": {
+    "en": "Note: Blue = Current step, Green = Completed, Yellow = Pending (requires action), White = Upcoming. Click any step to navigate.",
+    "hi": "नोट: नीला = वर्तमान चरण, हरा = पूर्ण, पीला = लंबित (कार्रवाई आवश्यक), सफेद = आगामी। किसी भी चरण पर क्लिक करके जा सकते हैं।"
+   },
+   "legend": {
+    "title": {
+     "en": "Step Guide",
+     "hi": "चरण मार्गदर्शिका"
+    },
+    "current": {
+     "en": "Current",
+     "hi": "वर्तमान"
+    },
+    "current_desc": {
+     "en": "You are currently on this step. Complete the required fields to proceed.",
+     "hi": "आप वर्तमान में इस चरण पर हैं। आगे बढ़ने के लिए आवश्यक फ़ील्ड पूरे करें।"
+    },
+    "completed": {
+     "en": "Completed",
+     "hi": "पूर्ण"
+    },
+    "completed_desc": {
+     "en": "This step is completed. All required information has been saved.",
+     "hi": "यह चरण पूर्ण हो चुका है। सभी आवश्यक जानकारी सहेज ली गई है।"
+    },
+    "pending": {
+     "en": "Pending",
+     "hi": "लंबित"
+    },
+    "pending_desc": {
+     "en": "This step needs your attention. Please fill the required details.",
+     "hi": "इस चरण पर ध्यान आवश्यक है। कृपया आवश्यक विवरण भरें।"
+    },
+    "upcoming": {
+     "en": "Upcoming",
+     "hi": "आगामी"
+    },
+    "upcoming_desc": {
+     "en": "This step is yet to be started. It will unlock after previous steps.",
+     "hi": "यह चरण अभी शुरू नहीं हुआ है। पिछले चरणों के बाद यह खुलेगा।"
+    }
+   },
+   "current": {
+    "en": "Current",
+    "hi": "वर्तमान"
+   },
+   "tip": {
+    "en": "Save draft after each step. Drafts appear in Manage → Cases as Draft.",
+    "hi": "हर चरण के बाद मसौदा सहेजें। मसौदे प्रबंध → वाद में मसौदा के रूप में दिखेंगे।"
+   },
+   "tip_prefix": {
+    "en": "Tip:",
+    "hi": "सुझाव:"
+   },
+   "ready_title": {
+    "en": "Ready to start?",
+    "hi": "प्रारंभ के लिए तैयार?"
+   },
+   "ready_desc": {
+    "en": "Click below to start filing your case.",
+    "hi": "नीचे क्लिक करके वाद दाखिल करना प्रारंभ करें।"
+   },
+   "generate_btn": {
+    "en": "Start New Case",
+    "hi": "नया वाद प्रारंभ करें"
+   },
+   "generating": {
+    "en": "Generating...",
+    "hi": "उत्पन्न हो रहा है..."
+   },
+   "features": {
+    "no_fee": {
+     "en": "No fee at draft stage",
+     "hi": "मसौदा चरण पर कोई शुल्क नहीं"
+    },
+    "auto_saved": {
+     "en": "Progress saved automatically",
+     "hi": "प्रगति स्वतः सहेजी जाती है"
+    },
+    "continue_later": {
+     "en": "Continue later",
+     "hi": "बाद में जारी रखें"
+    },
+    "next": {
+     "en": "Next: Case Details → jurisdiction & court",
+     "hi": "आगे: वाद विवरण → क्षेत्राधिकार एवं न्यायालय"
+    }
+   },
+   "confirm": {
+    "title": {
+     "en": "e-File Case?",
+     "hi": "ई-फाइल करें?"
+    },
+    "description": {
+     "en": "A new draft case will be created. You can fill details and submit.",
+     "hi": "एक नया मसौदा वाद बनाया जाएगा। विवरण भरें और प्रस्तुत करें।"
+    },
+    "confirm": {
+     "en": "e-File",
+     "hi": "ई-फाइल करें"
+    },
+    "cancel": {
+     "en": "Cancel",
+     "hi": "रद्द करें"
+    }
+   },
+   "instructions": {
+    "title": {
+     "en": "Important Instructions",
+     "hi": "महत्वपूर्ण निर्देश"
+    },
+    "subtitle": {
+     "en": "Please read carefully before filing",
+     "hi": "दाखिल करने से पहले ध्यानपूर्वक पढ़ें"
+    },
+    "p1": {
+     "en": "Please ensure all details are correct and complete. Incorrect or incomplete information may result in the case not being accepted.",
+     "hi": "कृपया सभी विवरण सही एवं पूर्ण भरें। गलत या अधूरी जानकारी होने पर वाद स्वीकार नहीं किया जाएगा।"
+    },
+    "p2": {
+     "en": "Please keep the original documents ready for upload. Only PDF, JPG, or PNG files up to 10MB are accepted.",
+     "hi": "कृपया मूल दस्तावेज़ अपलोड हेतु तैयार रखें। केवल PDF, JPG या PNG प्रारूप (अधिकतम 10MB) स्वीकार्य हैं।"
+    },
+    "p3": {
+     "en": "Please verify land details — Khata number, Khasra number, and area must exactly match the official revenue records (Bhulekh).",
+     "hi": "कृपया भूमि विवरण — खाता संख्या, खसरा संख्या एवं क्षेत्रफल की जाँच कर लें, यह राजस्व अभिलेख (भूलेख) से हू-ब-हू मिलना चाहिए।"
+    },
+    "p4": {
+     "en": "Party details such as name, mobile number, and email will be verified through OTP.",
+     "hi": "पक्षकारों के नाम, मोबाइल नंबर एवं ईमेल का सत्यापन OTP के माध्यम से किया जाएगा।"
+    },
+    "p5": {
+     "en": "Court fee (stamp) must be paid before final submission. You may save the draft without payment and pay later.",
+     "hi": "न्यायालय शुल्क (स्टाम्प) का भुगतान अंतिम प्रस्तुति से पूर्व अनिवार्य है। आप मसौदे को बिना भुगतान के सहेज सकते हैं और बाद में भुगतान कर सकते हैं।"
+    },
+    "p6": {
+     "en": "You may edit the draft and resubmit it at any time before final submission.",
+     "hi": "आप अंतिम प्रस्तुति से पूर्व किसी भी समय मसौदे को संशोधित कर पुनः प्रस्तुत कर सकते हैं।"
+    }
+   },
+   "subheader": {
+    "stage": {
+     "en": "Stage",
+     "hi": "चरण"
+    },
+    "status": {
+     "en": "Status",
+     "hi": "स्थिति"
+    },
+    "remark": {
+     "en": "Remark",
+     "hi": "टिप्पणी"
+    }
+   }
+  },
+  "manage": {
+   "tabs": {
+    "overview": {
+     "en": "Overview",
+     "hi": "अवलोकन"
+    },
+    "case_details": {
+     "en": "Case Details",
+     "hi": "वाद विवरण"
+    },
+    "documents": {
+     "en": "Documents",
+     "hi": "दस्तावेज़"
+    },
+    "communications": {
+     "en": "Communications",
+     "hi": "संचार"
+    },
+    "hearing": {
+     "en": "Hearing",
+     "hi": "सुनवाई"
+    },
+    "orders": {
+     "en": "Orders",
+     "hi": "आदेश"
+    },
+    "fees": {
+     "en": "Payments",
+     "hi": "भुगतान"
+    }
+   }
+  },
+  "timeline": {
+   "title": {
+    "en": "Case Progress",
+    "hi": "केस प्रोग्रेस"
+   },
+   "current_progress": {
+    "en": "Current Progress",
+    "hi": "वर्तमान प्रगति"
+   },
+   "case_activity": {
+    "en": "Case Activity",
+    "hi": "वाद गतिविधि"
+   },
+   "pendency_alert": {
+    "en": "Pendency Alert",
+    "hi": "लंबितता चेतावनी"
+   },
+   "initiated_on": {
+    "en": "Initiated On",
+    "hi": "प्रारंभ तिथि"
+   },
+   "days_since_initiated": {
+    "en": "Days Since Initiated",
+    "hi": "प्रारंभ से व्यतीत दिवस"
+   },
+   "today": {
+    "en": "Today",
+    "hi": "आज"
+   },
+   "day": {
+    "en": "day",
+    "hi": "दिन"
+   },
+   "days": {
+    "en": "days",
+    "hi": "दिन"
+   },
+   "last_activity": {
+    "en": "Last Activity",
+    "hi": "अंतिम गतिविधि"
+   },
+   "remark": {
+    "en": "Remark",
+    "hi": "टिप्पणी"
+   }
+  },
+  "notices": {
+   "title": {
+    "en": "Issue Notice",
+    "hi": "नोटिस जारी करें"
+   },
+   "title_citizen": {
+    "en": "Notice List",
+    "hi": "सूचना सूची"
+   },
+   "draft_document": {
+    "en": "Draft Document",
+    "hi": "दस्तावेज़ जारी करें"
+   },
+   "issue_notice_summon": {
+    "en": "Issue Notice / Summon",
+    "hi": "नोटिस / समन जारी करें"
+   },
+   "document_classification": {
+    "en": "Document Classification",
+    "hi": "दस्तावेज़ विवरण"
+   },
+   "document_type": {
+    "en": "Document Type",
+    "hi": "दस्तावेज़ का प्रकार"
+   },
+   "select_doc_type": {
+    "en": "Select document type",
+    "hi": "दस्तावेज़ प्रकार चुनें"
+   },
+   "subject_title": {
+    "en": "Subject Title",
+    "hi": "शीर्षक / विषय"
+   },
+   "enter_subject": {
+    "en": "Enter notice title",
+    "hi": "शीर्षक दर्ज करें"
+   },
+   "delivery_mode": {
+    "en": "Delivery Mode",
+    "hi": "वितरण का माध्यम"
+   },
+   "status": {
+    "en": "Status",
+    "hi": "स्थिति"
+   },
+   "select_status": {
+    "en": "Select Status",
+    "hi": "स्थिति चुनें"
+   },
+   "select_delivery_mode": {
+    "en": "Select delivery mode",
+    "hi": "वितरण माध्यम चुनें"
+   },
+   "detailed_message": {
+    "en": "Detailed Message",
+    "hi": "संदेश / विवरण"
+   },
+   "enter_detailed_message": {
+    "en": "Enter detailed notice text",
+    "hi": "विवरण दर्ज करें"
+   },
+   "document_attachment": {
+    "en": "Document Attachment",
+    "hi": "संलग्नक फ़ाइल"
+   },
+   "attachment_file": {
+    "en": "Attachment File",
+    "hi": "संलग्नक फ़ाइल"
+   },
+   "click_to_select": {
+    "en": "Click to select notice PDF file",
+    "hi": "फ़ाइल चुनने के लिए यहाँ क्लिक करें (केवल PDF)"
+   },
+   "max_size": {
+    "en": "Maximum size: 10MB",
+    "hi": "अधिकतम आकार: 10MB"
+   },
+   "dsc_signature": {
+    "en": "Digital Signature (DSC)",
+    "hi": "डिजिटल हस्ताक्षर (DSC)"
+   },
+   "sign_with_dsc": {
+    "en": "Digitally Sign with DSC Token",
+    "hi": "DSC टोकन से डिजिटल हस्ताक्षर करें"
+   },
+   "no_dsc_found": {
+    "en": "No bound DSC certificate found in profile. Document will be uploaded as simple unsigned document.",
+    "hi": "प्रोफ़ाइल में कोई बाध्य DSC प्रमाणपत्र नहीं मिला। साधारण अहस्ताक्षरित दस्तावेज़ के रूप में अपलोड किया जाएगा।"
+   },
+   "profile_certs_details": {
+    "en": "Profile Certificate Details:",
+    "hi": "प्रोफ़ाइल प्रमाणपत्र विवरण:"
+   },
+   "token_pin": {
+    "en": "Token PIN",
+    "hi": "टोकन पिन"
+   },
+   "enter_pin": {
+    "en": "Enter PIN",
+    "hi": "पिन दर्ज करें"
+   },
+   "issue": {
+    "en": "Issue Notice",
+    "hi": "जारी करें"
+   },
+   "cancel": {
+    "en": "Cancel",
+    "hi": "रद्द करें"
+   },
+   "loading": {
+    "en": "Loading...",
+    "hi": "लोड हो रहा है..."
+   },
+   "no_notices": {
+    "en": "No notices found.",
+    "hi": "कोई नोटिस नहीं मिला।"
+   },
+   "total_notices": {
+    "en": "Total Notices",
+    "hi": "कुल नोटिस"
+   },
+   "pending_notices": {
+    "en": "Pending Notices",
+    "hi": "लंबित नोटिस"
+   },
+   "completed_notices": {
+    "en": "Completed Notices",
+    "hi": "पूर्ण नोटिस"
+   },
+   "issued_notices": {
+    "en": "Issued Notices",
+    "hi": "जारी किए गए नोटिस"
+   },
+   "delete_notice_confirm": {
+    "en": "Are you sure you want to delete this notice?",
+    "hi": "क्या आप वाकई इस नोटिस को हटाना चाहते हैं?"
+   },
+   "deleted_success": {
+    "en": "Notice deleted successfully",
+    "hi": "नोटिस सफलतापूर्वक हटा दिया गया"
+   },
+   "saved_success": {
+    "en": "Notice created successfully",
+    "hi": "नोटिस सफलतापूर्वक सहेजा गया"
+   },
+   "signed_saved_success": {
+    "en": "Notice digitally signed and issued successfully",
+    "hi": "नोटिस डिजिटल रूप से हस्ताक्षरित और सहेजा गया"
+   },
+   "service_report_title": {
+    "en": "Report Service Delivery",
+    "hi": "तामीली रिपोर्ट दर्ज करें (Service Report)"
+   },
+   "service_status": {
+    "en": "Service Status",
+    "hi": "तामीली की स्थिति"
+   },
+   "served": {
+    "en": "Served",
+    "hi": "तामील हो गया"
+   },
+   "not_served": {
+    "en": "Not Served",
+    "hi": "तामील नहीं हुआ"
+   },
+   "recipient_name": {
+    "en": "Recipient Name",
+    "hi": "प्राप्तकर्ता का नाम"
+   },
+   "relationship": {
+    "en": "Relationship",
+    "hi": "पक्षकार से संबंध"
+   },
+   "service_date": {
+    "en": "Service Date",
+    "hi": "तामीली की तिथि"
+   },
+   "remarks_report": {
+    "en": "Remarks / Report Details",
+    "hi": "तामीली विवरण / टिप्पणी"
+   },
+   "update_report": {
+    "en": "Update Report",
+    "hi": "रिपोर्ट अपडेट"
+   },
+   "report_service": {
+    "en": "Report Service",
+    "hi": "तामीली रिपोर्ट"
+   },
+   "save_report": {
+    "en": "Save Report",
+    "hi": "रिपोर्ट सहेजें"
+   },
+   "document": {
+    "en": "Document",
+    "hi": "दस्तावेज़"
+   },
+   "digitally_signed": {
+    "en": "Digitally Signed",
+    "hi": "डिजिटल हस्ताक्षरित"
+   },
+   "verify": {
+    "en": "Verify",
+    "hi": "सत्यापित"
+   },
+   "download": {
+    "en": "Download",
+    "hi": "डाउनलोड"
+   },
+   "summon": {
+    "en": "Summon",
+    "hi": "समन"
+   },
+   "notice": {
+    "en": "Notice",
+    "hi": "नोटिस"
+   },
+   "pending": {
+    "en": "Pending",
+    "hi": "लंबित"
+   },
+   "completed_notice": {
+    "en": "Notice marked as Completed",
+    "hi": "कार्य पूरा घोषित किया गया"
+   },
+   "enter_name": {
+    "en": "Enter name",
+    "hi": "नाम दर्ज करें"
+   },
+   "enter_relationship": {
+    "en": "e.g. Self, Brother",
+    "hi": "संबंध दर्ज करें"
+   },
+   "enter_report_details": {
+    "en": "Enter report details or remarks",
+    "hi": "विवरण दर्ज करें"
+   },
+   "by_hand": {
+    "en": "By Hand",
+    "hi": "हाथों-हाथ (By Hand)"
+   },
+   "post": {
+    "en": "Post",
+    "hi": "डाक (Post)"
+   },
+   "email": {
+    "en": "Email",
+    "hi": "ईमेल (Email)"
+   },
+   "whatsapp": {
+    "en": "WhatsApp",
+    "hi": "व्हाट्सएप (WhatsApp)"
+   },
+   "court_notice_board": {
+    "en": "Court Notice Board",
+    "hi": "कोर्ट नोटिस बोर्ड (Court Notice Board)"
+   },
+   "report_saved_success": {
+    "en": "Service report saved successfully",
+    "hi": "तामीली रिपोर्ट सफलतापूर्वक सहेजी गई"
+   },
+   "signature_verified": {
+    "en": "Document signature is valid.",
+    "hi": "दस्तावेज़ हस्ताक्षर मान्य है।"
+   },
+   "signature_failed": {
+    "en": "Signature verification failed.",
+    "hi": "हस्ताक्षर सत्यापन विफल।"
+   },
+   "failed_to_create": {
+    "en": "Failed to create notice.",
+    "hi": "नोटिस बनाने में विफल।"
+   },
+   "no_dsc_token": {
+    "en": "No DSC token found. Please connect your USB token.",
+    "hi": "कोई DSC टोकन नहीं मिला। कृपया USB टोकन कनेक्ट करें।"
+   },
+   "dsc_bridge_not_running": {
+    "en": "DSC Bridge is not running. Please activate the extension.",
+    "hi": "DSC ब्रिज चालू नहीं है। कृपया एक्सटेंशन सक्रिय करें।"
+   },
+   "only_pdf": {
+    "en": "Only PDF documents can be uploaded.",
+    "hi": "केवल PDF दस्तावेज़ ही अपलोड किए जा सकते हैं।"
+   },
+   "file_too_large": {
+    "en": "File size must not exceed 10MB.",
+    "hi": "दस्तावेज़ का आकार 10MB से अधिक नहीं होना चाहिए।"
+   },
+   "choose_file": {
+    "en": "Please choose a file",
+    "hi": "कृपया कोई फ़ाइल चुनें"
+   },
+   "enter_token_pin": {
+    "en": "Please enter Token PIN",
+    "hi": "कृपया टोकन पिन दर्ज करें"
+   },
+   "signing_document": {
+    "en": "Digitally signing document locally...",
+    "hi": "दस्तावेज़ को डिजिटल रूप से हस्ताक्षरित किया जा रहा है..."
+   },
+   "no_matching_token": {
+    "en": "No USB token certificate matches the bound certificate in profile.",
+    "hi": "प्रोफ़ाइल में बाउंड प्रमाणपत्र से मेल खाता हुआ कोई USB टोकन नहीं मिला।"
+   }
+  },
+  "serve": {
+   "title": {
+    "en": "Serve Notice",
+    "hi": "नोटिस तामील करें"
+   }
+  },
+  "hearing": {
+   "title": {
+    "en": "Hearings",
+    "hi": "सुनवाई"
+   }
+  },
+  "proceedings": {
+   "title": {
+    "en": "Proceedings",
+    "hi": "कार्यवाही"
+   }
+  },
+  "adjourn": {
+   "title": {
+    "en": "Next date / Adjournment",
+    "hi": "अगली तिथि / स्थगन"
+   }
+  },
+  "draft_order": {
+   "title": {
+    "en": "Orders",
+    "hi": "आदेश"
+   }
+  },
+  "finalize_order": {
+   "title": {
+    "en": "Finalize Order",
+    "hi": "आदेश को अंतिम रूप देना"
+   }
+  },
+  "execution": {
+   "title": {
+    "en": "Execution / Compliance",
+    "hi": "निष्पादन / अनुपालन"
+   }
+  },
+  "closure": {
+   "title": {
+    "en": "Case Closure",
+    "hi": "वाद बंद करना"
+   }
+  },
+  "info": {
+   "notice": {
+    "en": "Ensure that all information entered in the following steps is accurate and complete. Incorrect or incomplete data may lead to delays or rejection of the case.",
+    "hi": "कृपया सुनिश्चित करें कि सभी जानकारी सही और पूर्ण हो। गलत या अधूरी जानकारी से केस में देरी या अस्वीकृति हो सकती है।"
+   },
+   "step1": {
+    "en": "Provide correct case details including case type, filing date, and court name.",
+    "hi": "केस प्रकार, फाइलिंग तिथि और न्यायालय का नाम सही भरें।"
+   },
+   "step2": {
+    "en": "Add all relevant parties such as plaintiffs and defendants with accurate information.",
+    "hi": "वादी और प्रतिवादी की सही जानकारी दर्ज करें।"
+   },
+   "step3": {
+    "en": "Enter land or property details carefully, including khasra and area information.",
+    "hi": "भूमि विवरण जैसे खसरा और क्षेत्रफल सावधानीपूर्वक दर्ज करें।"
+   },
+   "step4": {
+    "en": "Review all entered data before final submission.",
+    "hi": "सबमिट करने से पहले सभी जानकारी की समीक्षा करें।"
+   },
+   "next": {
+    "en": "Click Next to proceed to case details.",
+    "hi": "आगे बढ़ने के लिए Next पर क्लिक करें।"
+   }
+  },
+  "qr_upload": {
+   "title": {
+    "en": "Upload via QR",
+    "hi": "क्यूआर से अपलोड"
+   },
+   "validating": {
+    "en": "Verifying your secure link…",
+    "hi": "सुरक्षित लिंक सत्यापित हो रहा है…"
+   },
+   "validating_sub": {
+    "en": "Please wait while we check your QR session.",
+    "hi": "कृपया प्रतीक्षा करें, क्यूआर सत्र जाँचा जा रहा है।"
+   },
+   "expired_title": {
+    "en": "Link expired",
+    "hi": "लिंक समाप्त हो गया"
+   },
+   "expired_fallback": {
+    "en": "This QR link has expired or is no longer valid.",
+    "hi": "यह क्यूआर लिंक समाप्त हो गया है या मान्य नहीं है।"
+   },
+   "expired_hint": {
+    "en": "QR links are valid for 5 minutes. Please generate a new QR from your desktop and scan again.",
+    "hi": "क्यूआर लिंक 5 मिनट तक मान्य होता है। कृपया डेस्कटॉप से नया क्यूआर बनाकर दोबारा स्कैन करें।"
+   },
+   "context_hint": {
+    "en": "PDF only • Max 10 MB per file • Link expires in 5 minutes",
+    "hi": "केवल PDF • प्रति फ़ाइल अधिकतम 10 MB • लिंक 5 मिनट में समाप्त होगा"
+   },
+   "file_url_missing": {
+    "en": "Preview unavailable — file link is missing.",
+    "hi": "पूर्वावलोकन उपलब्ध नहीं — फ़ाइल लिंक मौजूद नहीं है।"
+   },
+   "timer_label": {
+    "en": "Expires in",
+    "hi": "समाप्त होने में"
+   },
+   "actions": {
+    "cancel": {
+     "en": "Cancel",
+     "hi": "रद्द करें"
+    },
+    "done": {
+     "en": "Done",
+     "hi": "पूरा हुआ"
+    },
+    "back": {
+     "en": "Back",
+     "hi": "पीछे"
+    },
+    "next": {
+     "en": "Next",
+     "hi": "आगे"
+    },
+    "add": {
+     "en": "Add",
+     "hi": "जोड़ें"
+    }
+   },
+   "validation": {
+    "category_required": {
+     "en": "Please select a document category",
+     "hi": "कृपया दस्तावेज़ श्रेणी चुनें"
+    }
+   },
+   "added_to_queue": {
+    "en": "Added to this session — tap Done to upload",
+    "hi": "इस सत्र में जोड़ा गया — अपलोड के लिए Done दबाएँ"
+   },
+   "retry_failed": {
+    "en": "Please remove or fix failed files and tap Done again.",
+    "hi": "विफल फ़ाइलों को हटाएँ या ठीक करें और फिर Done दबाएँ।"
+   },
+   "pending_hint": {
+    "en": "Files are queued in this session. Tap Done to upload them together.",
+    "hi": "फ़ाइलें इस सत्र में कतार में हैं। एक साथ अपलोड के लिए Done दबाएँ।"
+   }
+  },
+  "communication": {
+   "add_title": {
+    "en": "Add Communication",
+    "hi": "संचार जोड़ें"
+   },
+   "document_classification": {
+    "en": "Document Classification",
+    "hi": "दस्तावेज़ वर्गीकरण"
+   },
+   "subject_details": {
+    "en": "Subject Details",
+    "hi": "विषय विवरण"
+   },
+   "attachment": {
+    "en": "Document Attachment",
+    "hi": "दस्तावेज़ संलग्नक"
+   },
+   "list_title": {
+    "en": "Communications",
+    "hi": "संचार"
+   },
+   "no_communications": {
+    "en": "No communications yet",
+    "hi": "अभी कोई संचार नहीं"
+   },
+   "empty_message": {
+    "en": "Communications will appear here once created.",
+    "hi": "बनाने के बाद संचार यहाँ दिखेंगे।"
+   },
+   "communication_id": {
+    "en": "Communication ID",
+    "hi": "संचार आईडी"
+   },
+   "created_success": {
+    "en": "Communication created",
+    "hi": "संचार बनाया गया"
+   },
+   "deleted_success": {
+    "en": "Communication deleted",
+    "hi": "संचार हटा दिया गया"
+   },
+   "delete_confirm": {
+    "en": "Delete this communication?",
+    "hi": "क्या इस संचार को हटाना चाहते हैं?"
+   },
+   "issue": {
+    "en": "Create",
+    "hi": "बनाएँ"
+   },
+   "subject_title": {
+    "en": "Subject / Title",
+    "hi": "विषय / शीर्षक"
+   },
+   "enter_subject": {
+    "en": "Enter subject",
+    "hi": "विषय दर्ज करें"
+   },
+   "description": {
+    "en": "Description",
+    "hi": "विवरण"
+   },
+   "enter_description": {
+    "en": "Enter description...",
+    "hi": "विवरण दर्ज करें..."
+   },
+   "issue_date": {
+    "en": "Issue Date",
+    "hi": "जारी दिनांक"
+   }
+  },
+  "communication_service_report": {
+   "title": {
+    "en": "Service Report",
+    "hi": "तामील रिपोर्ट"
+   },
+   "service_mode_label": {
+    "en": "Service Mode",
+    "hi": "तामील माध्यम"
+   },
+   "service_mode_placeholder": {
+    "en": "Select service mode",
+    "hi": "तामील माध्यम चुनें"
+   },
+   "receiver_relation_label": {
+    "en": "Relation",
+    "hi": "संबंध"
+   },
+   "witness_title": {
+    "en": "Witnesses",
+    "hi": "गवाह"
+   },
+   "add_witness": {
+    "en": "Add Witness",
+    "hi": "गवाह जोड़ें"
+   },
+   "witness_name": {
+    "en": "Full Name",
+    "hi": "पूरा नाम"
+   },
+   "witness_phone": {
+    "en": "Phone",
+    "hi": "फ़ोन"
+   },
+   "witness_address": {
+    "en": "Address",
+    "hi": "पता"
+   },
+   "save_report": {
+    "en": "Save Report",
+    "hi": "रिपोर्ट सहेजें"
+   },
+   "saved_success": {
+    "en": "Service report saved",
+    "hi": "तामील रिपोर्ट सहेजी गई"
+   },
+   "recipient_title": {
+    "en": "Recipients",
+    "hi": "प्राप्तकर्ता"
+   },
+   "add_recipient": {
+    "en": "Add Recipients",
+    "hi": "प्राप्तकर्ता जोड़ें"
+   }
+  }
+ },
+ "land": {
+  "find": {
+   "title": {
+    "en": "Find Land Details",
+    "hi": "भूमि विवरण खोजें"
+   },
+   "description": {
+    "en": "Search land records and add details.",
+    "hi": "भूमि अभिलेख खोजें और विवरण जोड़ें।"
+   }
+  }
+ },
+ "citizen": {
+  "edit": {
+   "title": {
+    "en": "Edit Citizen Status",
+    "hi": "नागरिक स्थिति संपादित करें"
+   },
+   "description": {
+    "en": "Review citizen details and manage user account active status.",
+    "hi": "नागरिक विवरण की समीक्षा करें और उपयोगकर्ता खाते की सक्रिय स्थिति का प्रबंधन करें।"
+   },
+   "active_desc": {
+    "en": "User account is active and can login.",
+    "hi": "उपयोगकर्ता खाता सक्रिय है और लॉग इन कर सकता है।"
+   },
+   "inactive_desc": {
+    "en": "User account is suspended and cannot login.",
+    "hi": "उपयोगकर्ता खाता निलंबित है और लॉग इन नहीं कर सकता है।"
+   }
+  },
+  "view": {
+   "title": {
+    "en": "View Citizen User",
+    "hi": "नागरिक उपयोगकर्ता देखें"
+   },
+   "description": {
+    "en": "Citizen profile and account details.",
+    "hi": "नागरिक प्रोफ़ाइल और खाता विवरण।"
+   }
+  }
+ },
+ "sort": {
+  "title": {
+   "en": "Sort Cases",
+   "hi": "वाद क्रमबद्ध करें"
+  },
+  "field": {
+   "en": "Sort by",
+   "hi": "क्रमबद्ध फ़ील्ड"
+  },
+  "field_placeholder": {
+   "en": "Select field",
+   "hi": "फ़ील्ड चुनें"
+  },
+  "direction": {
+   "en": "Order",
+   "hi": "क्रम"
+  },
+  "direction_placeholder": {
+   "en": "Select order",
+   "hi": "क्रम चुनें"
+  },
+  "asc": {
+   "en": "Ascending (A → Z, Old → New)",
+   "hi": "आरोही क्रम (अ → ह, पुराना → नया)"
+  },
+  "desc": {
+   "en": "Descending (Z → A, New → Old)",
+   "hi": "अवरोही क्रम (ह → अ, नया → पुराना)"
+  },
+  "hint": {
+   "en": "Sorting is synced with URL and backend (?ordering=...). Works on both desktop and mobile.",
+   "hi": "क्रमबद्धता URL और बैकएंड (?ordering=...) के साथ सिंक है। डेस्कटॉप और मोबाइल दोनों पर लागू।"
+  }
+ }
+}

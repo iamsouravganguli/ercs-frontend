@@ -1,0 +1,172 @@
+{
+  "contact": {
+    "badge": {
+      "en": "Get in Touch",
+      "hi": "संपर्क करें"
+    },
+    "hero": {
+      "title": {
+        "en": "Contact Us",
+        "hi": "संपर्क करें"
+      },
+      "desc": {
+        "en": "Reach out to the Board of Revenue, Uttarakhand for assistance and information related to revenue court services.",
+        "hi": "राजस्व न्यायालय सेवाओं से संबंधित सहायता एवं जानकारी के लिए राजस्व परिषद, उत्तराखंड से संपर्क करें।"
+      }
+    },
+    "info": {
+      "phone": {
+        "label": {
+          "en": "Phone",
+          "hi": "फोन"
+        },
+        "value": {
+          "en": "+91 01335–2669415",
+          "hi": "+91 01335–2669415"
+        }
+      },
+      "email": {
+        "label": {
+          "en": "Email",
+          "hi": "ईमेल"
+        },
+        "value": {
+          "en": "boardofrevenue-uk@gov.in",
+          "hi": "boardofrevenue-uk@gov.in"
+        }
+      },
+      "hours": {
+        "label": {
+          "en": "Office Hours",
+          "hi": "कार्यालय समय"
+        },
+        "value": {
+          "en": "Monday – Friday, 10:00 AM – 5:00 PM (IST)",
+          "hi": "सोमवार – शुक्रवार, प्रातः 10:00 – सायं 5:00 (IST)"
+        }
+      }
+    }
+  },
+  "privacy_policy": {
+    "badge": {
+      "en": "Legal • Privacy",
+      "hi": "कानूनी • गोपनीयता"
+    },
+    "title": {
+      "en": "Privacy Policy",
+      "hi": "गोपनीयता नीति"
+    },
+    "subtitle": {
+      "en": "How we collect, use, and protect your information on the Uttarakhand e-Revenue Courts (RCCMS) portal.",
+      "hi": "उत्तराखंड ई-राजस्व न्यायालय (RCCMS) पोर्टल पर हम आपकी जानकारी कैसे एकत्र, उपयोग और सुरक्षित रखते हैं।"
+    },
+    "last_updated": {
+      "en": "Last updated: {{date}}",
+      "hi": "अंतिम अद्यतन: {{date}}"
+    },
+    "intro_note": {
+      "en": "This Privacy Policy explains what data we collect, why we collect it, and how we keep it safe. By using this portal you agree to the practices described here. For any questions, contact us via the details below.",
+      "hi": "यह गोपनीयता नीति बताती है कि हम कौन-सा डेटा एकत्र करते हैं, क्यों करते हैं और उसे कैसे सुरक्षित रखते हैं। इस पोर्टल का उपयोग करके आप यहाँ वर्णित प्रथाओं से सहमत होते हैं। किसी भी प्रश्न के लिए नीचे दिए गए संपर्क विवरण पर संपर्क करें।"
+    },
+    "sections": {
+      "intro": {
+        "title": {
+          "en": "Introduction",
+          "hi": "परिचय"
+        },
+        "desc": {
+          "en": "The Board of Revenue, Uttarakhand operates this portal to provide online access to revenue court services. We are committed to protecting your privacy and handling personal information responsibly and in accordance with applicable laws.",
+          "hi": "राजस्व परिषद, उत्तराखंड इस पोर्टल का संचालन राजस्व न्यायालय सेवाओं तक ऑनलाइन पहुँच प्रदान करने हेतु करता है। हम आपकी गोपनीयता की सुरक्षा और व्यक्तिगत जानकारी को लागू कानूनों के अनुसार जिम्मेदारी से संभालने के लिए प्रतिबद्ध हैं।"
+        }
+      },
+      "collection": {
+        "title": {
+          "en": "Information We Collect",
+          "hi": "हम कौन-सी जानकारी एकत्र करते हैं"
+        },
+        "desc": {
+          "en": "We collect information you provide directly (name, mobile, email, case details, documents) and limited technical data (device, browser, IP, logs) to operate, secure, and improve the portal. We do not collect sensitive data beyond what is required for case filing and authentication.",
+          "hi": "हम आपके द्वारा सीधे दी गई जानकारी (नाम, मोबाइल, ईमेल, वाद विवरण, दस्तावेज़) तथा पोर्टल के संचालन, सुरक्षा और सुधार हेतु सीमित तकनीकी डेटा (डिवाइस, ब्राउज़र, आईपी, लॉग) एकत्र करते हैं। हम वाद दाखिल करने और प्रमाणीकरण के लिए आवश्यक डेटा से अधिक संवेदनशील डेटा एकत्र नहीं करते।"
+        }
+      },
+      "use": {
+        "title": {
+          "en": "How We Use Information",
+          "hi": "जानकारी का उपयोग कैसे करते हैं"
+        },
+        "desc": {
+          "en": "We use your information to create and manage accounts, process case filings, display case status and notices, provide support, send service updates, and comply with legal obligations. We do not use your data for unrelated marketing without consent.",
+          "hi": "हम आपकी जानकारी का उपयोग खाते बनाने और प्रबंधित करने, वाद दाखिल करने की प्रक्रिया, वाद की स्थिति और नोटिस दिखाने, सहायता प्रदान करने, सेवा अपडेट भेजने और कानूनी दायित्वों का पालन करने के लिए करते हैं। हम आपकी सहमति के बिना असंबंधित मार्केटिंग के लिए डेटा का उपयोग नहीं करते।"
+        }
+      },
+      "sharing": {
+        "title": {
+          "en": "Sharing & Disclosure",
+          "hi": "साझाकरण एवं प्रकटीकरण"
+        },
+        "desc": {
+          "en": "We share information only with authorized court officials, government departments, or service providers as needed to deliver services or when required by law. We do not sell your personal data.",
+          "hi": "हम जानकारी केवल अधिकृत न्यायालय अधिकारियों, सरकारी विभागों या सेवा प्रदाताओं के साथ सेवाएँ प्रदान करने हेतु या कानून द्वारा अपेक्षित होने पर साझा करते हैं। हम आपका व्यक्तिगत डेटा नहीं बेचते।"
+        }
+      },
+      "security": {
+        "title": {
+          "en": "Data Security",
+          "hi": "डेटा सुरक्षा"
+        },
+        "desc": {
+          "en": "We apply reasonable administrative, technical, and physical safeguards, including encrypted transport (HTTPS), access controls, and audit logs. While we strive to protect your data, no system is 100% secure — please keep your credentials confidential.",
+          "hi": "हम एन्क्रिप्टेड ट्रांसपोर्ट (HTTPS), एक्सेस नियंत्रण और ऑडिट लॉग सहित उचित प्रशासनिक, तकनीकी और भौतिक सुरक्षा उपाय लागू करते हैं। हम आपके डेटा की सुरक्षा का भरसक प्रयास करते हैं, फिर भी कोई प्रणाली 100% सुरक्षित नहीं होती — कृपया अपने क्रेडेंशियल गोपनीय रखें।"
+        }
+      },
+      "cookies": {
+        "title": {
+          "en": "Cookies & Similar Technologies",
+          "hi": "कुकीज़ एवं समान तकनीकें"
+        },
+        "desc": {
+          "en": "We use essential cookies to keep you signed in, remember language/theme preferences, and measure portal performance. You can control cookies via your browser settings; disabling essential cookies may affect functionality.",
+          "hi": "हम आपको साइन-इन बनाए रखने, भाषा/थीम प्राथमिकताएँ याद रखने और पोर्टल प्रदर्शन मापने के लिए आवश्यक कुकीज़ का उपयोग करते हैं। आप ब्राउज़र सेटिंग्स से कुकीज़ नियंत्रित कर सकते हैं; आवश्यक कुकीज़ अक्षम करने पर कार्यक्षमता प्रभावित हो सकती है।"
+        }
+      },
+      "rights": {
+        "title": {
+          "en": "Your Rights & Choices",
+          "hi": "आपके अधिकार एवं विकल्प"
+        },
+        "desc": {
+          "en": "You may access, correct, or request deletion of your personal information subject to legal and case-record retention requirements. To exercise your rights, contact us with your registered details and case reference, if any.",
+          "hi": "आप कानूनी और वाद-अभिलेख प्रतिधारण आवश्यकताओं के अधीन अपनी व्यक्तिगत जानकारी तक पहुँच, सुधार या हटाने का अनुरोध कर सकते हैं। अपने अधिकारों का प्रयोग करने के लिए अपने पंजीकृत विवरण और यदि हो तो वाद संदर्भ के साथ हमसे संपर्क करें।"
+        }
+      },
+      "updates": {
+        "title": {
+          "en": "Changes to This Policy",
+          "hi": "इस नीति में परिवर्तन"
+        },
+        "desc": {
+          "en": "We may update this policy from time to time. Material changes will be notified on the portal. Please review this page periodically. Continued use after updates constitutes acceptance of the revised policy.",
+          "hi": "हम समय-समय पर इस नीति को अपडेट कर सकते हैं। महत्वपूर्ण परिवर्तनों की सूचना पोर्टल पर दी जाएगी। कृपया इस पृष्ठ की समय-समय पर समीक्षा करें। अपडेट के बाद निरंतर उपयोग संशोधित नीति की स्वीकृति माना जाएगा।"
+        }
+      }
+    },
+    "contact": {
+      "title": {
+        "en": "Contact Us",
+        "hi": "संपर्क करें"
+      },
+      "desc": {
+        "en": "For privacy-related queries or grievances, reach out to the Board of Revenue, Uttarakhand or use the Contact page. We aim to respond within reasonable time as per applicable norms.",
+        "hi": "गोपनीयता संबंधी प्रश्नों या शिकायतों के लिए राजस्व परिषद, उत्तराखंड से संपर्क करें या संपर्क पृष्ठ का उपयोग करें। हम लागू मानदंडों के अनुसार उचित समय में उत्तर देने का प्रयास करते हैं।"
+      },
+      "cta": {
+        "en": "Go to Contact Page",
+        "hi": "संपर्क पृष्ठ पर जाएं"
+      }
+    },
+    "footer_note": {
+      "en": "This is a basic privacy policy for the RCCMS portal. For the full legal version, please refer to official notifications from the Board of Revenue, Uttarakhand.",
+      "hi": "यह RCCMS पोर्टल के लिए एक बुनियादी गोपनीयता नीति है। पूर्ण कानूनी संस्करण के लिए कृपया राजस्व परिषद, उत्तराखंड की आधिकारिक अधिसूचनाओं को देखें।"
+    }
+  }
+}

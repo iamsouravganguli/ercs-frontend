@@ -1,0 +1,59 @@
+{
+  "id": "case_routing_v1",
+  "version": "1.0.0",
+  "step": 0,
+  "stepName": "routing",
+  "title": { "en": "Case routing — Manage vs Draft", "hi": "वाद मार्ग — प्रबंधन बनाम प्रारूप" },
+  "description": {
+    "en": "Single source of truth for Manage (/case/e-file/manage/:id) vs Draft (/case/e-file/:id) decisions and manage-tab access. Replaces copy-pasted stage/status checks in manage/cases table, draft layout guard, manage layout guard.",
+    "hi": "प्रबंधन बनाम प्रारूप निर्णय और प्रबंधन टैब पहुंच का एकल स्रोत। प्रबंधन तालिका, प्रारूप गार्ड, प्रबंधन गार्ड में बिखरे जांच का स्थान लेता है।"
+  },
+  "ruleExpression": {
+    "code": "isRejected ? 'draft' : isCitizenAdvocate ? (isManageEligible ? 'manage' : 'draft') : (isDraftStatus ? 'draft' : 'manage')",
+    "hi": "अस्वीकृत तो प्रारूप; नागरिक/अधिवक्ता तो योग्यता पर; न्यायालय पक्ष तो प्रारूप स्थिति पर प्रारूप वरना प्रबंधन"
+  },
+  "roles": [
+    { "key": "CITIZEN", "label": { "en": "Citizen / Advocate", "hi": "नागरिक / अधिवक्ता" }, "codes": ["CT", "CIT", "AD", "ADV", "LAWYER"], "mode": "strict" },
+    { "key": "COURT", "label": { "en": "Court editors", "hi": "न्यायालय संपादक" }, "codes": ["PO", "CO", "CC"], "mode": "strict" },
+    { "key": "VIEW_ONLY", "label": { "en": "View only", "hi": "केवल देखें" }, "codes": ["SA", "RI", "RSI"], "mode": "strict" }
+  ],
+  "requirements": {
+    "manageEligible": ["SCRUTINY+APPROVED", "REGISTRATION..CLOSED (any status except REJECTED)"],
+    "draftStatus": ["DRAFT", "PENDING_PAYMENT (any stage)"],
+    "alwaysDraft": ["REJECTED (any role, any stage)"]
+  },
+  "stateSchema": {
+    "role": "string (role code)",
+    "stage": "string (stage code, uppercased)",
+    "status": "string (status code, uppercased)",
+    "isRejected": "boolean",
+    "isManageEligible": "boolean",
+    "isDraftStatus": "boolean",
+    "route": "manage | draft"
+  },
+  "state": {
+    "role": "",
+    "stage": "",
+    "status": "",
+    "isRejected": false,
+    "isManageEligible": false,
+    "isDraftStatus": false,
+    "route": "draft"
+  },
+  "examples": [
+    { "id": "rejected_any", "state": { "role": "PO", "stage": "SCRUTINY", "status": "REJECTED", "isRejected": true, "route": "draft" }, "note": { "en": "REJECTED always draft, any role", "hi": "अस्वीकृत हमेशा प्रारूप" } },
+    { "id": "filing_filed_court", "state": { "role": "PO", "stage": "FILING", "status": "FILED", "isManageEligible": false, "isDraftStatus": false, "route": "manage" }, "note": { "en": "FILING+FILED court goes manage (scrutiny queue)", "hi": "दायर + दर्ज न्यायालय प्रबंधन में" } },
+    { "id": "filing_draft_court", "state": { "role": "CO", "stage": "FILING", "status": "DRAFT", "isDraftStatus": true, "route": "draft" }, "note": { "en": "Still being filed, court sees draft", "hi": "अभी भरा जा रहा है" } },
+    { "id": "scrutiny_pending_court", "state": { "role": "PO", "stage": "SCRUTINY", "status": "PENDING", "route": "manage" }, "note": { "en": "Scrutiny pending is court work", "hi": "जांच लंबित न्यायालय कार्य" } },
+    { "id": "scrutiny_approved_citizen", "state": { "role": "CT", "stage": "SCRUTINY", "status": "APPROVED", "isManageEligible": true, "route": "manage" }, "note": { "en": "Citizen enters manage after approval", "hi": "अनुमोदन के बाद नागरिक प्रबंधन में" } },
+    { "id": "scrutiny_pending_citizen", "state": { "role": "CT", "stage": "SCRUTINY", "status": "PENDING", "isManageEligible": false, "route": "draft" }, "note": { "en": "Citizen waits in draft", "hi": "नागरिक प्रारूप में प्रतीक्षा" } }
+  ],
+  "uiBehavior": {
+    "greenCondition": "route === 'manage' → open /case/e-file/manage/:id",
+    "incompleteStayGrey": "route === 'draft' → open /case/e-file/:id; REJECTED never opens manage"
+  },
+  "tabAccess": {
+    "readOnly": ["CT", "CIT", "AD", "ADV", "LAWYER", "SA", "RI", "RSI"],
+    "full": ["PO", "CO", "CC"]
+  }
+}

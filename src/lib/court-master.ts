@@ -1,0 +1,238 @@
+export const CourtLevelM = [
+  {
+    id: 1,
+    code: "BOARD_OF_REVENUE",
+    court_level_hi: "राजस्व परिषद",
+    court_level_en: "Board of Revenue",
+    display_order: 1,
+  },
+  {
+    id: 2,
+    code: "COMMISSIONARY",
+    court_level_hi: "मण्डल",
+    court_level_en: "Commissionary",
+    display_order: 2,
+  },
+  {
+    id: 3,
+    code: "DISTRICT",
+    court_level_hi: "जिला",
+    court_level_en: "District",
+    display_order: 3,
+  },
+  {
+    id: 4,
+    code: "SUB_DIVISION",
+    court_level_hi: "उपखण्ड",
+    court_level_en: "Sub-Division",
+    display_order: 4,
+  },
+  {
+    id: 5,
+    code: "TEHSIL",
+    court_level_hi: "तहसील",
+    court_level_en: "Tehsil",
+    display_order: 5,
+  },
+];
+
+export const CaseNatureCourtLevelM = [
+  {
+    id: 1,
+    case_nature_code: "ORIGINAL_CASE",
+    case_nature_hi: "मूल वाद",
+    case_nature_en: "Original Case",
+    court_level_id: "DISTRICT",
+  },
+  {
+    id: 2,
+    case_nature_code: "ORIGINAL_CASE",
+    case_nature_hi: "मूल वाद",
+    case_nature_en: "Original Case",
+    court_level_code: "SUB_DIVISION",
+  },
+  {
+    id: 3,
+    case_nature_code: "ORIGINAL_CASE",
+    case_nature_hi: "मूल वाद",
+    case_nature_en: "Original Case",
+    court_level_code: "TEHSIL",
+  },
+
+  {
+    id: 4,
+    case_nature_code: "MISCELLANEOUS_CASE",
+    case_nature_hi: "प्रकीर्ण वाद",
+    case_nature_en: "Miscellaneous Case",
+    court_level_code: "BOARD_OF_REVENUE",
+  },
+  {
+    id: 5,
+    case_nature_code: "MISCELLANEOUS_CASE",
+    case_nature_hi: "प्रकीर्ण वाद",
+    case_nature_en: "Miscellaneous Case",
+    court_level_code: "COMMISSIONARY",
+  },
+  {
+    id: 6,
+    case_nature_code: "MISCELLANEOUS_CASE",
+    case_nature_hi: "प्रकीर्ण वाद",
+    case_nature_en: "Miscellaneous Case",
+    court_level_code: "DISTRICT",
+  },
+  {
+    id: 7,
+    case_nature_code: "MISCELLANEOUS_CASE",
+    case_nature_hi: "प्रकीर्ण वाद",
+    case_nature_en: "Miscellaneous Case",
+    court_level_code: "SUB_DIVISION",
+  },
+  {
+    id: 8,
+    case_nature_code: "MISCELLANEOUS_CASE",
+    case_nature_hi: "प्रकीर्ण वाद",
+    case_nature_en: "Miscellaneous Case",
+    court_level_code: "TEHSIL",
+  },
+
+  {
+    id: 9,
+    case_nature_code: "APPEAL",
+    case_nature_hi: "अपील",
+    case_nature_en: "Appeal",
+    court_level_code: "BOARD_OF_REVENUE",
+  },
+  {
+    id: 10,
+    case_nature_code: "APPEAL",
+    case_nature_hi: "अपील",
+    case_nature_en: "Appeal",
+    court_level_code: "COMMISSIONARY",
+  },
+  {
+    id: 11,
+    case_nature_code: "APPEAL",
+    case_nature_hi: "अपील",
+    case_nature_en: "Appeal",
+    court_level_code: "DISTRICT",
+  },
+  {
+    id: 12,
+    case_nature_code: "APPEAL",
+    case_nature_hi: "अपील",
+    case_nature_en: "Appeal",
+    court_level_code: "SUB_DIVISION",
+  },
+
+  {
+    id: 13,
+    case_nature_code: "REVISION",
+    case_nature_hi: "रिवीजन",
+    case_nature_en: "Revision",
+    court_level_code: "BOARD_OF_REVENUE",
+  },
+  {
+    id: 14,
+    case_nature_code: "REVISION",
+    case_nature_hi: "रिवीजन",
+    case_nature_en: "Revision",
+    court_level_code: "COMMISSIONARY",
+  },
+  {
+    id: 15,
+    case_nature_code: "REVISION",
+    case_nature_hi: "रिवीजन",
+    case_nature_en: "Revision",
+    court_level_code: "DISTRICT",
+  },
+
+  {
+    id: 16,
+    case_nature_code: "REVIEW",
+    case_nature_hi: "पुनर्विलोकन",
+    case_nature_en: "Review",
+    court_level_code: "BOARD_OF_REVENUE",
+  },
+
+  {
+    id: 17,
+    case_nature_code: "TRANSFER",
+    case_nature_hi: "स्थानांतरण",
+    case_nature_en: "Transfer",
+    court_level_code: "BOARD_OF_REVENUE",
+  },
+  {
+    id: 18,
+    case_nature_code: "TRANSFER",
+    case_nature_hi: "स्थानांतरण",
+    case_nature_en: "Transfer",
+    court_level_code: "COMMISSIONARY",
+  },
+  {
+    id: 19,
+    case_nature_code: "TRANSFER",
+    case_nature_hi: "स्थानांतरण",
+    case_nature_en: "Transfer",
+    court_level_code: "DISTRICT",
+  },
+  {
+    id: 20,
+    case_nature_code: "TRANSFER",
+    case_nature_hi: "स्थानांतरण",
+    case_nature_en: "Transfer",
+    court_level_code: "SUB_DIVISION",
+  },
+
+  {
+    id: 21,
+    case_nature_code: "RESTORATION",
+    case_nature_hi: "पुनर्स्थापना",
+    case_nature_en: "Restoration",
+    court_level_code: "BOARD_OF_REVENUE",
+  },
+  {
+    id: 22,
+    case_nature_code: "RESTORATION",
+    case_nature_hi: "पुनर्स्थापना",
+    case_nature_en: "Restoration",
+    court_level_code: "COMMISSIONARY",
+  },
+  {
+    id: 23,
+    case_nature_code: "RESTORATION",
+    case_nature_hi: "पुनर्स्थापना",
+    case_nature_en: "Restoration",
+    court_level_code: "DISTRICT",
+  },
+  {
+    id: 24,
+    case_nature_code: "RESTORATION",
+    case_nature_hi: "पुनर्स्थापना",
+    case_nature_en: "Restoration",
+    court_level_code: "SUB_DIVISION",
+  },
+  {
+    id: 25,
+    case_nature_code: "RESTORATION",
+    case_nature_hi: "पुनर्स्थापना",
+    case_nature_en: "Restoration",
+    court_level_code: "TEHSIL",
+  },
+
+  {
+    id: 26,
+    case_nature_code: "REFERENCE",
+    case_nature_hi: "सन्दर्भ",
+    case_nature_en: "Reference",
+    court_level_code: "BOARD_OF_REVENUE",
+  },
+  {
+    id: 27,
+    case_nature_code: "REFERENCE",
+    case_nature_hi: "सन्दर्भ",
+    case_nature_en: "Reference",
+    court_level_code: "COMMISSIONARY",
+  },
+];
+
+export const CaseAppealM = [{}];

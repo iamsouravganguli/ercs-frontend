@@ -1,0 +1,2317 @@
+{
+  "brand": {
+    "title": {
+      "en": "Uttarakhand e-Revenue Courts",
+      "hi": "उत्तराखंड ई-राजस्व न्यायालय"
+    },
+    "subtitle": {
+      "en": "Board of Revenue, Uttarakhand",
+      "hi": "राजस्व परिषद उत्तराखण्ड"
+    },
+    "admin_title": {
+      "en": "Administrator",
+      "hi": "प्रशासक"
+    },
+    "court_title": {
+      "en": "Court",
+      "hi": "न्यायालय"
+    },
+    "court_subtitle": {
+      "en": "Board of Revenue, Uttarakhand",
+      "hi": "राजस्व परिषद उत्तराखण्ड"
+    },
+    "admin_subtitle": {
+      "en": "Manage master data and RBAC",
+      "hi": "मास्टर डेटा और RBAC प्रबंधित करें"
+    },
+    "case_title": {
+      "en": "e-Filing",
+      "hi": "ई-फाइलिंग"
+    },
+    "case_subtitle": {
+      "en": "Board of Revenue, Uttarakhand",
+      "hi": "राजस्व परिषद उत्तराखण्ड"
+    },
+    "description": {
+      "en": "Revenue Court's Computerized Management System (RCCMS) is an integrated digital platform designed to streamline revenue court case management and ensure transparency and timely disposal of cases.",
+      "hi": "राजस्व न्यायालयों के मामलों के प्रभावी प्रबंधन, पारदर्शिता एवं त्वरित निस्तारण हेतु विकसित एकीकृत डिजिटल प्रणाली।"
+    },
+    "gov": {
+      "en": "Government of Uttarakhand",
+      "hi": "उत्तराखंड सरकार"
+    },
+    "developed_by": {
+      "en": "Developed by National Informatics Centre (NIC), Uttarakhand State Unit",
+      "hi": "राष्ट्रीय सूचना विज्ञान केंद्र (एनआईसी), उत्तराखंड राज्य इकाई द्वारा विकसित"
+    },
+    "hosted_by": {
+      "en": "Hosted by SDC, ITDA Uttarakhand",
+      "hi": "एसडीसी, आईटीडीए उत्तराखंड द्वारा होस्ट किया गया"
+    },
+    "content_owned_managed_by": {
+      "en": "Contents owned and managed by Board of Revenue, Uttarakhand",
+      "hi": "सामग्री का स्वामित्व एवं प्रबंधन राजस्व परिषद, उत्तराखंड द्वारा किया जाता है"
+    },
+    "all_rights_reserved": {
+      "en": "All rights reserved.",
+      "hi": "सर्वाधिकार सुरक्षित।"
+    },
+    "copyright_simple": {
+      "en": "Board of Revenue, Government of Uttarakhand",
+      "hi": "राजस्व परिषद, उत्तराखंड सरकार"
+    },
+    "address": {
+      "label": {
+        "en": "Address",
+        "hi": "पता"
+      },
+      "value": {
+        "en": "Department of Revenue Board, Uttarakhand\nMussoorie Bypass Ring Road\nLadpur, Dehradun – 248001",
+        "hi": "राजस्व परिषद विभाग, उत्तराखण्ड\nमसूरी बाईपास रिंग रोड\nलाडपुर, देहरादून – 248001"
+      }
+    }
+  },
+  "heading": {
+    "quickLinks": {
+      "en": "QUICK LINKS",
+      "hi": "त्वरित लिंक"
+    },
+    "legal": {
+      "en": "LEGAL",
+      "hi": "कानूनी"
+    },
+    "contact": {
+      "en": "CONTACT",
+      "hi": "संपर्क"
+    }
+  },
+  "header": {
+    "search_case": {
+      "en": "Search Case",
+      "hi": "मामला खोजें"
+    },
+    "search_ticket": {
+      "en": "Search Ticket",
+      "hi": "टिकट खोजें"
+    },
+    "home": {
+      "en": "Home",
+      "hi": "मुख्य पृष्ठ"
+    },
+    "about": {
+      "en": "About",
+      "hi": "हमारे बारे में"
+    },
+    "contact": {
+      "en": "Contact",
+      "hi": "संपर्क"
+    },
+    "signin": {
+      "en": "Sign In",
+      "hi": "साइन इन करें"
+    },
+    "signup": {
+      "en": "Sign Up",
+      "hi": "साइन अप करें"
+    },
+    "signout": {
+      "en": "Sign Out",
+      "hi": "साइन आउट करें"
+    },
+    "reset_password": {
+      "en": "Reset Password",
+      "hi": "पासवर्ड रीसेट करें"
+    },
+    "signed_in": {
+      "en": "Signed in",
+      "hi": "साइन इन हो चुके हैं"
+    },
+    "dashboard": {
+      "en": "Dashboard",
+      "hi": "डैशबोर्ड"
+    },
+    "my_account": {
+      "en": "My Account",
+      "hi": "मेरा खाता"
+    },
+    "preferences": {
+      "en": "Preferences",
+      "hi": "प्राथमिकताएँ"
+    },
+    "language": {
+      "en": "Language",
+      "hi": "भाषा"
+    },
+    "theme": {
+      "en": "Theme",
+      "hi": "थीम"
+    },
+    "light": {
+      "en": "Light",
+      "hi": "लाइट"
+    },
+    "dark": {
+      "en": "Dark",
+      "hi": "डार्क"
+    },
+    "english": {
+      "en": "English",
+      "hi": "अंग्रेज़ी"
+    },
+    "hindi": {
+      "en": "Hindi",
+      "hi": "हिन्दी"
+    }
+  },
+  "hero": {
+    "title_line1": {
+      "en": "Revenue Court's",
+      "hi": "राजस्व न्यायालयों का"
+    },
+    "title_line2": {
+      "en": "Computerized Management System",
+      "hi": "कम्प्यूटरीकृत प्रबंधन प्रणाली"
+    },
+    "title": {
+      "en": "Revenue Court's Computerized Management System",
+      "hi": "राजस्व न्यायालयों का कम्प्यूटरीकृत प्रबंधन प्रणाली"
+    },
+    "subtitle": {
+      "en": "Official portal for the online filing of land/property-related cases in the Revenue Courts of Uttarakhand. Citizens can file suits, track case status, upload/obtain documents, and receive digital updates regarding hearings.",
+      "hi": "उत्तराखंड के राजस्व न्यायालयों में भूमि/संपत्ति संबंधी मामलों की ऑनलाइन फाइलिंग हेतु आधिकारिक पोर्टल। नागरिक विवाद दर्ज कर सकते हैं, वाद की स्थिति देख सकते हैं, दस्तावेज़ अपलोड कर सकते हैं तथा सुनवाई से संबंधित अद्यतन जानकारी डिजिटल रूप से प्राप्त कर सकते हैं।"
+    },
+    "stats": {
+      "title": {
+        "en": "Statistics",
+        "hi": "आंकड़े"
+      },
+      "subtitle": {
+        "en": "Overview of case filings, disposals, and pending matters",
+        "hi": "वाद दाखिल, निस्तारण और लंबित मामलों का अवलोकन"
+      },
+      "filed": {
+        "en": "Cases Filed",
+        "hi": "दायर वाद"
+      },
+      "disposed": {
+        "en": "Cases Disposed",
+        "hi": "निस्तारित वाद"
+      },
+      "pending": {
+        "en": "Pending Cases",
+        "hi": "लंबित वाद"
+      },
+      "courts": {
+        "en": "Revenue Courts",
+        "hi": "राजस्व न्यायालय"
+      }
+    },
+    "actions": {
+      "signin": {
+        "en": "Sign In",
+        "hi": "साइन इन"
+      },
+      "signup": {
+        "en": "Sign Up",
+        "hi": "साइन अप"
+      },
+      "dashboard": {
+        "en": "Dashboard",
+        "hi": "डैशबोर्ड"
+      }
+    }
+  },
+  "dashboard": {
+    "stats": {
+      "draft": { "en": "Draft", "hi": "मसौदा" },
+      "rejected": { "en": "Rejected", "hi": "खारिज" },
+      "hearings": { "en": "Hearings", "hi": "सुनवाई" },
+      "sub_your_drafts": { "en": "your drafts", "hi": "आपके मसौदे" },
+      "sub_draft": { "en": "draft", "hi": "मसौदा" },
+      "sub_your_cases": { "en": "your cases", "hi": "आपके वाद" },
+      "sub_total": { "en": "total", "hi": "कुल" },
+      "sub_your_pending": { "en": "your pending", "hi": "आपके लंबित" },
+      "sub_pending": { "en": "pending", "hi": "लंबित" },
+      "sub_your_disposed": { "en": "your disposed", "hi": "आपके निस्तारित" },
+      "sub_disposed": { "en": "disposed", "hi": "निस्तारित" },
+      "sub_your_rejected": { "en": "your rejected", "hi": "आपके खारिज" },
+      "sub_rejected": { "en": "rejected", "hi": "खारिज" },
+      "sub_your_hearings": { "en": "your hearings", "hi": "आपकी सुनवाई" },
+      "sub_scheduled": { "en": "scheduled", "hi": "निर्धारित" },
+      "total": { "en": "Total", "hi": "कुल" },
+      "status_wise_title": { "en": "Status-wise Distribution", "hi": "स्थिति अनुसार विभाजन" },
+      "status_wise_desc": { "en": "Draft / Pending / Disposed / Rejected", "hi": "मसौदा / लंबित / निस्तारित / खारिज" },
+      "monthly_title": { "en": "Monthly Filing Trend", "hi": "मासिक दाखिला प्रवृत्ति" },
+      "monthly_desc": { "en": "Cases filed per month — last 6 months", "hi": "पिछले 6 महीनों में दायर वाद" },
+      "filed_label": { "en": "Filed", "hi": "दायर वाद" }
+    }
+  },
+  "sections": {
+    "basic_details": {
+      "en": "Basic Details",
+      "hi": "मूल विवरण"
+    },
+    "location_details": {
+      "en": "Location Details",
+      "hi": "स्थान विवरण"
+    },
+    "court_details": {
+      "en": "Court Details",
+      "hi": "न्यायालय विवरण"
+    },
+    "statistics": {
+      "en": "Statistics",
+      "hi": "सांख्यिकी"
+    },
+    "case_stages_breakdown": {
+      "en": "Case Stages Breakdown",
+      "hi": "वाद चरण विभाजन"
+    },
+    "case_stages_breakdown_desc": {
+      "en": "Distribution of cases across stages",
+      "hi": "चरणों में वादों का वितरण"
+    },
+    "quick_actions": {
+      "en": "Quick Actions",
+      "hi": "त्वरित कार्य"
+    },
+    "account_actions": {
+      "en": "Account Actions",
+      "hi": "खाता संबंधी कार्य"
+    }
+  },
+  "profile_details": {
+    "name": {
+      "en": "Name",
+      "hi": "नाम"
+    },
+    "username": {
+      "en": "Username",
+      "hi": "यूज़रनेम"
+    },
+    "email": {
+      "en": "Email",
+      "hi": "ईमेल"
+    },
+    "phone": {
+      "en": "Phone Number",
+      "hi": "मोबाइल नंबर"
+    },
+    "role": {
+      "en": "Role",
+      "hi": "भूमिका"
+    },
+    "employee_id": {
+      "en": "Employee ID",
+      "hi": "कर्मचारी आईडी"
+    }
+  },
+  "page_tab": {
+    "types": {
+      "en": "Types",
+      "hi": "प्रकार"
+    },
+    "categories": {
+      "en": "Categories",
+      "hi": "श्रेणियाँ"
+    },
+    "sub_categories": {
+      "en": "Sub-Categories",
+      "hi": "उप-श्रेणियाँ"
+    },
+    "priorities": {
+      "en": "Priorities",
+      "hi": "प्राथमिकताएँ"
+    },
+    "statuses": {
+      "en": "Statuses",
+      "hi": "स्थितियाँ"
+    },
+    "escalation_levels": {
+      "en": "Escalation Levels",
+      "hi": "स्केलेशन स्तर"
+    },
+    "resolution_types": {
+      "en": "Resolution Types",
+      "hi": "समाधान प्रकार"
+    },
+    "support_types": {
+      "en": "Support Types",
+      "hi": "सहायता प्रकार"
+    },
+    "support_categories": {
+      "en": "Support Categories",
+      "hi": "सहायता श्रेणियाँ"
+    },
+    "support_sub_categories": {
+      "en": "Support Sub-Categories",
+      "hi": "सहायता उप-श्रेणियाँ"
+    },
+    "support_priorities": {
+      "en": "Support Priorities",
+      "hi": "सहायता प्राथमिकताएँ"
+    },
+    "support_statuses": {
+      "en": "Support Statuses",
+      "hi": "सहायता स्थितियाँ"
+    },
+    "support_escalation_levels": {
+      "en": "Support Escalation Levels",
+      "hi": "सहायता स्केलेशन स्तर"
+    },
+    "support_resolution_types": {
+      "en": "Support Resolution Types",
+      "hi": "सहायता समाधान प्रकार"
+    },
+    "courts": {
+      "en": "Courts",
+      "hi": "न्यायालय"
+    },
+    "announcements": {
+      "en": "Announcements",
+      "hi": "घोषणाएँ"
+    },
+    "court_location": {
+      "en": "Court Locations",
+      "hi": "न्यायालय स्थान"
+    },
+    "system_user": {
+      "en": "System Users",
+      "hi": "सिस्टम उपयोगकर्ता"
+    },
+    "court_user": {
+      "en": "Court Users",
+      "hi": "न्यायालय उपयोगकर्ता"
+    },
+    "citizen_user": {
+      "en": "Citizen Users",
+      "hi": "नागरिक उपयोगकर्ता"
+    },
+    "roles": {
+      "en": "Roles",
+      "hi": "भूमिकाएँ"
+    },
+    "permissions": {
+      "en": "Permissions",
+      "hi": "अनुमतियाँ"
+    },
+    "policy": {
+      "en": "Policies",
+      "hi": "नीतियाँ"
+    },
+    "mutation": {
+      "en": "Mutation",
+      "hi": "नामांतरण (दाखिल-खारिज)"
+    },
+    "profile": {
+      "en": "Profile",
+      "hi": "प्रोफ़ाइल"
+    },
+    "dsc": {
+      "en": "DSC",
+      "hi": "डीएससी"
+    },
+    "dsc_management": {
+      "en": "DSC Management",
+      "hi": "डीएससी प्रबंधन"
+    },
+    "sessions": {
+      "en": "Sessions",
+      "hi": "सत्र"
+    },
+    "security": {
+      "en": "Security",
+      "hi": "सुरक्षा"
+    },
+    "eregistrations": {
+      "en": "e-Registrations",
+      "hi": "ई-पंजीयन"
+    }
+  },
+  "filter": {
+    "section": {
+      "court_role": {
+        "en": "Court & Role",
+        "hi": "न्यायालय और भूमिका"
+      },
+      "court_case": {
+        "en": "Court & Case Details",
+        "hi": "न्यायालय एवं वाद विवरण"
+      },
+      "stage_status": {
+        "en": "Stage & Status",
+        "hi": "चरण एवं स्थिति"
+      },
+      "contact_details": {
+        "en": "Contact Details",
+        "hi": "संपर्क विवरण"
+      },
+      "location_details": {
+        "en": "Location Details",
+        "hi": "स्थान का विवरण"
+      },
+      "registration_date": {
+        "en": "Registration Date Range",
+        "hi": "पंजीकरण तिथि सीमा"
+      },
+      "payment_details": {
+        "en": "Payment Details",
+        "hi": "भुगतान विवरण"
+      }
+    },
+    "date_from": {
+      "en": "From Date",
+      "hi": "प्रारंभ तिथि"
+    },
+    "date_to": {
+      "en": "To Date",
+      "hi": "अंतिम तिथि"
+    }
+  },
+  "payments": {
+    "description": {
+      "en": "Description",
+      "hi": "विवरण"
+    },
+    "amount": {
+      "en": "Amount",
+      "hi": "राशि"
+    },
+    "mode": {
+      "en": "Payment Mode",
+      "hi": "भुगतान माध्यम"
+    },
+    "mode_placeholder": {
+      "en": "Select Mode",
+      "hi": "माध्यम चुनें"
+    },
+    "sort_title": {
+      "en": "Sort Payments",
+      "hi": "भुगतान क्रमबद्ध करें"
+    },
+    "status": {
+      "en": "Payment Status",
+      "hi": "भुगतान की स्थिति"
+    },
+    "total_credits": {
+      "en": "Total Credited",
+      "hi": "कुल जमा"
+    },
+    "total_debits": {
+      "en": "Total Debits",
+      "hi": "कुल डेबिट"
+    },
+    "empty": {
+      "en": "No payments found for your profile. Payments will appear here after you pay case fees.",
+      "hi": "आपकी प्रोफ़ाइल के लिए कोई भुगतान नहीं मिला। भुगतान यहाँ वाद शुल्क जमा करने के बाद दिखेंगे।"
+    },
+    "no_case": {
+      "en": "No case linked",
+      "hi": "कोई वाद लिंक नहीं"
+    }
+  },
+  "basicInfo": {
+    "name": {
+      "en": "Name",
+      "hi": "नाम"
+    },
+    "username": {
+      "en": "Username",
+      "hi": "यूज़रनेम"
+    },
+    "email": {
+      "en": "Email",
+      "hi": "ईमेल"
+    },
+    "phone": {
+      "en": "Phone Number",
+      "hi": "फोन नंबर"
+    },
+    "role": {
+      "en": "Role",
+      "hi": "भूमिका"
+    },
+    "employeeId": {
+      "en": "Employee ID",
+      "hi": "कर्मचारी आईडी"
+    },
+    "barCouncilNo": {
+      "en": "Bar Council Number",
+      "hi": "बार काउंसिल नंबर"
+    },
+    "gender": {
+      "en": "Gender",
+      "hi": "लिंग"
+    },
+    "password": {
+      "en": "Password",
+      "hi": "पासवर्ड"
+    }
+  },
+  "location": {
+    "state_code_census": {
+      "label": {
+        "en": "State Code",
+        "hi": "राज्य कोड"
+      }
+    },
+    "state_name": {
+      "label": {
+        "en": "State",
+        "hi": "राज्य"
+      }
+    },
+    "mandal_code": {
+      "label": {
+        "en": "Mandal Code",
+        "hi": "मंडल कोड"
+      }
+    },
+    "mandal_name": {
+      "label": {
+        "en": "Mandal",
+        "hi": "मंडल"
+      }
+    },
+    "district_code_census": {
+      "label": {
+        "en": "District Code",
+        "hi": "जिला कोड"
+      }
+    },
+    "district_name": {
+      "label": {
+        "en": "District",
+        "hi": "जिला"
+      }
+    },
+    "tehsil_code_census": {
+      "label": {
+        "en": "Tehsil Code",
+        "hi": "तहसील कोड"
+      }
+    },
+    "tehsil_name": {
+      "label": {
+        "en": "Tehsil",
+        "hi": "तहसील"
+      }
+    },
+    "pargana_code": {
+      "label": {
+        "en": "Pargana Code",
+        "hi": "परगना कोड"
+      }
+    },
+    "pargana_name": {
+      "label": {
+        "en": "Pargana",
+        "hi": "परगना"
+      }
+    },
+    "ricircle_code": {
+      "label": {
+        "en": "Revenue Inspector Area Code",
+        "hi": "राजस्व निरीक्षक क्षेत्र कोड"
+      }
+    },
+    "ricircle_name": {
+      "label": {
+        "en": "Revenue Inspector Area",
+        "hi": "राजस्व निरीक्षक क्षेत्र"
+      }
+    },
+    "rsicircle_code": {
+      "label": {
+        "en": "Revenue Sub-Inspector Area Code",
+        "hi": "राजस्व उपनिरीक्षक क्षेत्र कोड"
+      }
+    },
+    "rsicircle_name": {
+      "label": {
+        "en": "Revenue Sub-Inspector Area",
+        "hi": "राजस्व उपनिरीक्षक क्षेत्र"
+      }
+    },
+    "village_code_census": {
+      "label": {
+        "en": "Village Code",
+        "hi": "ग्राम कोड"
+      }
+    },
+    "village_name": {
+      "label": {
+        "en": "Village",
+        "hi": "ग्राम"
+      }
+    },
+    "address": {
+      "label": {
+        "en": "Address",
+        "hi": "पता"
+      }
+    }
+  },
+  "common_status": {
+    "no_data": {
+      "label": {
+        "en": "No data found",
+        "hi": "कोई डेटा नहीं मिला"
+      },
+      "description": {
+        "en": "There's nothing to show right now.",
+        "hi": "अभी दिखाने के लिए कुछ नहीं है।"
+      }
+    },
+    "load_failed": {
+      "label": {
+        "en": "Failed to load data",
+        "hi": "डेटा लोड नहीं हो पाया"
+      }
+    },
+    "something_wrong": {
+      "label": {
+        "en": "Something went wrong",
+        "hi": "कुछ गलत हो गया"
+      },
+      "description": {
+        "en": "We couldn't complete your request. Please try again.",
+        "hi": "हम आपका अनुरोध पूरा नहीं कर पाए। कृपया फिर से कोशिश करें।"
+      }
+    },
+    "not_available": {
+      "label": {
+        "en": "N/A",
+        "hi": "उपलब्ध नहीं"
+      }
+    }
+  },
+  "common_button": {
+    "filter": {
+      "label": {
+        "en": "Filter",
+        "hi": "फ़िल्टर"
+      }
+    },
+    "filtered": {
+      "label": {
+        "en": "Filtered",
+        "hi": "फ़िल्टर किया हुआ"
+      }
+    },
+    "clear_filter": {
+      "label": {
+        "en": "Clear Filters",
+        "hi": "फ़िल्टर साफ़ करें"
+      }
+    },
+    "add": {
+      "label": {
+        "en": "Add",
+        "hi": "जोड़ें"
+      }
+    },
+    "edit": {
+      "label": {
+        "en": "Edit",
+        "hi": "संपादित करें"
+      }
+    },
+    "change": {
+      "label": {
+        "en": "Change",
+        "hi": "बदलें"
+      }
+    },
+    "save": {
+      "label": {
+        "en": "Save",
+        "hi": "सहेजें"
+      }
+    },
+    "save_changes": {
+      "label": {
+        "en": "Save Changes",
+        "hi": "बदलाव सहेजें"
+      }
+    },
+    "cancel": {
+      "label": {
+        "en": "Cancel",
+        "hi": "रद्द करें"
+      }
+    },
+    "update": {
+      "label": {
+        "en": "Update",
+        "hi": "अपडेट करें"
+      }
+    },
+    "delete": {
+      "label": {
+        "en": "Delete",
+        "hi": "हटाएँ"
+      }
+    },
+    "confirm": {
+      "label": {
+        "en": "Confirm",
+        "hi": "पुष्टि करें"
+      }
+    },
+    "back": {
+      "label": {
+        "en": "Go Back",
+        "hi": "वापस जाएँ"
+      }
+    },
+    "close": {
+      "label": {
+        "en": "Close",
+        "hi": "बंद करें"
+      }
+    },
+    "retry": {
+      "label": {
+        "en": "Try Again",
+        "hi": "फिर से कोशिश करें"
+      }
+    },
+    "refresh": {
+      "label": {
+        "en": "Refresh",
+        "hi": "रिफ्रेश करें"
+      }
+    },
+    "loading": {
+      "label": {
+        "en": "Loading...",
+        "hi": "लोड हो रहा है..."
+      }
+    },
+    "saving": {
+      "label": {
+        "en": "Saving...",
+        "hi": "सहेजा जा रहा है..."
+      }
+    },
+    "continue": {
+      "label": {
+        "en": "Continue",
+        "hi": "जारी रखें"
+      }
+    },
+    "reset": {
+      "label": {
+        "en": "Reset",
+        "hi": "रीसेट करें"
+      }
+    },
+    "apply": {
+      "label": {
+        "en": "Apply",
+        "hi": "लागू करें"
+      }
+    }
+  },
+  "common": {
+    "cancel": {
+      "en": "Cancel",
+      "hi": "रद्द करें"
+    },
+    "continue": {
+      "en": "Continue",
+      "hi": "आगे बढ़ें"
+    },
+    "are_you_sure": {
+      "en": "Are you sure?",
+      "hi": "क्या आप आश्वस्त हैं?"
+    },
+    "cannot_be_undone": {
+      "en": "This action cannot be undone.",
+      "hi": "यह क्रिया पूर्ववत नहीं की जा सकती।"
+    },
+    "confirm_word_instruction": {
+      "en": "Please type {word} to confirm:",
+      "hi": "पुष्टि करने के लिए कृपया {word} टाइप करें:"
+    },
+    "confirm_word_placeholder": {
+      "en": "Type {word}",
+      "hi": "{word} टाइप करें"
+    },
+    "dsc_detail_title": {
+      "en": "DSC Detail",
+      "hi": "डीएससी विवरण"
+    },
+    "dsc_detail_subtitle": {
+      "en": "Registered digital signature certificate details",
+      "hi": "पंजीकृत डिजिटल हस्ताक्षर प्रमाणपत्र विवरण"
+    },
+    "dsc_parameters": {
+      "en": "Certificate Parameters",
+      "hi": "प्रमाणपत्र पैरामीटर"
+    },
+    "end_all": {
+      "en": "End All",
+      "hi": "सभी समाप्त करें"
+    },
+    "add_new": {
+      "en": "Add New",
+      "hi": "नया जोड़ें"
+    },
+    "active": {
+      "en": "Active",
+      "hi": "सक्रिय"
+    },
+    "inactive": {
+      "en": "Inactive",
+      "hi": "निष्क्रिय"
+    },
+    "visible": {
+      "en": "Visible",
+      "hi": "दृश्य"
+    },
+    "hidden": {
+      "en": "Hidden",
+      "hi": "अदृश्य"
+    },
+    "unidentified": {
+      "en": "Unidentified",
+      "hi": "अज्ञात"
+    },
+    "unknown": {
+      "en": "Unknown",
+      "hi": "अज्ञात"
+    },
+    "yes": {
+      "en": "Yes",
+      "hi": "हाँ"
+    },
+    "no": {
+      "en": "No",
+      "hi": "नहीं"
+    },
+    "delete": {
+      "en": "Delete",
+      "hi": "हटाएं"
+    },
+    "confirm_delete_title": {
+      "en": "Are you sure you want to delete this?",
+      "hi": "क्या आप वाकई इसे हटाना चाहते हैं?"
+    },
+    "confirm_delete_desc": {
+      "en": "This action cannot be undone.",
+      "hi": "यह क्रिया पूर्ववत नहीं की जा सकती।"
+    },
+    "confirm_activate_title": {
+      "en": "Activate DSC Certificate?",
+      "hi": "डीएससी प्रमाणपत्र सक्रिय करें?"
+    },
+    "confirm_activate_desc": {
+      "en": "This will activate the certificate and deactivate other certificates for this user.",
+      "hi": "यह प्रमाणपत्र सक्रिय होगा और इस उपयोगकर्ता के अन्य प्रमाणपत्र निष्क्रिय हो जाएंगे।"
+    },
+    "confirm_deactivate_title": {
+      "en": "Deactivate DSC Certificate?",
+      "hi": "डीएससी प्रमाणपत्र निष्क्रिय करें?"
+    },
+    "confirm_deactivate_desc": {
+      "en": "This will temporarily disable this digital signature certificate.",
+      "hi": "यह डिजिटल हस्ताक्षर प्रमाणपत्र अस्थायी रूप से अक्षम हो जाएगा।"
+    },
+    "activate": {
+      "en": "Activate",
+      "hi": "सक्रिय करें"
+    },
+    "deactivate": {
+      "en": "Deactivate",
+      "hi": "निष्क्रिय करें"
+    }
+  },
+  "table": {
+    "case_number": {
+      "en": "Case Number",
+      "hi": "वाद संख्या"
+    },
+    "case_nature": {
+      "en": "Case Nature",
+      "hi": "वाद का प्रकार"
+    },
+    "act": {
+      "en": "Act",
+      "hi": "अधिनियम"
+    },
+    "case_stage": {
+      "en": "Case Stage",
+      "hi": "वाद का चरण"
+    },
+    "case_status": {
+      "en": "Case Status",
+      "hi": "वाद की स्थिति"
+    },
+    "updated_at": {
+      "en": "Updated At",
+      "hi": "अंतिम अद्यतन"
+    },
+    "id": {
+      "en": "ID",
+      "hi": "आईडी"
+    },
+    "court_level": {
+      "en": "Court Level",
+      "hi": "न्यायालय स्तर"
+    },
+    "court_name": {
+      "en": "Court Name",
+      "hi": "न्यायालय का नाम"
+    },
+    "display_order": {
+      "en": "Display Order",
+      "hi": "प्रदर्शन क्रम"
+    },
+    "map_location": {
+      "en": "View on Map",
+      "hi": "मानचित्र पर देखें"
+    },
+    "state": {
+      "en": "State",
+      "hi": "राज्य"
+    },
+    "mandal": {
+      "en": "Mandal",
+      "hi": "मंडल"
+    },
+    "district": {
+      "en": "District",
+      "hi": "जिला"
+    },
+    "name": {
+      "en": "Name",
+      "hi": "नाम"
+    },
+    "name_en": {
+      "en": "English Name",
+      "hi": "अंग्रेज़ी नाम"
+    },
+    "uniqueNo": {
+      "en": "Unique No.",
+      "hi": "यूनिक नंबर"
+    },
+    "regNo": {
+      "en": "Reg. No.",
+      "hi": "पंजीकरण संख्या"
+    },
+    "regDate": {
+      "en": "Reg. Date",
+      "hi": "पंजीकरण तिथि"
+    },
+    "deed": {
+      "en": "Deed",
+      "hi": "रजिस्ट्री (विलेख)"
+    },
+    "subDeed": {
+      "en": "Sub Deed",
+      "hi": "उप-प्रकार (विलेख)"
+    },
+    "deedWriter": {
+      "en": "Deed Writer",
+      "hi": "विलेख लेखक"
+    },
+    "landDetails": {
+      "en": "Land Details",
+      "hi": "भूमि विवरण"
+    },
+    "area": {
+      "en": "Area",
+      "hi": "क्षेत्रफल"
+    },
+    "khatoni": {
+      "en": "Khatoni",
+      "hi": "खतौनी"
+    },
+    "khasra": {
+      "en": "Khasra",
+      "hi": "खसरा"
+    },
+    "sellers": {
+      "en": "Sellers",
+      "hi": "विक्रेता"
+    },
+    "buyers": {
+      "en": "Buyers",
+      "hi": "क्रेता"
+    },
+    "tehsil": {
+      "en": "Tehsil",
+      "hi": "तहसील"
+    },
+    "sroApplicationRecDate": {
+      "en": "SRO Rec. Date",
+      "hi": "एसआरओ प्राप्ति तिथि"
+    },
+    "code": {
+      "en": "Code",
+      "hi": "कोड"
+    },
+    "serialNo": {
+      "en": "Serial No.",
+      "hi": "क्रम संख्या"
+    },
+    "sessionId": {
+      "en": "Session ID",
+      "hi": "सेशन आईडी"
+    },
+    "device": {
+      "en": "Device",
+      "hi": "डिवाइस"
+    },
+    "ip": {
+      "en": "IP",
+      "hi": "आईपी"
+    },
+    "validFrom": {
+      "en": "Valid From",
+      "hi": "से मान्य"
+    },
+    "validTo": {
+      "en": "Valid To",
+      "hi": "तक मान्य"
+    },
+    "createdOn": {
+      "en": "Created On",
+      "hi": "निर्माण तिथि"
+    },
+    "boundProfile": {
+      "en": "Bound Profile",
+      "hi": "बाउंड प्रोफ़ाइल"
+    },
+    "lastOnline": {
+      "en": "Last Online",
+      "hi": "अंतिम सक्रिय"
+    },
+    "expireOn": {
+      "en": "Expire On",
+      "hi": "समाप्ति तिथि"
+    },
+    "expired": {
+      "en": "Expired",
+      "hi": "समाप्त"
+    },
+    "status": {
+      "en": "Status",
+      "hi": "स्थिति"
+    },
+    "visibility": {
+      "en": "Visibility",
+      "hi": "दृश्यता"
+    },
+    "value": {
+      "en": "Value",
+      "hi": "मान"
+    },
+    "description": {
+      "en": "Description",
+      "hi": "विवरण"
+    },
+    "actions": {
+      "en": "Actions",
+      "hi": "क्रियाएँ"
+    },
+    "userAgent": {
+      "en": "User Agent String",
+      "hi": "यूज़र एजेंट स्ट्रिंग"
+    },
+    "ui_path": {
+      "en": "UI Path",
+      "hi": "यूआई पथ"
+    },
+    "match_type": {
+      "en": "Match Type",
+      "hi": "मिलान प्रकार"
+    }
+  },
+  "form": {
+    "basic_information": {
+      "en": "Basic Information",
+      "hi": "मूल जानकारी"
+    },
+    "geographic_location": {
+      "en": "Geographic Location",
+      "hi": "भौगोलिक स्थिति"
+    },
+    "account_management": {
+      "en": "Account Management",
+      "hi": "खाता प्रबंधन"
+    },
+    "select_status": {
+      "en": "Select Status",
+      "hi": "स्थिति चुनें"
+    },
+    "select_role": {
+      "en": "Select Role",
+      "hi": "भूमिका चुनें"
+    },
+    "loading_details": {
+      "en": "Loading details...",
+      "hi": "विवरण लोड हो रहा है..."
+    },
+    "not_found": {
+      "en": "Details not found.",
+      "hi": "विवरण नहीं मिला।"
+    },
+    "select_court_level_placeholder": {
+      "en": "Select Court Level",
+      "hi": "न्यायालय स्तर चुनें"
+    },
+    "select_court_location_placeholder": {
+      "en": "Select Court Location",
+      "hi": "न्यायालय स्थान चुनें"
+    },
+    "select_mandal": {
+      "en": "Select mandal",
+      "hi": "मंडल चुनें"
+    },
+    "select_district": {
+      "en": "Select district",
+      "hi": "जिला चुनें"
+    },
+    "select_tehsil": {
+      "en": "Select tehsil",
+      "hi": "तहसील चुनें"
+    },
+    "select_pargana": {
+      "en": "Select pargana",
+      "hi": "परगना चुनें"
+    },
+    "select_ri_circle": {
+      "en": "Select RI circle",
+      "hi": "राजस्व निरीक्षक क्षेत्र चुनें"
+    },
+    "select_rsi_circle": {
+      "en": "Select RSI circle",
+      "hi": "राजस्व उपनिरीक्षक क्षेत्र चुनें"
+    },
+    "select_village": {
+      "en": "Select village",
+      "hi": "ग्राम चुनें"
+    },
+    "enter_name_placeholder": {
+      "en": "Enter full name",
+      "hi": "पूरा नाम दर्ज करें"
+    },
+    "enter_phone_placeholder": {
+      "en": "Enter 10-digit mobile number",
+      "hi": "10-अंकीय मोबाइल नंबर दर्ज करें"
+    },
+    "enter_email_placeholder": {
+      "en": "Enter email address",
+      "hi": "ईमेल पता दर्ज करें"
+    },
+    "enter_employee_id_placeholder": {
+      "en": "Enter employee ID",
+      "hi": "कर्मचारी आईडी दर्ज करें"
+    },
+    "enter_password_placeholder": {
+      "en": "Enter password",
+      "hi": "पासवर्ड दर्ज करें"
+    },
+    "select_gender_placeholder": {
+      "en": "Select Gender",
+      "hi": "लिंग चुनें"
+    },
+    "search": {
+      "placeholder": {
+        "en": "Search...",
+        "hi": "खोजें..."
+      }
+    },
+    "display_order": {
+      "label": {
+        "en": "Display Order",
+        "hi": "प्रदर्शन क्रम"
+      },
+      "placeholder": {
+        "en": "Enter display order",
+        "hi": "प्रदर्शन क्रम दर्ज करें"
+      }
+    },
+    "search_court": {
+      "placeholder": {
+        "en": "Search court",
+        "hi": "न्यायालय खोजें"
+      }
+    },
+    "code": {
+      "label": {
+        "en": "Code",
+        "hi": "कोड"
+      },
+      "placeholder": {
+        "en": "Enter code",
+        "hi": "कोड दर्ज करें"
+      },
+      "description": {
+        "en": "Enter a unique code",
+        "hi": "एक अद्वितीय कोड दर्ज करें"
+      },
+      "validation_required": {
+        "en": "Code is required",
+        "hi": "कोड आवश्यक है"
+      },
+      "validation_invalid": {
+        "en": "Invalid code",
+        "hi": "अमान्य कोड"
+      }
+    },
+    "court_level": {
+      "label": {
+        "en": "Court Level",
+        "hi": "न्यायालय स्तर"
+      },
+      "placeholder": {
+        "en": "Select court level",
+        "hi": "न्यायालय स्तर चुनें"
+      },
+      "description": {
+        "en": "Select the level of the court",
+        "hi": "न्यायालय का स्तर चुनें"
+      },
+      "validation_required": {
+        "en": "Court level is required",
+        "hi": "न्यायालय स्तर आवश्यक है"
+      },
+      "validation_invalid": {
+        "en": "Invalid court level",
+        "hi": "अमान्य न्यायालय स्तर"
+      }
+    },
+    "name": {
+      "label": {
+        "en": "Name (Hindi)",
+        "hi": "नाम (हिंदी)"
+      },
+      "placeholder": {
+        "en": "Enter Hindi name",
+        "hi": "हिंदी नाम दर्ज करें"
+      },
+      "description": {
+        "en": "Enter name in Hindi",
+        "hi": "हिंदी में नाम दर्ज करें"
+      },
+      "validation_required": {
+        "en": "Hindi name is required",
+        "hi": "हिंदी नाम आवश्यक है"
+      },
+      "validation_invalid": {
+        "en": "Invalid Hindi name",
+        "hi": "अमान्य हिंदी नाम"
+      }
+    },
+    "name_en": {
+      "label": {
+        "en": "Name (English)",
+        "hi": "नाम (अंग्रेज़ी)"
+      },
+      "placeholder": {
+        "en": "Enter English name",
+        "hi": "अंग्रेज़ी नाम दर्ज करें"
+      },
+      "description": {
+        "en": "Enter name in English",
+        "hi": "अंग्रेज़ी में नाम दर्ज करें"
+      },
+      "validation_required": {
+        "en": "English name is required",
+        "hi": "अंग्रेज़ी नाम आवश्यक है"
+      },
+      "validation_invalid": {
+        "en": "Invalid English name",
+        "hi": "अमान्य अंग्रेज़ी नाम"
+      }
+    },
+    "value": {
+      "label": {
+        "en": "Permission Value",
+        "hi": "अनुमति मान"
+      },
+      "placeholder": {
+        "en": "e.g. can_edit_case",
+        "hi": "जैसे can_edit_case"
+      },
+      "description": {
+        "en": "Unique system permission identifier",
+        "hi": "अद्वितीय सिस्टम अनुमति पहचान"
+      },
+      "validation_required": {
+        "en": "Permission value is required",
+        "hi": "अनुमति मान आवश्यक है"
+      },
+      "validation_invalid": {
+        "en": "Invalid permission value",
+        "hi": "अमान्य अनुमति मान"
+      }
+    },
+    "description": {
+      "label": {
+        "en": "Description",
+        "hi": "विवरण"
+      },
+      "placeholder": {
+        "en": "Enter a short description",
+        "hi": "संक्षिप्त विवरण दर्ज करें"
+      },
+      "description": {
+        "en": "Provide a short description",
+        "hi": "संक्षिप्त विवरण प्रदान करें"
+      },
+      "validation_required": {
+        "en": "Description is required",
+        "hi": "विवरण आवश्यक है"
+      },
+      "validation_invalid": {
+        "en": "Invalid description",
+        "hi": "अमान्य विवरण"
+      }
+    },
+    "permissions": {
+      "label": {
+        "en": "Permissions",
+        "hi": "अनुमतियाँ"
+      },
+      "placeholder": {
+        "en": "Select permissions",
+        "hi": "अनुमतियाँ चुनें"
+      },
+      "description": {
+        "en": "Assign permissions to this role",
+        "hi": "इस भूमिका को अनुमतियाँ असाइन करें"
+      },
+      "validation_required": {
+        "en": "At least one permission is required",
+        "hi": "कम से कम एक अनुमति आवश्यक है"
+      }
+    },
+    "is_active": {
+      "label": {
+        "en": "Status",
+        "hi": "स्थिति"
+      },
+      "placeholder": {
+        "en": "Select status",
+        "hi": "स्थिति चुनें"
+      },
+      "description": {
+        "en": "Enable or disable this item",
+        "hi": "इस आइटम को सक्षम या अक्षम करें"
+      },
+      "validation_required": {
+        "en": "Status is required",
+        "hi": "स्थिति आवश्यक है"
+      },
+      "validation_invalid": {
+        "en": "Invalid status",
+        "hi": "अमान्य स्थिति"
+      }
+    },
+    "is_display": {
+      "label": {
+        "en": "Display",
+        "hi": "प्रदर्शित करें"
+      },
+      "placeholder": {
+        "en": "Select display setting",
+        "hi": "प्रदर्शन सेटिंग चुनें"
+      },
+      "description": {
+        "en": "Control visibility in UI",
+        "hi": "यूआई में दृश्यता नियंत्रित करें"
+      },
+      "validation_required": {
+        "en": "Display setting is required",
+        "hi": "प्रदर्शन सेटिंग आवश्यक है"
+      },
+      "validation_invalid": {
+        "en": "Invalid display setting",
+        "hi": "अमान्य प्रदर्शन सेटिंग"
+      }
+    },
+    "ui_path": {
+      "label": {
+        "en": "UI Path (URL)",
+        "hi": "यूआई पथ (URL)"
+      },
+      "placeholder": {
+        "en": "e.g. /court or /case/.*",
+        "hi": "जैसे /court या /case/.*"
+      },
+      "description": {
+        "en": "The UI route path mapped to this permission",
+        "hi": "इस अनुमति से मैप किया गया यूआई रूट पथ"
+      },
+      "validation_required": {
+        "en": "UI Path is required",
+        "hi": "यूआई पथ आवश्यक है"
+      },
+      "validation_invalid": {
+        "en": "Invalid UI Path",
+        "hi": "अमान्य यूआई पथ"
+      }
+    },
+    "match_type": {
+      "label": {
+        "en": "Match Type",
+        "hi": "मिलान प्रकार"
+      },
+      "placeholder": {
+        "en": "Select match type",
+        "hi": "मिलान प्रकार चुनें"
+      },
+      "description": {
+        "en": "The routing match strategy",
+        "hi": "रूटिंग मिलान रणनीति"
+      },
+      "validation_required": {
+        "en": "Match type is required",
+        "hi": "मिलान प्रकार आवश्यक है"
+      },
+      "validation_invalid": {
+        "en": "Invalid match type",
+        "hi": "अमान्य मिलान प्रकार"
+      },
+      "option_pure": {
+        "en": "Pure (Exact Match without Query)",
+        "hi": "शुद्ध (बिना क्वेरी के सटीक मिलान)"
+      },
+      "option_query": {
+        "en": "Query (Exact Match with Query)",
+        "hi": "क्वेरी (क्वेरी के साथ सटीक मिलान)"
+      },
+      "option_regex": {
+        "en": "Regex (Regular Expression)",
+        "hi": "रेगेक्स (नियमित अभिव्यक्ति)"
+      },
+      "option_none": {
+        "en": "None (Static/Manual)",
+        "hi": "कोई नहीं (स्थिर/मैनुअल)"
+      }
+    },
+    "stage": {
+      "label": {
+        "en": "Stage",
+        "hi": "चरण"
+      },
+      "placeholder": {
+        "en": "Select stage",
+        "hi": "चरण चुनें"
+      }
+    },
+    "status": {
+      "label": {
+        "en": "Status",
+        "hi": "स्थिति"
+      },
+      "placeholder": {
+        "en": "Select status",
+        "hi": "स्थिति चुनें"
+      }
+    },
+    "act": {
+      "label": {
+        "en": "Act",
+        "hi": "अधिनियम"
+      },
+      "placeholder": {
+        "en": "Select act",
+        "hi": "अधिनियम चुनें"
+      }
+    },
+    "section": {
+      "label": {
+        "en": "Section",
+        "hi": "धारा"
+      },
+      "placeholder": {
+        "en": "Select section",
+        "hi": "धारा चुनें"
+      }
+    }
+  },
+  "search": {
+    "title": {
+      "en": "Search",
+      "hi": "खोज"
+    },
+    "placeholder": {
+      "en": "Search cases…",
+      "hi": "वाद खोजें…"
+    },
+    "startTyping": {
+      "en": "Start typing to search",
+      "hi": "खोज के लिए टाइप करें"
+    },
+    "noResults": {
+      "en": "No results found",
+      "hi": "कोई परिणाम नहीं मिला"
+    },
+    "navigationHint": {
+      "en": "↑↓ to navigate · ↵ to select · Esc to close",
+      "hi": "↑↓ नेविगेट करें · ↵ चुनें · Esc बंद करें"
+    },
+    "advancedSearch": {
+      "en": "Advanced Search",
+      "hi": "विस्तृत खोज"
+    },
+    "voiceNotSupported": {
+      "en": "Voice search is not supported in this browser",
+      "hi": "इस ब्राउज़र में वॉइस सर्च समर्थित नहीं है"
+    }
+  },
+  "tour": {
+    "start_btn": {
+      "en": "Help Tour",
+      "hi": "सहायता टूर"
+    },
+    "step_indicator": {
+      "en": "Step {{current}} of {{total}}",
+      "hi": "चरण {{current}} / {{total}}"
+    },
+    "skip_btn": {
+      "en": "Skip",
+      "hi": "छोड़ें"
+    },
+    "back_btn": {
+      "en": "Back",
+      "hi": "पीछे"
+    },
+    "next_btn": {
+      "en": "Next",
+      "hi": "आगे"
+    },
+    "finish_btn": {
+      "en": "Finish",
+      "hi": "समाप्त"
+    },
+    "brand": {
+      "title": {
+        "en": "Official Government Branding",
+        "hi": "आधिकारिक सरकारी ब्रांडिंग"
+      },
+      "desc": {
+        "en": "This row displays the emblem and official title. The triple-dot button lets you change language or theme.",
+        "hi": "यह पंक्ति राष्ट्रीय प्रतीक और आधिकारिक शीर्षक प्रदर्शित करती है। तीन-बिंदु बटन से आप भाषा या थीम बदल सकते हैं।"
+      }
+    },
+    "username": {
+      "title": {
+        "en": "Enter Username/Identifier",
+        "hi": "यूज़रनेम/पहचानकर्ता दर्ज करें"
+      },
+      "desc": {
+        "en": "Please type your registered Username, Email Address, or Mobile Number to proceed.",
+        "hi": "कृपया आगे बढ़ने के लिए अपना पंजीकृत यूज़रनेम, ईमेल पता या मोबाइल नंबर टाइप करें।"
+      }
+    },
+    "password": {
+      "title": {
+        "en": "Security Password",
+        "hi": "सुरक्षित पासवर्ड"
+      },
+      "desc": {
+        "en": "Enter your confidential login password. Do not share your password with anyone.",
+        "hi": "अपना गोपनीय लॉगिन पासवर्ड दर्ज करें। अपना पासवर्ड कभी किसी के साथ साझा न करें।"
+      }
+    },
+    "captcha": {
+      "title": {
+        "en": "Secure Captcha Validation",
+        "hi": "सुरक्षित कैप्चा सत्यापन"
+      },
+      "desc": {
+        "en": "Type the numeric-digits captcha code shown in the image to prevent automated bot access.",
+        "hi": "स्वचालित बॉट प्रविष्टि को रोकने के लिए छवि में दिखाए गए अंकीय-कैप्चा कोड को टाइप करें।"
+      }
+    },
+    "preferences": {
+      "title": {
+        "en": "Preferences Action Menu",
+        "hi": "प्राथमिकताएँ एक्शन मेनू"
+      },
+      "desc": {
+        "en": "Use this options menu to dynamically switch language between English and Hindi, or toggle the UI between Light and Dark modes.",
+        "hi": "इस विकल्प मेनू का उपयोग करके आप अंग्रेजी और हिंदी के बीच भाषा बदल सकते हैं, या लाइट और डार्क मोड के बीच टॉगल कर सकते हैं।"
+      }
+    },
+    "signup": {
+      "title": {
+        "en": "Register / Create Account",
+        "hi": "पंजीकरण / नया खाता बनाएं"
+      },
+      "desc": {
+        "en": "New to the portal? Click here to register your citizen or advocate account instantly.",
+        "hi": "पोर्टल पर नए हैं? अपने नागरिक या अधिवक्ता खाते को तुरंत पंजीकृत करने के लिए यहाँ क्लिक करें।"
+      }
+    },
+    "reset_new_password": {
+      "title": {
+        "en": "Choose Secure New Password",
+        "hi": "सुरक्षित नया पासवर्ड चुनें"
+      },
+      "desc": {
+        "en": "Type a strong new password that combines uppercase, lowercase, numbers, and symbols.",
+        "hi": "एक मजबूत नया पासवर्ड टाइप करें जो बड़े अक्षरों, छोटे अक्षरों, संख्याओं और प्रतीकों को मिलाता हो।"
+      }
+    },
+    "reset_confirm_password": {
+      "title": {
+        "en": "Confirm New Password",
+        "hi": "नए पासवर्ड की पुष्टि करें"
+      },
+      "desc": {
+        "en": "Re-type your chosen password to guarantee they match and verify spelling correctness.",
+        "hi": "यह सुनिश्चित करने के लिए कि पासवर्ड मेल खाते हैं और वर्तनी सही है, अपने चुने हुए पासवर्ड को फिर से टाइप करें।"
+      }
+    },
+    "reset_signin_link": {
+      "title": {
+        "en": "Return to Login Page",
+        "hi": "लॉगिन पेज पर वापस जाएं"
+      },
+      "desc": {
+        "en": "Already remembered your password? Click here to easily return to the Sign In card instantly.",
+        "hi": "अपना पासवर्ड पहले से याद है? तुरंत साइन-इन कार्ड पर वापस जाने के लिए यहाँ क्लिक करें।"
+      }
+    },
+    "signup_progress": {
+      "title": {
+        "en": "Sign-Up Progress Tracker",
+        "hi": "पंजीकरण प्रगति ट्रैकर"
+      },
+      "desc": {
+        "en": "Monitor your registration flow across three easy steps: choosing role, entering details, and setting password.",
+        "hi": "तीन आसान चरणों में अपने पंजीकरण प्रवाह की निगरानी करें: भूमिका चुनना, विवरण दर्ज करना और पासवर्ड सेट करना।"
+      }
+    },
+    "signup_role": {
+      "title": {
+        "en": "Select Account Role",
+        "hi": "खाता भूमिका चुनें"
+      },
+      "desc": {
+        "en": "Choose whether you are registering as a Citizen (सामान्य नागरिक) or an Advocate (अधिवक्ता) to gain tailored dashboard access.",
+        "hi": "पंजीकरण के लिए चुनें कि आप नागरिक हैं या अधिवक्ता, ताकि आपको संबंधित डैशबोर्ड एक्सेस मिल सके।"
+      }
+    },
+    "signup_details": {
+      "title": {
+        "en": "Fill Personal Details",
+        "hi": "व्यक्तिगत विवरण भरें"
+      },
+      "desc": {
+        "en": "Enter your Full Name, 10-digit Mobile Number, and registered Email Address. Mobile OTP will be verified before signup.",
+        "hi": "अपना पूरा नाम, 10-अंकों का मोबाइल नंबर और ईमेल पता दर्ज करें। साइनअप से पहले ओटीपी द्वारा सत्यापन किया जाएगा।"
+      }
+    },
+    "signup_security": {
+      "title": {
+        "en": "Set Password & Agreement",
+        "hi": "पासवर्ड और सहमति सेट करें"
+      },
+      "desc": {
+        "en": "Choose a strong password, confirm spelling, and accept the terms of service to secure your e-Revenue Courts account.",
+        "hi": "एक मजबूत पासवर्ड चुनें, पुष्टि करें और ई-राजस्व न्यायालय खाते को सुरक्षित करने के लिए सेवा शर्तों को स्वीकार करें।"
+      }
+    }
+  },
+  "session_expired": {
+    "title": {
+      "en": "Session Terminated",
+      "hi": "सत्र समाप्त"
+    },
+    "description": {
+      "en": "You have been signed out from another tab or your session has expired. To secure your account, please log in again or close this tab.",
+      "hi": "आपको दूसरे टैब से लॉग आउट कर दिया गया है या आपका सत्र समाप्त हो गया है। अपने खाते को सुरक्षित रखने के लिए, कृपया पुनः लॉगिन करें या इस टैब को बंद करें।"
+    },
+    "login_btn": {
+      "en": "Go to Login",
+      "hi": "लॉगिन पर जाएँ"
+    },
+    "close_btn": {
+      "en": "Close Tab",
+      "hi": "टैब बंद करें"
+    },
+    "helper_text": {
+      "en": "*If the button above does not close your tab automatically due to browser safety, you can close this browser tab manually.",
+      "hi": "*यदि ब्राउज़र सुरक्षा कारणों से यह टैब स्वचालित रूप से बंद नहीं होता है, तो आप इसे स्वयं मैन्युअल रूप से बंद कर सकते हैं।"
+    }
+  },
+  "settings": {
+    "title": {
+      "en": "Preferences",
+      "hi": "प्राथमिकताएँ"
+    },
+    "language": {
+      "en": "Language",
+      "hi": "भाषा"
+    },
+    "english": {
+      "en": "English",
+      "hi": "अंग्रेज़ी"
+    },
+    "hindi": {
+      "en": "Hindi",
+      "hi": "हिंदी"
+    },
+    "theme": {
+      "en": "Theme",
+      "hi": "थीम"
+    },
+    "light": {
+      "en": "Light",
+      "hi": "लाइट"
+    },
+    "dark": {
+      "en": "Dark",
+      "hi": "डार्क"
+    },
+    "system": {
+      "en": "System",
+      "hi": "सिस्टम"
+    },
+    "cancel": {
+      "en": "Cancel",
+      "hi": "रद्द करें"
+    },
+    "save": {
+      "en": "Save",
+      "hi": "सहेजें"
+    }
+  },
+  "stats": {
+    "sub": {
+      "en": "Disabled ",
+      "hi": "अक्षम"
+    },
+    "total_advocate": {
+      "label": {
+        "en": "Total Advocates",
+        "hi": "कुल अधिवक्ता"
+      }
+    },
+    "total_judge": {
+      "label": {
+        "en": "Total Judges",
+        "hi": "कुल न्यायाधीश"
+      }
+    },
+    "total_peshkar": {
+      "label": {
+        "en": "Total Peshkars",
+        "hi": "कुल पेशकार"
+      }
+    },
+    "total_clerk": {
+      "label": {
+        "en": "Total Clerks",
+        "hi": "कुल लिपिक"
+      }
+    },
+    "total_ri": {
+      "label": {
+        "en": "Total RI",
+        "hi": "कुल राजस्व निरीक्षक"
+      }
+    },
+    "total_rsi": {
+      "label": {
+        "en": "Total RSI",
+        "hi": "कुल राजस्व उप निरीक्षक"
+      }
+    },
+    "total_administrator": {
+      "label": {
+        "en": "Total Administrators",
+        "hi": "कुल प्रशासक"
+      }
+    },
+    "total_court_location": {
+      "label": {
+        "en": "Total Court Locations",
+        "hi": "कुल न्यायालय स्थान"
+      }
+    },
+    "total_citizen": {
+      "label": {
+        "en": "Total Citizens",
+        "hi": "कुल नागरिक"
+      }
+    },
+    "total_court": {
+      "label": {
+        "en": "Total Courts",
+        "hi": "कुल न्यायालय"
+      },
+      "sub": {
+        "en": "Disabled",
+        "hi": "अक्षम"
+      }
+    },
+    "total_roles": {
+      "label": {
+        "en": "Total Roles",
+        "hi": "कुल भूमिकाएँ"
+      },
+      "sub": {
+        "en": "Configured roles",
+        "hi": "कॉन्फ़िगर की गई भूमिकाएँ"
+      }
+    },
+    "total_permissions": {
+      "label": {
+        "en": "Total Permissions",
+        "hi": "कुल अनुमतियाँ"
+      },
+      "sub": {
+        "en": "Defined permissions",
+        "hi": "निर्धारित अनुमतियाँ"
+      }
+    }
+  },
+  "security": {
+    "mobile": {
+      "label": {
+        "en": "Mobile Number",
+        "hi": "मोबाइल नंबर"
+      }
+    },
+    "email": {
+      "label": {
+        "en": "Email Address",
+        "hi": "ईमेल पता"
+      }
+    },
+    "password": {
+      "label": {
+        "en": "Password",
+        "hi": "पासवर्ड"
+      }
+    }
+  },
+  "terms": {
+    "label": {
+      "en": "I agree to the",
+      "hi": "मैं सहमत हूँ"
+    },
+    "link_text": {
+      "en": "Terms of Service",
+      "hi": "सेवा की शर्तें"
+    },
+    "link_text2": {
+      "en": "Privacy Policy",
+      "hi": "गोपनीयता नीति"
+    },
+    "validation_required": {
+      "en": "You must accept the terms and privacy policy.",
+      "hi": "आपको शर्तें और गोपनीयता नीति स्वीकार करनी होगी।"
+    }
+  },
+  "link": {
+    "forgot_password": {
+      "en": "Reset Password",
+      "hi": "पासवर्ड रीसेट करें"
+    },
+    "back_to_login": {
+      "en": "Back to Sign In",
+      "hi": "साइन इन पर वापस जाएं"
+    },
+    "signin": {
+      "en": "Sign in",
+      "hi": "साइन इन करें"
+    },
+    "signup": {
+      "en": "Sign up",
+      "hi": "साइन अप करें"
+    },
+    "menu": {
+      "home": {
+        "en": "Home",
+        "hi": "मुख्य पृष्ठ"
+      },
+      "about": {
+        "en": "About Us",
+        "hi": "हमारे बारे में"
+      },
+      "citizenCorner": {
+        "en": "Citizen Corner",
+        "hi": "नागरिक कोना"
+      },
+      "contact": {
+        "en": "Contact Us",
+        "hi": "संपर्क करें"
+      }
+    },
+    "legal": {
+      "terms": {
+        "en": "Terms & Conditions",
+        "hi": "नियम एवं शर्तें"
+      },
+      "privacy": {
+        "en": "Privacy Policy",
+        "hi": "गोपनीयता नीति"
+      }
+    }
+  },
+  "faq": {
+    "title": {
+      "en": "Frequently Asked Questions",
+      "hi": "अक्सर पूछे जाने वाले प्रश्न"
+    },
+    "subtitle": {
+      "en": "Common questions about e-Revenue Courts",
+      "hi": "ई-राजस्व न्यायालयों से संबंधित सामान्य प्रश्न"
+    },
+    "q1": {
+      "en": "What is the e-Revenue Courts portal?",
+      "hi": "ई-राजस्व न्यायालय पोर्टल क्या है?"
+    },
+    "a1": {
+      "en": "The e-Revenue Courts portal provides online access to revenue court case information including case status, hearing dates, notices, and orders.",
+      "hi": "ई-राजस्व न्यायालय पोर्टल राजस्व न्यायालय के मामलों की जानकारी जैसे प्रकरण की स्थिति, सुनवाई की तिथि, नोटिस और आदेशों तक ऑनलाइन पहुंच प्रदान करता है।"
+    },
+    "q2": {
+      "en": "Who can use this portal?",
+      "hi": "इस पोर्टल का उपयोग कौन कर सकता है?"
+    },
+    "a2": {
+      "en": "Citizens, advocates, government officers, and court staff can use this portal.",
+      "hi": "नागरिक, अधिवक्ता, सरकारी अधिकारी और न्यायालय कर्मचारी इस पोर्टल का उपयोग कर सकते हैं।"
+    },
+    "q3": {
+      "en": "How can I check my case status?",
+      "hi": "मैं अपने प्रकरण की स्थिति कैसे देख सकता हूँ?"
+    },
+    "a3": {
+      "en": "You can search using case number, party name, advocate name, or court name.",
+      "hi": "आप प्रकरण संख्या, पक्षकार का नाम, अधिवक्ता का नाम या न्यायालय के नाम से खोज कर सकते हैं।"
+    },
+    "q4": {
+      "en": "Can I download court orders?",
+      "hi": "क्या मैं न्यायालय के आदेश डाउनलोड कर सकता हूँ?"
+    },
+    "a4": {
+      "en": "Yes, court orders and notices can be viewed and downloaded when available.",
+      "hi": "हाँ, उपलब्ध होने पर न्यायालय के आदेश और नोटिस देखे एवं डाउनलोड किए जा सकते हैं।"
+    },
+    "q5": {
+      "en": "How can I know the next hearing date?",
+      "hi": "अगली सुनवाई की तिथि कैसे पता करें?"
+    },
+    "a5": {
+      "en": "The next hearing date is available on the case details page.",
+      "hi": "अगली सुनवाई की तिथि प्रकरण विवरण पृष्ठ पर उपलब्ध होती है।"
+    },
+    "q6": {
+      "en": "What types of cases are handled in revenue courts?",
+      "hi": "राजस्व न्यायालयों में किस प्रकार के मामलों की सुनवाई होती है?"
+    },
+    "a6": {
+      "en": "Revenue courts deal with land disputes, mutation cases, partition matters, recovery proceedings, and related appeals.",
+      "hi": "राजस्व न्यायालय भूमि विवाद, नामांतरण प्रकरण, बंटवारा, वसूली कार्यवाही एवं संबंधित अपीलों से जुड़े मामलों की सुनवाई करते हैं।"
+    }
+  },
+  "revenue_apps": {
+    "title": {
+      "en": "Revenue Applications",
+      "hi": "राजस्व अनुप्रयोग"
+    },
+    "subtitle": {
+      "en": "Access key revenue services and applications in one place",
+      "hi": "एक ही स्थान पर प्रमुख राजस्व सेवाओं एवं अनुप्रयोगों का उपयोग करें"
+    },
+    "external_redirect": {
+      "title": {
+        "en": "External Website Redirect",
+        "hi": "बाहरी वेबसाइट पर पुनर्निर्देशन"
+      },
+      "description": {
+        "en": "You are being redirected to an external government website. This website is not hosted on this portal.",
+        "hi": "आपको एक बाहरी सरकारी वेबसाइट पर पुनर्निर्देशित किया जा रहा है। यह वेबसाइट इस पोर्टल पर होस्ट नहीं है।"
+      }
+    },
+    "bhulekh": {
+      "title": {
+        "en": "Bhulekh (Land Records)",
+        "hi": "भूलेख (भूमि अभिलेख)"
+      },
+      "description": {
+        "en": "Check Khatauni, Khasra and land ownership records",
+        "hi": "खतौनी, खसरा एवं भूमि स्वामित्व अभिलेख देखें"
+      }
+    },
+    "bhunaksha": {
+      "title": {
+        "en": "Bhu-Naksha (Land Map)",
+        "hi": "भू-नक्शा (भूमि मानचित्र)"
+      },
+      "description": {
+        "en": "View digital cadastral maps and plot boundaries",
+        "hi": "डिजिटल कैडस्ट्रल मानचित्र एवं भू-खण्ड सीमाएं देखें"
+      }
+    },
+    "land_use": {
+      "title": {
+        "en": "Land Use Permission",
+        "hi": "भूमि उपयोग अनुमति"
+      },
+      "description": {
+        "en": "Apply for land purchase and land use conversion",
+        "hi": "भूमि क्रय एवं भूमि उपयोग परिवर्तन हेतु आवेदन करें"
+      }
+    },
+    "eregistration": {
+      "title": {
+        "en": "e-Registration",
+        "hi": "ई-पंजीकरण"
+      },
+      "description": {
+        "en": "Search property registration and deed records",
+        "hi": "संपत्ति पंजीकरण एवं विलेख अभिलेख खोजें"
+      }
+    },
+    "mutation": {
+      "title": {
+        "en": "Mutation Services",
+        "hi": "नामांतरण सेवाएं"
+      },
+      "description": {
+        "en": "Track mutation status and property transfer updates",
+        "hi": "नामांतरण की स्थिति एवं संपत्ति हस्तांतरण अपडेट देखें"
+      }
+    },
+    "rcms": {
+      "title": {
+        "en": "Revenue Court (RCMS)",
+        "hi": "राजस्व न्यायालय (RCMS)"
+      },
+      "description": {
+        "en": "Track revenue court cases and orders",
+        "hi": "राजस्व न्यायालय के मामलों एवं आदेशों की जानकारी देखें"
+      }
+    }
+  },
+  "citizen_overview": {
+    "title": {
+      "en": "Citizen Services",
+      "hi": "नागरिक सेवाएं"
+    },
+    "subtitle": {
+      "en": "Access essential services for managing your cases online",
+      "hi": "अपने प्रकरणों के ऑनलाइन प्रबंधन हेतु आवश्यक सेवाओं का उपयोग करें"
+    },
+    "feature1": {
+      "en": "File Case Online",
+      "hi": "ऑनलाइन प्रकरण दर्ज करें"
+    },
+    "feature1_desc": {
+      "en": "Submit your case online without visiting the court",
+      "hi": "बिना न्यायालय गए अपना प्रकरण ऑनलाइन प्रस्तुत करें"
+    },
+    "feature2": {
+      "en": "Search Case Status",
+      "hi": "प्रकरण की स्थिति खोजें"
+    },
+    "feature2_desc": {
+      "en": "Easily track the current status of your case anytime",
+      "hi": "अपने प्रकरण की वर्तमान स्थिति को कभी भी आसानी से देखें"
+    },
+    "feature3": {
+      "en": "Upload Documents",
+      "hi": "दस्तावेज़ अपलोड करें"
+    },
+    "feature3_desc": {
+      "en": "Upload required documents securely for your case",
+      "hi": "अपने प्रकरण के लिए आवश्यक दस्तावेज़ सुरक्षित रूप से अपलोड करें"
+    },
+    "feature4": {
+      "en": "Receive Notifications",
+      "hi": "सूचनाएं प्राप्त करें"
+    },
+    "feature4_desc": {
+      "en": "Get timely updates and alerts about your case activities",
+      "hi": "अपने प्रकरण से संबंधित गतिविधियों की समय-समय पर जानकारी प्राप्त करें"
+    },
+    "feature5": {
+      "en": "Download Orders",
+      "hi": "आदेश डाउनलोड करें"
+    },
+    "feature5_desc": {
+      "en": "View and download court orders and notices online",
+      "hi": "न्यायालय के आदेश एवं नोटिस ऑनलाइन देखें और डाउनलोड करें"
+    },
+    "feature6": {
+      "en": "Secure Case Records",
+      "hi": "सुरक्षित प्रकरण अभिलेख"
+    },
+    "feature6_desc": {
+      "en": "Access and manage your case records in a secure environment",
+      "hi": "अपने प्रकरण अभिलेखों को सुरक्षित वातावरण में देखें और प्रबंधित करें"
+    }
+  },
+  "announcement": {
+    "create_btn": {
+      "en": "Publish Announcement",
+      "hi": "घोषणा प्रकाशित करें"
+    },
+    "title_section": {
+      "en": "Recent Announcements",
+      "hi": "हाल की घोषणाएं"
+    },
+    "no_news": {
+      "en": "No announcements published yet",
+      "hi": "अभी तक कोई घोषणा प्रकाशित नहीं हुई है"
+    },
+    "table": {
+      "pin": {
+        "en": "Pin",
+        "hi": "पिन"
+      },
+      "title": {
+        "en": "Title",
+        "hi": "शीर्षक"
+      },
+      "category": {
+        "en": "Category",
+        "hi": "श्रेणी"
+      },
+      "date": {
+        "en": "Date",
+        "hi": "दिनांक"
+      },
+      "file": {
+        "en": "Attachment",
+        "hi": "संलग्नक"
+      },
+      "actions": {
+        "en": "Action",
+        "hi": "कार्रवाई"
+      },
+      "view_doc": {
+        "en": "View Document",
+        "hi": "दस्तावेज़ देखें"
+      },
+      "external_url": {
+        "en": "External URL",
+        "hi": "बाहरी यूआरएल"
+      }
+    },
+    "modal": {
+      "title": {
+        "en": "Publish New Announcement",
+        "hi": "नई घोषणा प्रकाशित करें"
+      },
+      "title_edit": {
+        "en": "Edit Announcement",
+        "hi": "घोषणा संपादित करें"
+      },
+      "label_title": {
+        "en": "Announcement Title",
+        "hi": "घोषणा शीर्षक"
+      },
+      "label_category": {
+        "en": "Category",
+        "hi": "श्रेणी"
+      },
+      "label_file": {
+        "en": "Attach File / Document",
+        "hi": "फ़ाइल / दस्तावेज़ संलग्न करें"
+      },
+      "label_pin": {
+        "en": "Pin Announcement to top",
+        "hi": "घोषणा को सबसे ऊपर पिन करें"
+      },
+      "label_external_url": {
+        "en": "External URL",
+        "hi": "बाहरी यूआरएल"
+      }
+    },
+    "search_placeholder": {
+      "en": "Search announcements...",
+      "hi": "घोषणाएँ खोजें..."
+    },
+    "holiday": {
+      "title": {
+        "en": "Holidays",
+        "hi": "अवकाश"
+      },
+      "subtitle": {
+        "en": "List of official holidays and important dates",
+        "hi": "आधिकारिक अवकाश एवं महत्वपूर्ण तिथियों की सूची"
+      },
+      "upcoming": {
+        "en": "Upcoming Holidays",
+        "hi": "आगामी अवकाश"
+      },
+      "today": {
+        "en": "Today",
+        "hi": "आज"
+      },
+      "tomorrow": {
+        "en": "Tomorrow",
+        "hi": "कल"
+      },
+      "in_days": {
+        "en": "in",
+        "hi": "में"
+      },
+      "days": {
+        "en": "days",
+        "hi": "दिन"
+      }
+    },
+    "news": {
+      "title": {
+        "en": "Latest News",
+        "hi": "ताज़ा समाचार"
+      },
+      "subtitle": {
+        "en": "Stay updated with recent announcements and updates",
+        "hi": "नवीनतम घोषणाओं और अपडेट से अवगत रहें"
+      },
+      "no_news": {
+        "en": "No news available",
+        "hi": "कोई समाचार उपलब्ध नहीं"
+      },
+      "no_results": {
+        "en": "No results found",
+        "hi": "कोई परिणाम नहीं मिला"
+      },
+      "pinned": {
+        "en": "Pinned",
+        "hi": "पिन किया गया"
+      },
+      "results": {
+        "en": "results",
+        "hi": "परिणाम"
+      },
+      "view_all": {
+        "en": "View all",
+        "hi": "सभी देखें"
+      },
+      "filter_all": {
+        "en": "All",
+        "hi": "सभी"
+      },
+      "filter_news": {
+        "en": "News",
+        "hi": "समाचार"
+      },
+      "filter_update": {
+        "en": "Updates",
+        "hi": "अपडेट"
+      },
+      "filter_publication": {
+        "en": "Publications",
+        "hi": "प्रकाशन"
+      }
+    }
+  }
+}

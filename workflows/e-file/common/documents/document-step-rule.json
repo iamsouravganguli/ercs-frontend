@@ -1,0 +1,41 @@
+{
+  "id": "documents_step_completion_v1",
+  "version": "1.0.0",
+  "step": 4,
+  "stepName": "documents",
+  "title": { "en": "Documents", "hi": "दस्तावेज़" },
+  "description": {
+    "en": "Documents step completion — minimum 1 document required for all roles",
+    "hi": "दस्तावेज़ चरण तभी पूर्ण माना जाएगा जब कम से कम 1 दस्तावेज़ अपलोड हो — सभी रोल्स के लिए समान"
+  },
+  "ruleExpression": {
+    "code": "hasAtLeastOneDocument === true",
+    "hi": "कम से कम 1 दस्तावेज़ अनिवार्य"
+  },
+  "roles": [
+    { "key": "ALL", "label": { "en": "All roles", "hi": "सभी भूमिकाएँ" }, "codes": ["CT", "AD", "SA", "PO", "CO", "CC", "RI", "RSI"], "mode": "uniform" }
+  ],
+  "requirements": {
+    "uniform": ["min_1_document"]
+  },
+  "stateSchema": {
+    "documentCount": "number",
+    "hasAtLeastOneDocument": "boolean",
+    "isComplete": "boolean",
+    "currentStep": "number (1-5)"
+  },
+  "state": {
+    "documentCount": 0,
+    "hasAtLeastOneDocument": false,
+    "isComplete": false,
+    "currentStep": 4
+  },
+  "examples": [
+    { "id": "zero_docs", "state": { "documentCount": 0, "hasAtLeastOneDocument": false, "isComplete": false }, "note": { "en": "0 docs → grey, any role", "hi": "0 दस्तावेज़ → ग्रे, चाहे कोई भी रोल हो" } },
+    { "id": "one_doc", "state": { "documentCount": 1, "hasAtLeastOneDocument": true, "isComplete": true }, "note": { "en": "1+ docs → green, all roles", "hi": "1+ दस्तावेज़ → ग्रीन, सभी रोल्स" } }
+  ],
+  "uiBehavior": {
+    "greenCondition": "isComplete === true → emerald bg + check",
+    "incompleteStayGrey": "Stays grey even if navigated to step 5 until 1 document uploaded"
+  }
+}

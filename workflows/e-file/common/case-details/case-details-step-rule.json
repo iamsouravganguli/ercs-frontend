@@ -1,0 +1,63 @@
+{
+  "id": "case_details_step_completion_v1",
+  "version": "1.0.0",
+  "step": 1,
+  "stepName": "case_details",
+  "title": { "en": "Case Details", "hi": "केस विवरण" },
+  "description": {
+    "en": "Case details step completion — jurisdiction + admin area + court/legal details required, uniform for all roles",
+    "hi": "केस विवरण चरण तभी पूर्ण जब न्यायालय स्तर/न्यायालय/अधिनियम/धारा + स्तर-अनुसार प्रशासनिक क्षेत्र पूरे हों — सभी रोल्स समान"
+  },
+  "ruleExpression": {
+    "code": "hasCourtLevel && hasCourt && hasAct && hasSection && hasCaseNatureIfRequired && hasMandalIfRequired && hasDistrictIfRequired && hasTehsilIfRequired",
+    "hi": "न्यायालय स्तर + न्यायालय + अधिनियम + धारा + (आवश्यक हो तो प्रकृति) + स्तर अनुसार मंडल/जिला/तहसील अनिवार्य"
+  },
+  "roles": [
+    { "key": "ALL", "label": { "en": "All roles", "hi": "सभी भूमिकाएँ" }, "codes": ["CT", "AD", "SA", "PO", "CO", "CC", "RI", "RSI"], "mode": "uniform" }
+  ],
+  "requirements": {
+    "uniform": [
+      "has_court_level",
+      "has_court",
+      "has_act",
+      "has_section",
+      "has_case_nature_if_required",
+      "has_mandal_if_required",
+      "has_district_if_required",
+      "has_tehsil_if_required"
+    ]
+  },
+  "stateSchema": {
+    "hasCourtLevel": "boolean",
+    "hasCourt": "boolean",
+    "hasAct": "boolean",
+    "hasSection": "boolean",
+    "hasCaseNatureIfRequired": "boolean",
+    "hasMandalIfRequired": "boolean",
+    "hasDistrictIfRequired": "boolean",
+    "hasTehsilIfRequired": "boolean",
+    "isComplete": "boolean",
+    "currentStep": "number (1-5)"
+  },
+  "state": {
+    "hasCourtLevel": false,
+    "hasCourt": false,
+    "hasAct": false,
+    "hasSection": false,
+    "hasCaseNatureIfRequired": false,
+    "hasMandalIfRequired": false,
+    "hasDistrictIfRequired": false,
+    "hasTehsilIfRequired": false,
+    "isComplete": false,
+    "currentStep": 1
+  },
+  "examples": [
+    { "id": "empty", "state": { "hasCourtLevel": false, "hasCourt": false, "hasAct": false, "hasSection": false, "hasCaseNatureIfRequired": false, "hasMandalIfRequired": false, "hasDistrictIfRequired": false, "hasTehsilIfRequired": false, "isComplete": false }, "note": { "en": "Empty → grey", "hi": "खाली → ग्रे" } },
+    { "id": "tehsil_level_missing_tehsil", "state": { "hasCourtLevel": true, "hasCourt": true, "hasAct": true, "hasSection": true, "hasCaseNatureIfRequired": true, "hasMandalIfRequired": true, "hasDistrictIfRequired": true, "hasTehsilIfRequired": false, "isComplete": false }, "note": { "en": "Tehsil level without tehsil → grey", "hi": "तहसील स्तर पर तहसील बिना → ग्रे" } },
+    { "id": "complete", "state": { "hasCourtLevel": true, "hasCourt": true, "hasAct": true, "hasSection": true, "hasCaseNatureIfRequired": true, "hasMandalIfRequired": true, "hasDistrictIfRequired": true, "hasTehsilIfRequired": true, "isComplete": true }, "note": { "en": "All required fields present → green", "hi": "सभी अनिवार्य फ़ील्ड पूरे → ग्रीन" } }
+  ],
+  "uiBehavior": {
+    "greenCondition": "isComplete === true → emerald bg + check",
+    "incompleteStayGrey": "Stays grey even if navigated to steps 2/3/4/5 until all required fields valid (CourtDetailSchema)"
+  }
+}

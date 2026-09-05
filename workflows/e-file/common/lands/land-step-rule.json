@@ -1,0 +1,41 @@
+{
+  "id": "lands_step_completion_v1",
+  "version": "1.0.0",
+  "step": 3,
+  "stepName": "lands",
+  "title": { "en": "Lands", "hi": "भूमि" },
+  "description": {
+    "en": "Lands step completion — minimum 1 land parcel required for all roles",
+    "hi": "भूमि चरण तभी पूर्ण माना जाएगा जब कम से कम 1 भूमि विवरण जोड़ा गया हो — सभी रोल्स के लिए समान"
+  },
+  "ruleExpression": {
+    "code": "hasAtLeastOneLand === true",
+    "hi": "कम से कम 1 भूमि अनिवार्य"
+  },
+  "roles": [
+    { "key": "ALL", "label": { "en": "All roles", "hi": "सभी भूमिकाएँ" }, "codes": ["CT", "AD", "SA", "PO", "CO", "CC", "RI", "RSI"], "mode": "uniform" }
+  ],
+  "requirements": {
+    "uniform": ["min_1_land"]
+  },
+  "stateSchema": {
+    "landCount": "number",
+    "hasAtLeastOneLand": "boolean",
+    "isComplete": "boolean",
+    "currentStep": "number (1-5)"
+  },
+  "state": {
+    "landCount": 0,
+    "hasAtLeastOneLand": false,
+    "isComplete": false,
+    "currentStep": 3
+  },
+  "examples": [
+    { "id": "zero_lands", "state": { "landCount": 0, "hasAtLeastOneLand": false, "isComplete": false }, "note": { "en": "0 lands → grey, any role", "hi": "0 भूमि → ग्रे, चाहे एडवोकेट/सिटीजन हो या कोर्ट" } },
+    { "id": "one_land", "state": { "landCount": 1, "hasAtLeastOneLand": true, "isComplete": true }, "note": { "en": "1+ lands → green, all roles", "hi": "1+ भूमि → ग्रीन, सभी रोल्स" } }
+  ],
+  "uiBehavior": {
+    "greenCondition": "isComplete === true → emerald bg + check",
+    "incompleteStayGrey": "Stays grey even if navigated to steps 4/5 until 1 land added"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "id": "parties_step_completion_v1",
+  "version": "1.0.0",
+  "step": 2,
+  "stepName": "parties",
+  "title": { "en": "Parties", "hi": "पक्षकार" },
+  "description": {
+    "en": "Parties step completion — citizen/advocate need verified claimants, court side relaxed",
+    "hi": "पार्टीज़ चरण तभी पूर्ण माना जाएगा जब नागरिक/अधिवक्ता के लिए हर क्लेमेंट OTP वेरिफाइड हो"
+  },
+  "ruleExpression": {
+    "code": "hasClaimant && hasOpponent && (isCourtSide ? true : hasClaimantVerified)",
+    "hi": "कम से कम 1 वादी + 1 प्रतिवादी और (कोर्ट यूज़र हो तो OTP नहीं, नागरिक/अधिवक्ता हो तो हर वादी OTP वेरिफाइड)"
+  },
+  "roles": [
+    { "key": "CT", "code": "CT", "label": { "en": "Citizen", "hi": "नागरिक" }, "mode": "strict" },
+    { "key": "AD", "code": "AD", "label": { "en": "Advocate", "hi": "अधिवक्ता" }, "mode": "strict" },
+    { "key": "COURT", "label": { "en": "Court/Admin", "hi": "न्यायालय/प्रशासन" }, "codes": ["SA", "PO", "CO", "CC"], "mode": "relaxed" }
+  ],
+  "requirements": {
+    "strict": ["min_1_claimant", "min_1_opponent", "all_claimants_otp_verified"],
+    "relaxed": ["min_1_claimant", "min_1_opponent"]
+  },
+  "stateSchema": {
+    "hasClaimant": "boolean",
+    "hasOpponent": "boolean",
+    "hasClaimantVerified": "boolean",
+    "isCourtSide": "boolean",
+    "isComplete": "boolean",
+    "currentStep": "number (1-5)"
+  },
+  "state": {
+    "hasClaimant": false,
+    "hasOpponent": false,
+    "hasClaimantVerified": false,
+    "isCourtSide": false,
+    "isComplete": false,
+    "currentStep": 2
+  },
+  "examples": [
+    { "id": "citizen_unverified", "state": { "hasClaimant": true, "hasOpponent": true, "hasClaimantVerified": false, "isCourtSide": false, "isComplete": false }, "note": { "en": "CT/AD — claimant OTP pending → not green", "hi": "CT/AD — वादी OTP लंबित तो पार्टियां ग्रीन नहीं" } },
+    { "id": "citizen_verified", "state": { "hasClaimant": true, "hasOpponent": true, "hasClaimantVerified": true, "isCourtSide": false, "isComplete": true }, "note": { "en": "CT/AD — all claimants verified → green", "hi": "CT/AD — सभी वादी वेरिफाइड तो ग्रीन" } },
+    { "id": "court_any", "state": { "hasClaimant": true, "hasOpponent": true, "hasClaimantVerified": false, "isCourtSide": true, "isComplete": true }, "note": { "en": "Court — green if 1+1 exists, no OTP needed", "hi": "कोर्ट — OTP बिना भी ग्रीन अगर 1+1 मौजूद" } }
+  ],
+  "uiBehavior": {
+    "greenCondition": "isComplete === true → emerald bg + check icon, else grey/clock",
+    "incompleteStayGrey": "Stays grey even if navigated to steps 3/4/5 until strict/relaxed condition met"
+  }
+}

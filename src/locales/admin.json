@@ -1,0 +1,1172 @@
+{
+  "administrator": {
+    "groups": {
+      "rbac": {
+        "en": "Access Control (RBAC)",
+        "hi": "अभिगम नियंत्रण (RBAC)"
+      },
+      "support_master": {
+        "en": "Support Master",
+        "hi": "सहायता मास्टर"
+      }
+    },
+    "quick": {
+      "rbac": {
+        "title": {
+          "en": "Role & Access Control",
+          "hi": "भूमिका एवं अभिगम नियंत्रण"
+        },
+        "description": {
+          "en": "Manage roles, permissions, and user access",
+          "hi": "भूमिकाओं, अनुमतियों और उपयोगकर्ता अभिगम का प्रबंधन करें"
+        },
+        "secondary_action": {
+          "en": "View",
+          "hi": "देखें"
+        }
+      },
+      "court_master": {
+        "title": {
+          "en": "Court Master",
+          "hi": "न्यायालय मास्टर"
+        },
+        "description": {
+          "en": "Manage courts, hierarchy, and master data",
+          "hi": "न्यायालय, पदानुक्रम और मास्टर डेटा प्रबंधित करें"
+        },
+        "secondary_action": {
+          "en": "View",
+          "hi": "देखें"
+        }
+      },
+      "case_master": {
+        "title": {
+          "en": "Case Master",
+          "hi": "मामला मास्टर"
+        },
+        "description": {
+          "en": "Manage case types, categories, and configurations",
+          "hi": "मामले के प्रकार, श्रेणियाँ और कॉन्फ़िगरेशन प्रबंधित करें"
+        },
+        "primary_action": {
+          "en": "Create",
+          "hi": "बनाएं"
+        },
+        "secondary_action": {
+          "en": "View",
+          "hi": "देखें"
+        }
+      }
+    }
+  },
+  "court_menu": {
+    "groups": {
+      "overview": {
+        "en": "Overview",
+        "hi": "अवलोकन"
+      },
+      "operations": {
+        "en": "Operations",
+        "hi": "संचालन"
+      }
+    },
+    "support_citizen": {
+      "en": "Support & Help",
+      "hi": "सहायता और मदद"
+    },
+    "support_staff": {
+      "en": "Support & Help Management",
+      "hi": "सहायता और मदद प्रबंधन"
+    },
+    "actions": {
+      "file_case": {
+        "en": "File Case",
+        "hi": "केस फाइल करें"
+      },
+      "file_case_confirm_title": {
+        "en": "File case?",
+        "hi": "केस फाइल करें?"
+      },
+      "file_case_confirm_description": {
+        "en": "Confirm to proceed with new case filing.",
+        "hi": "नया केस फाइल करने के लिए पुष्टि करें।"
+      }
+    },
+    "quick": {
+      "search_cases": {
+        "title": {
+          "en": "Search Cases",
+          "hi": "मामले खोजें"
+        },
+        "description": {
+          "en": "Find and view case details",
+          "hi": "मामलों का विवरण खोजें और देखें"
+        },
+        "primary_action": {
+          "en": "Find",
+          "hi": "खोजें"
+        }
+      },
+      "cases": {
+        "title": {
+          "en": "Cases",
+          "hi": "मामले"
+        },
+        "description": {
+          "en": "Easily file, find, and manage your cases",
+          "hi": "आसानी से मामले दर्ज करें, खोजें और प्रबंधित करें"
+        },
+        "primary_action": {
+          "en": "File",
+          "hi": "दर्ज करें"
+        },
+        "secondary_action": {
+          "en": "Find",
+          "hi": "खोजें"
+        }
+      },
+      "mutation_case": {
+        "title": {
+          "en": "Mutation Case",
+          "hi": "नामांतरण मामला"
+        },
+        "description": {
+          "en": "Easily file, find, and manage your cases",
+          "hi": "आसानी से मामले दर्ज करें, खोजें और प्रबंधित करें"
+        },
+        "primary_action": {
+          "en": "Issue",
+          "hi": "जारी करें"
+        },
+        "secondary_action": {
+          "en": "Find",
+          "hi": "खोजें"
+        }
+      },
+      "notices_summons": {
+        "title": {
+          "en": "Notices/Summons",
+          "hi": "नोटिस/समन"
+        },
+        "description": {
+          "en": "Manage notices and summons",
+          "hi": "नोटिस और समन प्रबंधित करें"
+        },
+        "primary_action": {
+          "en": "File",
+          "hi": "दर्ज करें"
+        },
+        "secondary_action": {
+          "en": "Find",
+          "hi": "खोजें"
+        }
+      },
+      "hearings": {
+        "title": {
+          "en": "Hearings",
+          "hi": "सुनवाई"
+        },
+        "description": {
+          "en": "View and manage scheduled hearings",
+          "hi": "निर्धारित सुनवाई देखें और प्रबंधित करें"
+        },
+        "primary_action": {
+          "en": "File",
+          "hi": "दर्ज करें"
+        },
+        "secondary_action": {
+          "en": "Find",
+          "hi": "खोजें"
+        }
+      },
+      "documents": {
+        "title": {
+          "en": "Documents",
+          "hi": "दस्तावेज़"
+        },
+        "description": {
+          "en": "Manage your uploaded documents",
+          "hi": "अपने अपलोड किए गए दस्तावेज़ प्रबंधित करें"
+        },
+        "primary_action": {
+          "en": "Manage",
+          "hi": "प्रबंधित करें"
+        },
+        "secondary_action": {
+          "en": "Upload",
+          "hi": "अपलोड करें"
+        }
+      },
+      "payments": {
+        "title": {
+          "en": "Payments",
+          "hi": "भुगतान"
+        },
+        "description": {
+          "en": "View and manage your payments",
+          "hi": "अपने भुगतानों को देखें और प्रबंधित करें"
+        },
+        "primary_action": {
+          "en": "View All",
+          "hi": "सभी देखें"
+        },
+        "secondary_action": {
+          "en": "Upload",
+          "hi": "अपलोड करें"
+        }
+      },
+      "court_users": {
+        "title": {
+          "en": "Court Users",
+          "hi": "न्यायालय उपयोगकर्ता"
+        },
+        "description": {
+          "en": "Manage court users and access",
+          "hi": "न्यायालय उपयोगकर्ताओं और उनकी पहुँच प्रबंधित करें"
+        },
+        "primary_action": {
+          "en": "Manage",
+          "hi": "प्रबंधित करें"
+        },
+        "secondary_action": {
+          "en": "View",
+          "hi": "देखें"
+        }
+      }
+    },
+    "account": {
+      "security": {
+        "title": {
+          "en": "Security",
+          "hi": "सुरक्षा"
+        },
+        "description": {
+          "en": "Password, OTP & authentication settings",
+          "hi": "पासवर्ड, ओटीपी और प्रमाणीकरण सेटिंग्स"
+        }
+      },
+      "my_account": {
+        "title": {
+          "en": "My Account",
+          "hi": "मेरा खाता"
+        },
+        "description": {
+          "en": "Control your account settings",
+          "hi": "अपने खाते की सेटिंग्स नियंत्रित करें"
+        }
+      },
+      "helpdesk": {
+        "title": {
+          "en": "e-Revenue Court Helpdesk",
+          "hi": "ई-राजस्व न्यायालय सहायता केंद्र"
+        },
+        "description": {
+          "en": "Resolve issues related to revenue court services",
+          "hi": "राजस्व न्यायालय सेवाओं से संबंधित समस्याओं का समाधान करें"
+        }
+      }
+    },
+    "knowledge_base": {
+      "en": "Knowledge Base",
+      "hi": "ज्ञान कोष"
+    }
+  },
+  "court": {
+    "create": {
+      "title": {
+        "en": "Add Court",
+        "hi": "न्यायालय जोड़ें"
+      },
+      "description": {
+        "en": "Create a new court record",
+        "hi": "एक नया न्यायालय रिकॉर्ड बनाएं"
+      }
+    },
+    "edit": {
+      "title": {
+        "en": "Edit Court",
+        "hi": "न्यायालय संपादित करें"
+      },
+      "description": {
+        "en": "Modify court settings",
+        "hi": "न्यायालय सेटिंग्स संशोधित करें"
+      }
+    },
+    "view": {
+      "title": {
+        "en": "View Court",
+        "hi": "न्यायालय देखें"
+      },
+      "description": {
+        "en": "Court configuration details",
+        "hi": "न्यायालय कॉन्फ़िगरेशन विवरण"
+      }
+    },
+    "section": {
+      "details": {
+        "en": "Court Details",
+        "hi": "न्यायालय विवरण"
+      }
+    }
+  },
+  "court_user": {
+    "add": {
+      "title": {
+        "en": "Add Court User",
+        "hi": "न्यायालय उपयोगकर्ता जोड़ें"
+      },
+      "description": {
+        "en": "Create a new court-specific administrative account.",
+        "hi": "एक नया न्यायालय-विशिष्ट प्रशासनिक खाता बनाएं।"
+      },
+      "role_notice": {
+        "en": "Select the appropriate role and court locations for this user.",
+        "hi": "इस उपयोगकर्ता के लिए उपयुक्त भूमिका और न्यायालय स्थानों का चयन करें।"
+      }
+    },
+    "edit": {
+      "title": {
+        "en": "Edit Court User",
+        "hi": "न्यायालय उपयोगकर्ता संपादित करें"
+      },
+      "description": {
+        "en": "Modify court user profile, active status, role, and locations.",
+        "hi": "न्यायालय उपयोगकर्ता प्रोफ़ाइल, सक्रिय स्थिति, भूमिका और स्थानों को संशोधित करें।"
+      }
+    },
+    "view": {
+      "title": {
+        "en": "View Court User",
+        "hi": "न्यायालय उपयोगकर्ता देखें"
+      },
+      "description": {
+        "en": "Court user profile and configuration details.",
+        "hi": "न्यायालय उपयोगकर्ता प्रोफ़ाइल और कॉन्फ़िगरेशन विवरण।"
+      }
+    }
+  },
+  "system_user": {
+    "add": {
+      "title": {
+        "en": "Add System User",
+        "hi": "सिस्टम उपयोगकर्ता जोड़ें"
+      },
+      "description": {
+        "en": "Create a new system-wide administrative (Super Admin) account.",
+        "hi": "एक नया सिस्टम-व्यापी प्रशासनिक (सुपर एडमिन) खाता बनाएं।"
+      },
+      "role_notice": {
+        "en": "The role will be set to Super Admin automatically. Login credentials will be generated and displayed after creation.",
+        "hi": "भूमिका स्वचालित रूप से सुपर एडमिन पर सेट हो जाएगी। निर्माण के बाद लॉगिन क्रेडेंशियल उत्पन्न और प्रदर्शित किए जाएंगे।"
+      }
+    },
+    "edit": {
+      "title": {
+        "en": "Edit System User",
+        "hi": "सिस्टम उपयोगकर्ता संपादित करें"
+      },
+      "description": {
+        "en": "Modify system user profile and active status.",
+        "hi": "सिस्टम उपयोगकर्ता प्रोफ़ाइल और सक्रिय स्थिति को संशोधित करें।"
+      }
+    },
+    "view": {
+      "title": {
+        "en": "View System User",
+        "hi": "सिस्टम उपयोगकर्ता देखें"
+      },
+      "description": {
+        "en": "System user profile and configuration details.",
+        "hi": "सिस्टम उपयोगकर्ता प्रोफ़ाइल और कॉन्फ़िगरेशन विवरण।"
+      }
+    }
+  },
+  "role": {
+    "add_button": {
+      "en": "Add Role",
+      "hi": "भूमिका जोड़ें"
+    },
+    "create": {
+      "title": {
+        "en": "Create Role",
+        "hi": "भूमिका बनाएं"
+      },
+      "description": {
+        "en": "Define a new role and assign permissions.",
+        "hi": "नई भूमिका बनाएं और अनुमतियाँ निर्धारित करें।"
+      }
+    },
+    "edit": {
+      "title": {
+        "en": "Edit Role",
+        "hi": "भूमिका संपादित करें"
+      },
+      "description": {
+        "en": "Update role details and modify permissions.",
+        "hi": "भूमिका का विवरण अपडेट करें और अनुमतियाँ संशोधित करें।"
+      }
+    },
+    "view": {
+      "title": {
+        "en": "View Role",
+        "hi": "भूमिका देखें"
+      },
+      "description": {
+        "en": "Detailed administrative, status, and permissions info of the role.",
+        "hi": "भूमिका की विस्तृत प्रशासनिक, स्थिति और अनुमतियाँ जानकारी।"
+      }
+    },
+    "section": {
+      "information": {
+        "en": "Role Information",
+        "hi": "भूमिका की जानकारी"
+      },
+      "details": {
+        "en": "Role Details",
+        "hi": "भूमिका विवरण"
+      }
+    }
+  },
+  "permission": {
+    "add_button": {
+      "en": "Add",
+      "hi": "जोड़ें"
+    },
+    "create": {
+      "title": {
+        "en": "Create Permission",
+        "hi": "नई अनुमति बनाएं"
+      },
+      "description": {
+        "en": "Define a new permission for system access control.",
+        "hi": "सिस्टम एक्सेस नियंत्रण के लिए नई अनुमति परिभाषित करें।"
+      }
+    },
+    "edit": {
+      "title": {
+        "en": "Edit Permission",
+        "hi": "अनुमति संपादित करें"
+      },
+      "description": {
+        "en": "Modify the details of the existing permission.",
+        "hi": "मौजूदा अनुमति के विवरण में संशोधन करें।"
+      }
+    },
+    "view": {
+      "title": {
+        "en": "View Permission",
+        "hi": "अनुमति देखें"
+      },
+      "description": {
+        "en": "Permission profile and configuration details.",
+        "hi": "अनुमति प्रोफ़ाइल और कॉन्फ़िगरेशन विवरण।"
+      }
+    },
+    "section": {
+      "information": {
+        "en": "Permission Information",
+        "hi": "अनुमति की जानकारी"
+      },
+      "details": {
+        "en": "Permission Details",
+        "hi": "अनुमति विवरण"
+      }
+    }
+  },
+  "support": {
+    "portal": {
+      "court_staff": {
+        "en": "Helpdesk Tickets Workspace",
+        "hi": "सहायता केंद्र टिकट कार्यक्षेत्र"
+      },
+      "citizen": {
+        "en": "Citizen & Advocate Helpdesk Support",
+        "hi": "नागरिक और अधिवक्ता सहायता केंद्र"
+      }
+    },
+    "section": {
+      "support_type": {
+        "en": "Support Type & Association",
+        "hi": "सहायता प्रकार और संबंध"
+      },
+      "classification": {
+        "en": "Ticket Classification",
+        "hi": "टिकट वर्गीकरण"
+      },
+      "details": {
+        "en": "Problem Details",
+        "hi": "समस्या विवरण"
+      },
+      "attachments": {
+        "en": "Attachments",
+        "hi": "संलग्नक"
+      },
+      "priority": {
+        "en": "Ticket Priority",
+        "hi": "टिकट प्राथमिकता"
+      }
+    },
+    "button": {
+      "new_ticket": {
+        "en": "File Support Ticket",
+        "hi": "सहायता टिकट दर्ज करें"
+      },
+      "create": {
+        "en": "Create Ticket",
+        "hi": "टिकट बनाएं"
+      },
+      "submit": {
+        "en": "Submit",
+        "hi": "सबमिट करें"
+      },
+      "submitting": {
+        "en": "Submitting...",
+        "hi": "सबमिट किया जा रहा है..."
+      }
+    },
+    "modal": {
+      "title": {
+        "en": "Raise Support Ticket",
+        "hi": "सहायता टिकट दर्ज करें"
+      }
+    },
+    "sort_title": {
+      "en": "Sort Tickets",
+      "hi": "टिकट क्रमबद्ध करें"
+    },
+    "form": {
+      "category": {
+        "en": "Category",
+        "hi": "श्रेणी"
+      },
+      "sub_category": {
+        "en": "Sub-Category",
+        "hi": "उप-श्रेणी"
+      },
+      "support_type": {
+        "en": "Support Type",
+        "hi": "सहायता का प्रकार"
+      },
+      "select_support_type": {
+        "en": "Select support type",
+        "hi": "सहायता का प्रकार चुनें"
+      },
+      "case_number": {
+        "en": "Case Number",
+        "hi": "मामला संख्या"
+      },
+      "case_number_placeholder": {
+        "en": "e.g. 123/2024",
+        "hi": "जैसे 123/2024"
+      },
+      "select_case": {
+        "en": "Select Case",
+        "hi": "मामला चुनें"
+      },
+      "select_case_placeholder": {
+        "en": "Search and select from your cases",
+        "hi": "अपने मामलों में से खोजें और चुनें"
+      },
+      "enter_manually": {
+        "en": "Enter manually",
+        "hi": "मैन्युअल रूप से दर्ज करें"
+      },
+      "select_from_cases": {
+        "en": "Select from my cases",
+        "hi": "मेरे मामलों में से चुनें"
+      },
+      "priority": {
+        "en": "Priority",
+        "hi": "प्राथमिकता"
+      },
+      "subject": {
+        "en": "Subject",
+        "hi": "विषय"
+      },
+      "description": {
+        "en": "Problem Description",
+        "hi": "समस्या का विवरण"
+      },
+      "email": {
+        "en": "Contact Email",
+        "hi": "संपर्क ईमेल"
+      },
+      "phone": {
+        "en": "Contact Phone",
+        "hi": "संपर्क फोन"
+      },
+      "attachment": {
+        "en": "Attachment",
+        "hi": "संलग्नक"
+      },
+      "optional": {
+        "en": "Optional",
+        "hi": "वैकल्पिक"
+      },
+      "select_category": {
+        "en": "Select category",
+        "hi": "श्रेणी का चयन करें"
+      },
+      "select_subcategory": {
+        "en": "Select sub-category",
+        "hi": "उप-श्रेणी का चयन करें"
+      },
+      "select_category_first": {
+        "en": "Select category first...",
+        "hi": "पहले श्रेणी का चयन करें..."
+      },
+      "select_support_type_first": {
+        "en": "Select support type first...",
+        "hi": "पहले सहायता का प्रकार चुनें..."
+      },
+      "select_priority": {
+        "en": "Select priority",
+        "hi": "प्राथमिकता का चयन करें"
+      },
+      "case_number_required": {
+        "en": "Case number is required",
+        "hi": "वाद संख्या आवश्यक है"
+      },
+      "uploading": {
+        "en": "Uploading...",
+        "hi": "अपलोड हो रहा है..."
+      },
+      "subject_placeholder": {
+        "en": "Briefly state your technical / process issue",
+        "hi": "अपनी समस्या का संक्षेप में उल्लेख करें"
+      },
+      "upload_click": {
+        "en": "Click to upload or drag files here",
+        "hi": "अपलोड करने के लिए क्लिक करें या फ़ाइल यहाँ खींचे"
+      },
+      "upload_types": {
+        "en": "Supports PDF, DOCX, Images (Max 10MB)",
+        "hi": "PDF, DOCX, छवियां समर्थित हैं (अधिकतम 10MB)"
+      }
+    },
+    "validation": {
+      "support_type_required": {
+        "en": "Support type is required",
+        "hi": "सहायता का प्रकार आवश्यक है"
+      },
+      "category_required": {
+        "en": "Category is required",
+        "hi": "श्रेणी आवश्यक है"
+      },
+      "sub_category_required": {
+        "en": "Sub-category is required",
+        "hi": "उप-श्रेणी आवश्यक है"
+      },
+      "priority_required": {
+        "en": "Priority is required",
+        "hi": "प्राथमिकता आवश्यक है"
+      },
+      "subject_min": {
+        "en": "Subject must be at least 5 characters",
+        "hi": "विषय कम से कम 5 अक्षरों का होना चाहिए"
+      },
+      "subject_max": {
+        "en": "Subject cannot exceed 120 characters",
+        "hi": "विषय 120 अक्षरों से अधिक नहीं हो सकता"
+      },
+      "description_min": {
+        "en": "Description must be at least 10 characters",
+        "hi": "विवरण कम से कम 10 अक्षरों का होना चाहिए"
+      }
+    },
+    "empty": {
+      "title": {
+        "en": "Select a Support Ticket",
+        "hi": "एक सहायता टिकट का चयन करें"
+      }
+    },
+    "table": {
+      "ticket_number": {
+        "en": "Ticket No.",
+        "hi": "टिकट संख्या"
+      },
+      "subject": {
+        "en": "Subject",
+        "hi": "विषय"
+      },
+      "category": {
+        "en": "Category",
+        "hi": "श्रेणी"
+      },
+      "priority": {
+        "en": "Priority",
+        "hi": "प्राथमिकता"
+      },
+      "status": {
+        "en": "Status",
+        "hi": "स्थिति"
+      },
+      "created_at": {
+        "en": "Created At",
+        "hi": "निर्माण की तिथि"
+      },
+      "updated_at": {
+        "en": "Updated At",
+        "hi": "अंतिम अद्यतन"
+      },
+      "actions": {
+        "en": "Actions",
+        "hi": "कार्रवाई"
+      }
+    },
+    "filters": {
+      "all_statuses": {
+        "en": "All Statuses",
+        "hi": "सभी स्थितियाँ"
+      },
+      "all_priorities": {
+        "en": "All Priorities",
+        "hi": "सभी प्राथमिकताएं"
+      },
+      "status_open": {
+        "en": "Open",
+        "hi": "खुला"
+      },
+      "status_in_progress": {
+        "en": "In Progress",
+        "hi": "प्रगति पर"
+      },
+      "status_resolved": {
+        "en": "Resolved",
+        "hi": "समाधानित"
+      },
+      "status_closed": {
+        "en": "Closed",
+        "hi": "बंद"
+      },
+      "priority_high": {
+        "en": "High",
+        "hi": "उच्च"
+      },
+      "priority_medium": {
+        "en": "Medium",
+        "hi": "मध्यम"
+      },
+      "priority_low": {
+        "en": "Low",
+        "hi": "निम्न"
+      }
+    },
+    "toasts": {
+      "file_large": {
+        "en": "File size cannot exceed 10MB",
+        "hi": "फ़ाइल का आकार 10MB से अधिक नहीं हो सकता"
+      },
+      "file_pdf_only": {
+        "en": "Only PDF documents are allowed!",
+        "hi": "केवल PDF दस्तावेज़ अनुमत हैं!"
+      },
+      "file_duplicate": {
+        "en": "This file has already been added!",
+        "hi": "यह फ़ाइल पहले से जोड़ी गई है!"
+      },
+      "file_upload_failed": {
+        "en": "Failed to upload",
+        "hi": "अपलोड करने में विफल"
+      },
+      "success_create": {
+        "en": "Support ticket created successfully!",
+        "hi": "सहायता टिकट सफलतापूर्वक दर्ज किया गया!"
+      },
+      "fail_create": {
+        "en": "Failed to submit ticket.",
+        "hi": "टिकट दर्ज करने में विफल।"
+      }
+    }
+  },
+  "payments": {
+    "successful": {
+      "en": "Successful",
+      "hi": "सफल"
+    },
+    "pending": {
+      "en": "Pending",
+      "hi": "लंबित"
+    },
+    "initial_filing_fee": {
+      "en": "Initial Filing Court Fee",
+      "hi": "प्रारंभिक वाद दाखिला शुल्क"
+    },
+    "initial_filing_fee_desc": {
+      "en": "Uttarakhand Revenue Court Filing Fee",
+      "hi": "उत्तराखंड राजस्व न्यायालय फाइलिंग शुल्क"
+    },
+    "tabs": {
+      "ledger": {
+        "en": "Payment Ledger",
+        "hi": "भुगतान बही (लेजर)"
+      },
+      "demands": {
+        "en": "Fee Demands & Requests",
+        "hi": "शुल्क मांग एवं भुगतान अनुरोध"
+      }
+    },
+    "scrutiny_required_banner": {
+      "en": "Scrutiny Approval Required: Fee demands and payment requests can only be created after case scrutiny is approved.",
+      "hi": "स्क्रूटनी स्वीकृति आवश्यक: वाद की स्क्रूटनी स्वीकृत होने के पश्चात ही नई शुल्क मांग एवं भुगतान प्रविष्टियां जोड़ी जा सकती हैं।"
+    },
+    "ledger_only_note": {
+      "en": "Official financial ledger statement containing only verified & settled transaction entries.",
+      "hi": "आधिकारिक वित्तीय बही विवरण जिसमें केवल सत्यापित और चुकता प्रविष्टियां शामिल हैं।"
+    },
+    "no_settled_transactions": {
+      "en": "No settled transactions in the ledger yet.",
+      "hi": "अभी तक बही में कोई चुकता प्रविष्टि नहीं है।"
+    },
+    "no_requests_found": {
+      "en": "No payment demands or requests found.",
+      "hi": "कोई शुल्क मांग या अनुरोध नहीं मिला।"
+    },
+    "toasts": {
+      "submitting_demand": {
+        "en": "Submitting fee demand...",
+        "hi": "शुल्क मांग भेजी जा रही है..."
+      },
+      "debit_added": {
+        "en": "Debit fee demand added successfully!",
+        "hi": "डेबिट शुल्क प्रभार सफलतापूर्वक जोड़ा गया!"
+      },
+      "recording_credit": {
+        "en": "Recording credit payment...",
+        "hi": "क्रेडिट भुगतान दर्ज हो रहा है..."
+      },
+      "credit_recorded": {
+        "en": "Credit payment recorded successfully!",
+        "hi": "क्रेडिट भुगतान सफलता से दर्ज किया गया!"
+      },
+      "creating_order": {
+        "en": "Creating payment order...",
+        "hi": "ऑर्डर बनाया जा रहा है..."
+      },
+      "order_failed": {
+        "en": "Failed to create payment order ID.",
+        "hi": "गेटवे ऑर्डर बनाने में विफल"
+      },
+      "verifying_payment": {
+        "en": "Verifying payment...",
+        "hi": "भुगतान की पुष्टि हो रही है..."
+      },
+      "payment_verified": {
+        "en": "Payment verified & settled successfully!",
+        "hi": "भुगतान सफलतापूर्वक पूर्ण हुआ!"
+      },
+      "submitting_challan": {
+        "en": "Submitting Challan...",
+        "hi": "चालान जमा किया जा रहा है..."
+      },
+      "challan_submitted": {
+        "en": "Treasury Challan submitted!",
+        "hi": "चालान विवरण सफलतापूर्वक प्रस्तुत किया गया!"
+      },
+      "fill_all_challan": {
+        "en": "Please fill all required Challan details.",
+        "hi": "कृपया सभी चालान विवरण भरें।"
+      }
+    },
+    "actions": {
+      "view_receipt": {
+        "en": "View Receipt",
+        "hi": "रसीद देखें"
+      },
+      "view_details": {
+        "en": "View Details",
+        "hi": "विवरण देखें"
+      },
+      "actions": {
+        "en": "Actions",
+        "hi": "कार्रवाई"
+      }
+    },
+    "view": {
+      "header_title": {
+        "en": "Payment Details",
+        "hi": "भुगतान विवरण"
+      },
+      "receipt_title": {
+        "en": "PAYMENT RECEIPT",
+        "hi": "भुगतान रसीद"
+      },
+      "case_number_label": {
+        "en": "Case No:",
+        "hi": "वाद संख्या:"
+      },
+      "record_datetime": {
+        "en": "Date & Time",
+        "hi": "प्रविष्टि तिथि एवं समय"
+      },
+      "payment_mode": {
+        "en": "Payment Mode",
+        "hi": "भुगतान का प्रकार / माध्यम"
+      },
+      "paid_by": {
+        "en": "Paid By",
+        "hi": "भुगतान करने वाला"
+      },
+      "challan_number": {
+        "en": "Challan No.",
+        "hi": "चालान संख्या"
+      },
+      "bank_name": {
+        "en": "Treasury / Bank",
+        "hi": "बैंक / ट्रेजरी"
+      },
+      "transaction_id": {
+        "en": "Transaction ID",
+        "hi": "लेनदेन आईडी (Transaction ID)"
+      },
+      "order_id": {
+        "en": "Order ID",
+        "hi": "ऑर्डर आईडी"
+      },
+      "particulars_header": {
+        "en": "Particulars / Purpose",
+        "hi": "शुल्क विवरण (Particulars)"
+      },
+      "amount_header": {
+        "en": "Amount",
+        "hi": "राशि (Amount)"
+      },
+      "total_paid": {
+        "en": "TOTAL AMOUNT PAID",
+        "hi": "कुल भुगतान राशि"
+      },
+      "computer_generated_note": {
+        "en": "This is a computer-generated system receipt. No signature is required.",
+        "hi": "यह कंप्यूटर द्वारा जनरेट की गई प्रणाली रसीद है। किसी हस्ताक्षर की आवश्यकता नहीं है।"
+      },
+      "generated_on": {
+        "en": "Generated On:",
+        "hi": "जारी तिथि:"
+      },
+      "save_receipt": {
+        "en": "Save Receipt",
+        "hi": "रसीद सहेजें"
+      },
+      "receipt_saved": {
+        "en": "Receipt image (PNG) saved!",
+        "hi": "रसीद इमेज (PNG) सहेजी गई!"
+      },
+      "save_failed": {
+        "en": "Failed to save image",
+        "hi": "इमेज सहेजने में विफल"
+      },
+      "offline_treasury": {
+        "en": "Offline Treasury Challan",
+        "hi": "ऑफलाइन ट्रेजरी चालान"
+      },
+      "cash_court_stamp": {
+        "en": "Cash / Court Stamp",
+        "hi": "नकद / कोर्ट फीस स्टाम्प"
+      },
+      "online_gateway": {
+        "en": "Online Gateway",
+        "hi": "ऑनलाइन गेटवे"
+      },
+      "pending_mode": {
+        "en": "Online / Challan",
+        "hi": "ऑनलाइन / चालान"
+      },
+      "not_available": {
+        "en": "Not Available",
+        "hi": "उपलब्ध नहीं"
+      },
+      "loading_details": {
+        "en": "Loading payment details...",
+        "hi": "विवरण लोड हो रहा है..."
+      },
+      "not_found": {
+        "en": "Payment Detail Not Found",
+        "hi": "भुगतान विवरण नहीं मिला"
+      }
+    }
+  },
+  "publicSearch": {
+    "placeholder": {
+      "landing": {
+        "en": "Search cases by case number, act, description…",
+        "hi": "वाद संख्या, अधिनियम, विवरण से वाद खोजें…"
+      }
+    },
+    "filterTabs": {
+      "courtLevel": {
+        "en": "Court & Level",
+        "hi": "न्यायालय एवं स्तर"
+      },
+      "location": {
+        "en": "Location & Area",
+        "hi": "स्थान एवं क्षेत्र"
+      },
+      "acts": {
+        "en": "Acts & Sections",
+        "hi": "अधिनियम एवं धाराएँ"
+      },
+      "status": {
+        "en": "Status & Date",
+        "hi": "स्थिति एवं तिथि"
+      }
+    },
+    "filters": {
+      "levelAll": {
+        "en": "Level: All",
+        "hi": "स्तर: सभी"
+      },
+      "courtAll": {
+        "en": "Court: All",
+        "hi": "न्यायालय: सभी"
+      },
+      "districtAll": {
+        "en": "District: All",
+        "hi": "जिला: सभी"
+      },
+      "tehsilAll": {
+        "en": "Tehsil: All",
+        "hi": "तहसील: सभी"
+      },
+      "villageAll": {
+        "en": "Village: All",
+        "hi": "ग्राम: सभी"
+      },
+      "actAll": {
+        "en": "Act: All",
+        "hi": "अधिनियम: सभी"
+      },
+      "sectionAll": {
+        "en": "Section: All",
+        "hi": "धारा: सभी"
+      },
+      "statusAll": {
+        "en": "Status: All",
+        "hi": "स्थिति: सभी"
+      },
+      "from": {
+        "en": "From:",
+        "hi": "से:"
+      },
+      "to": {
+        "en": "To:",
+        "hi": "तक:"
+      },
+      "activeHint": {
+        "en": "Filters are active. Press search to apply.",
+        "hi": "फ़िल्टर सक्रिय हैं। लागू करने के लिए खोज दबाएँ।"
+      },
+      "noActive": {
+        "en": "No active filters configured.",
+        "hi": "कोई सक्रिय फ़िल्टर कॉन्फ़िगर नहीं है।"
+      },
+      "clear": {
+        "en": "Clear",
+        "hi": "साफ़ करें"
+      },
+      "toggleFilters": {
+        "en": "Toggle Advanced Filters",
+        "hi": "उन्नत फ़िल्टर टॉगल करें"
+      },
+      "swipeHint": {
+        "en": "Swipe left/right on tabs to see all filter categories",
+        "hi": "सभी फ़िल्टर श्रेणियाँ देखने के लिए टैब पर बाएँ/दाएँ स्वाइप करें"
+      }
+    },
+    "results": {
+      "fetching": {
+        "en": "Fetching search records...",
+        "hi": "खोज रिकॉर्ड लाए जा रहे हैं..."
+      },
+      "aboutResults": {
+        "en": "About {count} results found",
+        "hi": "लगभग {count} परिणाम मिले"
+      },
+      "pressEnterTitle": {
+        "en": "Press Enter to Search",
+        "hi": "खोजने के लिए एंटर दबाएँ"
+      },
+      "pressEnterDesc": {
+        "en": "Hit Enter to search for \"{query}\" or select advanced filters above.",
+        "hi": "\"{query}\" खोजने के लिए एंटर दबाएँ या ऊपर उन्नत फ़िल्टर चुनें।"
+      },
+      "pressEnterDescNoQuery": {
+        "en": "Hit Enter to search or select advanced filters above.",
+        "hi": "खोजने के लिए एंटर दबाएँ या ऊपर उन्नत फ़िल्टर चुनें।"
+      },
+      "noResultsTitle": {
+        "en": "No case records match your query",
+        "hi": "आपकी क्वेरी से कोई वाद रिकॉर्ड मेल नहीं खाता"
+      },
+      "noResultsDesc": {
+        "en": "Make sure terms are spelled correctly, or broaden your keywords by entering parts of acts, sections, or location names.",
+        "hi": "सुनिश्चित करें कि शब्द सही लिखे गए हैं, या अधिनियम, धारा या स्थान के नाम के हिस्से दर्ज करके कीवर्ड को व्यापक बनाएं।"
+      },
+      "errorTitle": {
+        "en": "Unable to load cases",
+        "hi": "वाद लोड करने में असमर्थ"
+      },
+      "errorDesc": {
+        "en": "An error occurred while fetching cases. Please verify your connection and try again.",
+        "hi": "वाद लाने में त्रुटि हुई। कृपया अपना कनेक्शन जांचें और पुनः प्रयास करें।"
+      },
+      "retry": {
+        "en": "Retry Query",
+        "hi": "पुनः प्रयास करें"
+      }
+    },
+    "card": {
+      "rccmsCase": {
+        "en": "RCCMS Case",
+        "hi": "आरसीसीएमएस वाद"
+      },
+      "fallbackDescription": {
+        "en": "Case file registered under the jurisdiction of {court}. Document cataloged with location references matching {location}.",
+        "hi": "{court} के क्षेत्राधिकार में पंजीकृत वाद फ़ाइल। {location} से मेल खाने वाले स्थान संदर्भों के साथ दस्तावेज़ सूचीबद्ध।"
+      },
+      "fallbackCourt": {
+        "en": "the local revenue court",
+        "hi": "स्थानीय राजस्व न्यायालय"
+      },
+      "fallbackLocation": {
+        "en": "Uttarakhand state census",
+        "hi": "उत्तराखंड राज्य जनगणना"
+      }
+    },
+    "statusOptions": {
+      "disposed": {
+        "en": "Disposed",
+        "hi": "निस्तारित"
+      }
+    }
+  },
+  "kb": {
+    "title": {
+      "en": "Knowledge Base",
+      "hi": "ज्ञान कोष"
+    },
+    "subtitle": {
+      "en": "Find answers to frequently asked questions and guides.",
+      "hi": "अक्सर पूछे जाने वाले प्रश्नों के उत्तर और मार्गदर्शिकाएँ यहाँ खोजें।"
+    },
+    "search_placeholder": {
+      "en": "Search articles, questions, keywords...",
+      "hi": "लेख, प्रश्न, कीवर्ड खोजें..."
+    },
+    "role_view": {
+      "en": "Role View",
+      "hi": "भूमिका दृश्य"
+    },
+    "citizen_advocate": {
+      "en": "Citizen & Advocate FAQs",
+      "hi": "नागरिक एवं अधिवक्ता सामान्य प्रश्न"
+    },
+    "court_side": {
+      "en": "Court Staff FAQs",
+      "hi": "न्यायालय कर्मचारी सामान्य प्रश्न"
+    },
+    "no_results": {
+      "en": "No articles found matching your search.",
+      "hi": "आपकी खोज से मेल खाने वाला कोई लेख नहीं मिला।"
+    }
+  }
+}
